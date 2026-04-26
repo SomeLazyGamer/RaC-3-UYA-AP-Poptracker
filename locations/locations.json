@@ -42,12 +42,12 @@
         ],
         "sections": [
           {
-            "name": "Received Plasma Whip",
+            "name": "Gadgetron Vendor 1 - 7,500",
             "visibility_rules": [ "WepVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Received N60 Storm",
+            "name": "Gadgetron Vendor 2 - 15,000",
             "visibility_rules": [ "WepVendorOn"],
             "item_count": 1
           },
@@ -64,7 +64,7 @@
           },
           {
             "name": "T-Bolt: Path of Death",
-            "access_rules": [ "Heli" ],
+            "access_rules": [ "Heli", "ThrustOn, chargeBoots" ],
             "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
@@ -92,247 +92,247 @@
         ],
         "sections": [
           {
-            "name": "Received Suck Cannon",
+            "name": "Gadgetron Vendor 1 - 8,000",
             "access_rules": [ "Phoenix, IntSkipOn", "Phoenix, IntSkipOff, Heli", "Phoenix, IntSkipOff, chargeBoots" ],
             "visibility_rules": [ "WepVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Received Infector",
+            "name": "Gadgetron Vendor 2 - 18,000",
             "access_rules": [ "Phoenix, IntSkipOn", "Phoenix, IntSkipOff, Heli", "Phoenix, IntSkipOff, chargeBoots" ],
             "visibility_rules": [ "WepVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Received RY3N0",
+            "name": "Gadgetron Vendor - 3,000,000",
             "access_rules": [ "NanoCount:10" ],
             "visibility_rules": [ "WepVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Wings 1",
+            "name": "Ship Vendor Wings 1 - 2,000",
             "access_rules": [ "Phoenix, IntSkipOn, NanoCount:2", "Phoenix, IntSkipOff, Heli, NanoCount:2", "Phoenix, IntSkipOff, chargeBoots, NanoCount:2" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Wings 2",
+            "name": "Ship Vendor Wings 2 - 4,000",
             "access_rules": [ "Phoenix, IntSkipOn, NanoCount:2", "Phoenix, IntSkipOff, Heli, NanoCount:2", "Phoenix, IntSkipOff, chargeBoots, NanoCount:2" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Wings 3",
+            "name": "Ship Vendor Wings 3 - 6,000",
             "access_rules": [ "Phoenix, IntSkipOn, NanoCount:2", "Phoenix, IntSkipOff, Heli, NanoCount:2", "Phoenix, IntSkipOff, chargeBoots, NanoCount:2" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Nose 1",
+            "name": "Ship Vendor Nose 1 - 8,000",
             "access_rules": [ "Phoenix, IntSkipOn, NanoCount:3", "Phoenix, IntSkipOff, Heli, NanoCount:3", "Phoenix, IntSkipOff, chargeBoots, NanoCount:3" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Nose 2",
+            "name": "Ship Vendor Nose 2 - 10,000",
             "access_rules": [ "Phoenix, IntSkipOn, NanoCount:3", "Phoenix, IntSkipOff, Heli, NanoCount:3", "Phoenix, IntSkipOff, chargeBoots, NanoCount:3" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Nose 3",
+            "name": "Ship Vendor Nose 3 - 12,000",
             "access_rules": [ "Phoenix, IntSkipOn, NanoCount:3", "Phoenix, IntSkipOff, Heli, NanoCount:3", "Phoenix, IntSkipOff, chargeBoots, NanoCount:3" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 1",
+            "name": "Ship Vendor Skin 1 - 14,000",
             "access_rules": [ "Phoenix, IntSkipOn, NanoCount:4", "Phoenix, IntSkipOff, Heli, NanoCount:4", "Phoenix, IntSkipOff, chargeBoots, NanoCount:4" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 2",
+            "name": "Ship Vendor Skin 2 - 15,000",
             "access_rules": [ "Phoenix, IntSkipOn, NanoCount:4", "Phoenix, IntSkipOff, Heli, NanoCount:4", "Phoenix, IntSkipOff, chargeBoots, NanoCount:4" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 3",
+            "name": "Ship Vendor Skin 3 - 16,000",
             "access_rules": [ "Phoenix, IntSkipOn, NanoCount:4", "Phoenix, IntSkipOff, Heli, NanoCount:4", "Phoenix, IntSkipOff, chargeBoots, NanoCount:4" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 4",
+            "name": "Ship Vendor Skin 4 - 17,000",
             "access_rules": [ "Phoenix, IntSkipOn, NanoCount:5", "Phoenix, IntSkipOff, Heli, NanoCount:5", "Phoenix, IntSkipOff, chargeBoots, NanoCount:5" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 5",
+            "name": "Ship Vendor Skin 5 - 18,000",
             "access_rules": [ "Phoenix, IntSkipOn, NanoCount:5", "Phoenix, IntSkipOff, Heli, NanoCount:5", "Phoenix, IntSkipOff, chargeBoots, NanoCount:5" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 6",
+            "name": "Ship Vendor Skin 6 - 19,000",
             "access_rules": [ "Phoenix, IntSkipOn, NanoCount:5", "Phoenix, IntSkipOff, Heli, NanoCount:5", "Phoenix, IntSkipOff, chargeBoots, NanoCount:5" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 7",
+            "name": "Ship Vendor Skin 7 - 20,000",
             "access_rules": [ "Phoenix, IntSkipOn, NanoCount:6", "Phoenix, IntSkipOff, Heli, NanoCount:6", "Phoenix, IntSkipOff, chargeBoots, NanoCount:6" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 8",
+            "name": "Ship Vendor Skin 8 - 21,000",
             "access_rules": [ "Phoenix, IntSkipOn, NanoCount:6", "Phoenix, IntSkipOff, Heli, NanoCount:6", "Phoenix, IntSkipOff, chargeBoots, NanoCount:6" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 9",
+            "name": "Ship Vendor Skin 9 - 22,000",
             "access_rules": [ "Phoenix, IntSkipOn, NanoCount:6", "Phoenix, IntSkipOff, Heli, NanoCount:6", "Phoenix, IntSkipOff, chargeBoots, NanoCount:6" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 10",
+            "name": "Ship Vendor Skin 10 - 23,000",
             "access_rules": [ "Phoenix, IntSkipOn, NanoCount:7", "Phoenix, IntSkipOff, Heli, NanoCount:7", "Phoenix, IntSkipOff, chargeBoots, NanoCount:7" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 11",
+            "name": "Ship Vendor Skin 11 - 24,000",
             "access_rules": [ "Phoenix, IntSkipOn, NanoCount:7", "Phoenix, IntSkipOff, Heli, NanoCount:7", "Phoenix, IntSkipOff, chargeBoots, NanoCount:7" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 12",
+            "name": "Ship Vendor Skin 12 - 25,000",
             "access_rules": [ "Phoenix, IntSkipOn, NanoCount:7", "Phoenix, IntSkipOff, Heli, NanoCount:7", "Phoenix, IntSkipOff, chargeBoots, NanoCount:7" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 13",
+            "name": "Ship Vendor Skin 13 - 26,000",
             "access_rules": [ "Phoenix, IntSkipOn, NanoCount:8", "Phoenix, IntSkipOff, Heli, NanoCount:8", "Phoenix, IntSkipOff, chargeBoots, NanoCount:8" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 14",
+            "name": "Ship Vendor Skin 14 - 27,000",
             "access_rules": [ "Phoenix, IntSkipOn, NanoCount:8", "Phoenix, IntSkipOff, Heli, NanoCount:8", "Phoenix, IntSkipOff, chargeBoots, NanoCount:8" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 15",
+            "name": "Ship Vendor Skin 15 - 28,000",
             "access_rules": [ "Phoenix, IntSkipOn, NanoCount:8", "Phoenix, IntSkipOff, Heli, NanoCount:8", "Phoenix, IntSkipOff, chargeBoots, NanoCount:8" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 16",
+            "name": "Ship Vendor Skin 16 - 29,000",
             "access_rules": [ "Phoenix, IntSkipOn, NanoCount:9", "Phoenix, IntSkipOff, Heli, NanoCount:9", "Phoenix, IntSkipOff, chargeBoots, NanoCount:9" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 17",
+            "name": "Ship Vendor Skin 17 - 30,000",
             "access_rules": [ "Phoenix, IntSkipOn, NanoCount:9", "Phoenix, IntSkipOff, Heli, NanoCount:9", "Phoenix, IntSkipOff, chargeBoots, NanoCount:9" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 18",
+            "name": "Ship Vendor Skin 18 - 31,000",
             "access_rules": [ "Phoenix, IntSkipOn, NanoCount:9", "Phoenix, IntSkipOff, Heli, NanoCount:9", "Phoenix, IntSkipOff, chargeBoots, NanoCount:9" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 19",
+            "name": "Ship Vendor Skin 19 - 32,000",
             "access_rules": [ "Phoenix, IntSkipOn, NanoCount:10", "Phoenix, IntSkipOff, Heli, NanoCount:10", "Phoenix, IntSkipOff, chargeBoots, NanoCount:10" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 20",
+            "name": "Ship Vendor Skin 20 - 33,000",
             "access_rules": [ "Phoenix, IntSkipOn, NanoCount:10", "Phoenix, IntSkipOff, Heli, NanoCount:10", "Phoenix, IntSkipOff, chargeBoots, NanoCount:10" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 21",
+            "name": "Ship Vendor Skin 21 - 34,000",
             "access_rules": [ "Phoenix, IntSkipOn, NanoCount:10", "Phoenix, IntSkipOff, Heli, NanoCount:10", "Phoenix, IntSkipOff, chargeBoots, NanoCount:10" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 22",
+            "name": "Ship Vendor Skin 22 - 35,000",
             "access_rules": [ "Phoenix, IntSkipOn, NanoCount:11", "Phoenix, IntSkipOff, Heli, NanoCount:11", "Phoenix, IntSkipOff, chargeBoots, NanoCount:11" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 23",
+            "name": "Ship Vendor Skin 23 - 36,000",
             "access_rules": [ "Phoenix, IntSkipOn, NanoCount:11", "Phoenix, IntSkipOff, Heli, NanoCount:11", "Phoenix, IntSkipOff, chargeBoots, NanoCount:11" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 24",
+            "name": "Ship Vendor Skin 24 - 37,000",
             "access_rules": [ "Phoenix, IntSkipOn, NanoCount:11", "Phoenix, IntSkipOff, Heli, NanoCount:11", "Phoenix, IntSkipOff, chargeBoots, NanoCount:11" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 25",
+            "name": "Ship Vendor Skin 25 - 38,000",
             "access_rules": [ "Phoenix, IntSkipOn, NanoCount:12", "Phoenix, IntSkipOff, Heli, NanoCount:12", "Phoenix, IntSkipOff, chargeBoots, NanoCount:12" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 26",
+            "name": "Ship Vendor Skin 26 - 393,000",
             "access_rules": [ "Phoenix, IntSkipOn, NanoCount:12", "Phoenix, IntSkipOff, Heli, NanoCount:12", "Phoenix, IntSkipOff, chargeBoots, NanoCount:12" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 27",
+            "name": "Ship Vendor Skin 27 - 40,000",
             "access_rules": [ "Phoenix, IntSkipOn, NanoCount:12", "Phoenix, IntSkipOff, Heli, NanoCount:12", "Phoenix, IntSkipOff, chargeBoots, NanoCount:12" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 28",
+            "name": "Ship Vendor Skin 28 - 41,000",
             "access_rules": [ "Phoenix, IntSkipOn, NanoCount:13", "Phoenix, IntSkipOff, Heli, NanoCount:13", "Phoenix, IntSkipOff, chargeBoots, NanoCount:13" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 29",
+            "name": "Ship Vendor Skin 29 - 42,000",
             "access_rules": [ "Phoenix, IntSkipOn, NanoCount:13", "Phoenix, IntSkipOff, Heli, NanoCount:13", "Phoenix, IntSkipOff, chargeBoots, NanoCount:13" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 30",
+            "name": "Ship Vendor Skin 30 - 43,000",
             "access_rules": [ "Phoenix, IntSkipOn, NanoCount:13", "Phoenix, IntSkipOff, Heli, NanoCount:13", "Phoenix, IntSkipOff, chargeBoots, NanoCount:13" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 31",
+            "name": "Ship Vendor Skin 31 - 44,000",
             "access_rules": [ "Phoenix, IntSkipOn, NanoCount:14", "Phoenix, IntSkipOff, Heli, NanoCount:14", "Phoenix, IntSkipOff, chargeBoots, NanoCount:14" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 32",
+            "name": "Ship Vendor Skin 32 - 45,000",
             "access_rules": [ "Phoenix, IntSkipOn, NanoCount:14", "Phoenix, IntSkipOff, Heli, NanoCount:14", "Phoenix, IntSkipOff, chargeBoots, NanoCount:14" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
@@ -350,19 +350,19 @@
             "item_count": 1
           },
           {
-            "name": "VR Gadget Training",
+            "name": "VR Gadget Training Complete",
             "visibility_rules": ["VRChecksOn, Unstable" ],
             "access_rules": [ "Phoenix, IntSkipOn, Tyhrranosis, hacker, hyperShot", "Phoenix, IntSkipOff, Heli, Tyhrranosis, hacker, hyperShot", "Phoenix, IntSkipOff, chargeBoots, Tyhrranosis, hacker, hyperShot" ],
             "item_count": 1
           },
           {
-            "name": "Received Hacker",
+            "name": "VR Gadget Training Reward 1",
             "visibility_rules": ["VRChecksOn, Unstable" ],
             "access_rules": [ "Phoenix, IntSkipOn, Tyhrranosis, hacker, hyperShot", "Phoenix, IntSkipOff, Heli, Tyhrranosis, hacker, hyperShot", "Phoenix, IntSkipOff, chargeBoots, Tyhrranosis, hacker, hyperShot" ],
             "item_count": 1
           },
           {
-            "name": "Received Hypershot",
+            "name": "VR Gadget Training Reward 2",
             "visibility_rules": ["VRChecksOn, Unstable" ],
             "access_rules": [ "Phoenix, IntSkipOn, Tyhrranosis, hacker, hyperShot", "Phoenix, IntSkipOff, Heli, Tyhrranosis, hacker, hyperShot", "Phoenix, IntSkipOff, chargeBoots, Tyhrranosis, hacker, hyperShot" ],
             "item_count": 1
@@ -422,25 +422,25 @@
             "item_count": 1
           },
           {
-            "name": "Received Magna Plate Armor",
+            "name": "Armor Vendor 1 - 10,000",
             "access_rules": [ "Phoenix, IntSkipOn", "Phoenix, IntSkipOff, Heli", "Phoenix, IntSkipOff, chargeBoots" ],
             "visibility_rules": ["WepVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Received Adamantine Armor",
+            "name": "Armor Vendor 2 - 60,000",
             "visibility_rules": ["WepVendorOn"],
             "access_rules": [ "Phoenix, IntSkipOn, Aquatos", "Phoenix, IntSkipOff, Heli, Aquatos", "Phoenix, IntSkipOff, chargeBoots, Aquatos" ],
             "item_count": 1
           },
           {
-            "name": "Received Aegis Mark V Armor",
+            "name": "Armor Vendor 3 - 250,000",
             "visibility_rules": ["WepVendorOn"],
             "access_rules": [ "Phoenix, IntSkipOn, ZeldrinStarport", "Phoenix, IntSkipOff, Heli, ZeldrinStarport", "Phoenix, IntSkipOff, chargeBoots, ZeldrinStarport" ],
             "item_count": 1
           },
           {
-            "name": "Received Infernox Armor",
+            "name": "Armor Vendor 4 - 1,000,000",
             "visibility_rules": ["WepVendorOn"],
             "access_rules": [ "Phoenix, IntSkipOn, Koros", "Phoenix, IntSkipOff, Heli, Koros", "Phoenix, IntSkipOff, chargeBoots, Koros" ],
             "item_count": 1
@@ -622,12 +622,12 @@
         ],
         "sections": [
           {
-            "name": "Received Spitting Hydra",
+            "name": "Gadgetron Vendor - 40,000",
             "visibility_rules": [ "WepVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Received Refractor",
+            "name": "Start of Laser Defence Facility",
             "visibility_rules": [ "RangerOn", "RangerStory" ],
             "item_count": 1
           },
@@ -665,27 +665,27 @@
             "item_count": 1
           },
           {
-            "name": "IRON SHIELD: Secure the Area",
+            "name": "IRON SHIELD 1: Secure the Area",
             "visibility_rules": [ "RangerOn", "RangerStory" ],
             "item_count": 1
           },
           {
-            "name": "IRON SHIELD: Air Assault",
+            "name": "IRON SHIELD 2: Air Assault",
             "visibility_rules": [ "RangerOn", "RangerStory" ],
             "item_count": 1
           },
           {
-            "name": "IRON SHIELD: Turret Command",
+            "name": "IRON SHIELD 3: Turret Command",
             "visibility_rules": [ "RangerOn", "RangerStory" ],
             "item_count": 1
           },
           {
-            "name": "IRON SHIELD: Under the Gun",
+            "name": "IRON SHIELD 4: Under the Gun",
             "visibility_rules": [ "RangerOn", "RangerStory" ],
             "item_count": 1
           },
           {
-            "name": "IRON SHIELD: Hit n' Run",
+            "name": "IRON SHIELD 5: Hit n' Run",
             "visibility_rules": [ "RangerOn", "RangerStory" ],
             "item_count": 1
           }
@@ -703,12 +703,12 @@
         ],
         "sections": [
           {
-            "name": "Received Agents of Doom",
+            "name": "Gadgetron Vendor - 60,000",
             "visibility_rules": [ "WepVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Received Tyhrra-Guise",
+            "name": "Grand Prize Bout Reward",
             "visibility_rules": [ "ArenaOn", "ArenaFirst" ],
             "item_count": 1
           },
@@ -719,12 +719,12 @@
             "item_count": 1
           },
           {
-            "name": "T-Bolt: Heat Street",
+            "name": "T-Bolt: Cliff",
             "visibility_rules": [ "ArenaOn, Bolt", "ArenaFirst, Bolt", "ArenaSecond, Bolt" ],
             "item_count": 1
           },
           {
-            "name": "T-Bolt: Maze of Blaze",
+            "name": "T-Bolt: Platform",
             "access_rules": [ "Daxx, hyperShot, Heli", "Daxx, hyperShot, ThrustOn" ],
             "visibility_rules": [ "ArenaOn, Bolt", "ArenaSecond, Bolt" ],
             "item_count": 1
@@ -752,25 +752,25 @@
           {
             "name": "BBQ Boulevard",
             "visibility_rules": [ "ArenaOn", "ArenaSecond" ],
-            "access_rules": [ "Daxx, hyperShot, Heli", "Daxx, hyperShot, ThrustOn" ],
+            "access_rules": [ "Daxx, hyperShot, Heli", "Daxx, hyperShot, ThrustOn", "Daxx, hyperShot, chargeBoots" ],
             "item_count": 1
           },
           {
             "name": "Maze of Blaze",
             "visibility_rules": [ "ArenaOn", "ArenaSecond" ],
-            "access_rules": [ "Daxx, hyperShot, Heli", "Daxx, hyperShot, ThrustOn" ],
+            "access_rules": [ "Daxx, hyperShot, Heli", "Daxx, hyperShot, ThrustOn", "Daxx, hyperShot, chargeBoots" ],
             "item_count": 1
           },
           {
             "name": "Cremation Station",
             "visibility_rules": [ "ArenaOn", "ArenaSecond" ],
-            "access_rules": [ "Daxx, hyperShot, Heli", "Daxx, hyperShot, ThrustOn" ],
+            "access_rules": [ "Daxx, hyperShot, Heli", "Daxx, hyperShot, ThrustOn", "Daxx, hyperShot, chargeBoots" ],
             "item_count": 1
           },
           {
             "name": "The Annihilator",
             "visibility_rules": [ "ArenaOn", "ArenaSecond" ],
-            "access_rules": [ "Daxx, hyperShot, Heli", "Daxx, hyperShot, ThrustOn" ],
+            "access_rules": [ "Daxx, hyperShot, Heli", "Daxx, hyperShot, ThrustOn", "Daxx, hyperShot, chargeBoots" ],
             "item_count": 1
           },
           {
@@ -944,7 +944,7 @@
         ],
         "sections": [
           {
-            "name": "Received Flux Rifle",
+            "name": "Gadgetron Vendor - 75,000",
             "visibility_rules": [ "WepVendorOn"],
             "item_count": 1
           },
@@ -970,7 +970,7 @@
             "item_count": 1
           },
           {
-            "name": "T-Bolt: Top Left Bolt",
+            "name": "T-Bolt: North PipeFgrav Bolt",
             "access_rules": [ "gravBoots" ],
             "visibility_rules": [ "Bolt" ],
             "item_count": 1
@@ -988,29 +988,29 @@
             "item_count": 1
           },
           {
-            "name": "Received Mini-turret Glove",
+            "name": "Slim Cognito 1 - 40,000",
             "visibility_rules": [ "WepVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Received Lava Gun",
+            "name": "Slim Cognito 2 - 25,000",
             "visibility_rules": [ "WepVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Received Bouncer",
+            "name": "Qwarks Hideout Weapon - 150,000",
             "visibility_rules": [ "WepVendorOn"],
             "access_rules": [ "QwarksHideout" ],
             "item_count": 1
           },
           {
-            "name": "Received Plasma Coil",
+            "name": "Koros Weapon - 250,000",
             "visibility_rules": [ "WepVendorOn"],
             "access_rules": [ "Koros" ],
             "item_count": 1
           },
           {
-            "name": "Received Shield Charger",
+            "name": "Command Center Weapon - 250,000",
             "visibility_rules": [ "WepVendorOn"],
             "access_rules": [ "CommandCenter" ],
             "item_count": 1
@@ -1033,12 +1033,12 @@
         ],
         "sections": [
           {
-            "name": "Received Annihilator",
+            "name": "Gadgetron Vendor 1 - 150,000",
             "visibility_rules": [ "WepVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Received Holo-Shield Glove",
+            "name": "Gadgetron Vendor 2 - 30,000",
             "visibility_rules": [ "WepVendorOn"],
             "item_count": 1
           },
@@ -1070,22 +1070,22 @@
             "item_count": 1
           },
           {
-            "name": "ISLAND STRIKE: Assault on Kavu Island",
+            "name": "ISLAND STRIKE 1: Assault on Kavu Island",
             "visibility_rules": [ "RangerOn", "RangerOptional" ],
             "item_count": 1
           },
           {
-            "name": "ISLAND STRIKE: Dogfight over Kavu Island",
+            "name": "ISLAND STRIKE 2: Dogfight over Kavu Island",
             "visibility_rules": [ "RangerOn", "RangerOptional" ],
             "item_count": 1
           },
           {
-            "name": "ISLAND STRIKE: Operation Thunderbolt",
+            "name": "ISLAND STRIKE 3: Operation Thunderbolt",
             "visibility_rules": [ "RangerOn", "RangerOptional" ],
             "item_count": 1
           },
           {
-            "name": "ISLAND STRIKE: The Final Battle",
+            "name": "ISLAND STRIKE 4: The Final Battle",
             "visibility_rules": [ "RangerOn", "RangerOptional" ],
             "item_count": 1
           }
@@ -1103,7 +1103,7 @@
         ],
         "sections": [
           {
-            "name": "Received Charge Boots",
+            "name": "Building above ship",
             "item_count": 1
           },
           {
@@ -1134,7 +1134,7 @@
             "item_count": 1
           },
           {
-            "name": "SP: Bugs to Birdie",
+            "name": "SP: Bugs to Birds",
         "visibility_rules": [ "SkillMaster", "SkillSimple" ],
             "access_rules": [ "QwackORay" ],
             "item_count": 1
@@ -1153,7 +1153,7 @@
         ],
         "sections": [
           {
-            "name": "Received Disk-Blade Gun",
+            "name": "Gadgetron Vendor - 175,000",
             "visibility_rules": [ "WepVendorOn"],
             "item_count": 1
           },
@@ -1174,7 +1174,7 @@
             "item_count": 1
           },
           {
-            "name": "Infobot: Blackwater City", 
+            "name": "Meet Skidd", 
             "item_count": 1
           }
         ]
@@ -1197,19 +1197,19 @@
             "item_count": 1
           },
           {
-            "name": "Received Grav Boots",
+            "name": "Ranger Missions Complete",
             "item_count": 1
           },
           {
-            "name": "BLACK TIDE: The Battle of Blackwater City",
+            "name": "BLACK TIDE 1: The Battle of Blackwater City",
             "item_count": 1
           },
           {
-            "name": "BLACK TIDE: The Bridge",
+            "name": "BLACK TIDE 2: The Bridge",
             "item_count": 1
           },
           {
-            "name": "BLACK TIDE: Counterattack",
+            "name": "BLACK TIDE 3: Counterattack",
             "item_count": 1
           }
         ]
@@ -1232,7 +1232,7 @@
             "item_count": 1
           },
           {
-            "name": "Received Rift Inducer",
+            "name": "Received Gadgetron Vendor - 180,000",
             "visibility_rules": [ "WepVendorOn"],
             "item_count": 1
           },
@@ -1249,7 +1249,7 @@
             "item_count": 1
           },
           {
-            "name": "T-Bolt: Lot 42's Grav Ramp",
+            "name": "T-Bolt: Lot 42's Gravity Ramp",
             "access_rules": [ "hacker, hyperShot, gravBoots" ],
             "visibility_rules": [ "Bolt" ],
             "item_count": 1
@@ -1296,12 +1296,12 @@
         ],
         "sections": [
           {
-            "name": "Received Bolt Grabber V2",
+            "name": "End of the Starport 1",
             "access_rules": [ "hyperShot, Heli", "hyperShot, ThrustOn", "hyperShot, chargeBoots" ],
             "item_count": 1
           },
           {
-            "name": "Received Box Breaker",
+            "name": "End of the Starport 2",
             "access_rules": [ "hyperShot, Heli", "hyperShot, ThrustOn", "hyperShot, chargeBoots" ],
             "item_count": 1
           },
@@ -1357,7 +1357,7 @@
             "item_count": 1
           },
           {
-            "name": "T-Bolt: Right of the Balcony",
+            "name": "T-Bolt: Before Grav-wall",
             "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
@@ -1373,37 +1373,37 @@
             "item_count": 1
           },
           {
-            "name": "URBAN STORM: Countdown",
+            "name": "URBAN STORM 1: Countdown",
             "visibility_rules": [ "RangerOn", "RangerOptional" ],
             "access_rules": [ "refractor, gravBoots" ],
             "item_count": 1
           },
           {
-            "name": "URBAN STORM: Urban Combat",
+            "name": "URBAN STORM 2: Urban Combat",
             "visibility_rules": [ "RangerOn", "RangerOptional" ],
             "access_rules": [ "refractor, gravBoots" ],
             "item_count": 1
           },
           {
-            "name": "URBAN STORM: Tower Attack",
+            "name": "URBAN STORM 3: Tower Attack",
             "visibility_rules": [ "RangerOn", "RangerOptional" ],
             "access_rules": [ "refractor, gravBoots" ],
             "item_count": 1
           },
           {
-            "name": "URBAN STORM: Air Superiority",
+            "name": "URBAN STORM 4: Air Superiority",
             "visibility_rules": [ "RangerOn", "RangerOptional" ],
             "access_rules": [ "refractor, gravBoots" ],
             "item_count": 1
           },
           {
-            "name": "URBAN STORM: Turret Command",
+            "name": "URBAN STORM 5: Turret Command",
             "visibility_rules": [ "RangerOn", "RangerOptional" ],
             "access_rules": [ "refractor, gravBoots" ],
             "item_count": 1
           },
           {
-            "name": "Received Map-O-Matic",
+            "name": "Ranger Missions Complete",
             "visibility_rules": [ "RangerOn", "RangerOptional" ],
             "access_rules": [ "refractor, gravBoots" ],
             "item_count": 1
@@ -1432,7 +1432,7 @@
             "item_count": 1
           },
           {
-            "name": "Received Nano-Pak",
+            "name": "Gadget Under the Crashed Ship",
             "access_rules": [ "hyperShot, gravBoots" ],
             "item_count": 1
           },
@@ -1442,7 +1442,7 @@
             "item_count": 1
           },
           {
-            "name": "Infobot: Aridia",
+            "name": "Rangers Call for Help",
             "access_rules": [ "Heli, gravBoots", "ThrustOn, gravBoots" ],
             "item_count": 1
           },
@@ -1473,35 +1473,35 @@
         ],
         "sections": [
           {
-            "name": "Received Qwack-O-Ray",
+            "name": "Gadgetron Vendor - 200,000",
             "visibility_rules": [ "WepVendorOn"],
             "item_count": 1
           },
           {
-            "name": "DEATH VALLEY: The Tunnels of Outpost X12",
+            "name": "DEATH VALLEY 1: The Tunnels of Outpost X12",
             "item_count": 1
           },
           {
-            "name": "DEATH VALLEY: Ambush in Red Rock Valley",
+            "name": "DEATH VALLEY 2: Ambush in Red Rock Valley",
             "item_count": 1
           },
           {
-            "name": "DEATH VALLEY: Assassination",
+            "name": "DEATH VALLEY 3: Assassination",
             "access_rules": [ "gravBoots" ],
             "item_count": 1
           },
           {
-            "name": "DEATH VALLEY: Reclaim the Valley",
+            "name": "DEATH VALLEY 4: Reclaim the Valley",
             "access_rules": [ "gravBoots" ],
             "item_count": 1
           },
           {
-            "name": "DEATH VALLEY: X12 Endgame",
+            "name": "DEATH VALLEY 5: X12 Endgame",
             "access_rules": [ "gravBoots" ],
             "item_count": 1
           },
           {
-            "name": "Received Warp Pad",
+            "name": "Ranger Missions Complete",
             "access_rules": [ "gravBoots" ],
             "item_count": 1
           },
@@ -1542,7 +1542,7 @@
         ],
         "sections": [
           {
-            "name": "Received Gadgetron PDA",
+            "name": "PDA Vendor",
             "access_rules": [ "gravBoots" ],
             "item_count": 1
           },
@@ -1605,7 +1605,7 @@
             "item_count": 1
           },
           {
-            "name": "Infobot: Command Center",
+            "name": "Fire the Cannon",
             "item_count": 1
           }
         ]
@@ -2830,7 +2830,7 @@
         ],
         "sections": [
           {
-            "name": "Received Shock Blaster",
+            "name": "Received Weapon 1",
             "item_count": 1
           }
         ]
@@ -2846,7 +2846,7 @@
         ],
         "sections": [
           {
-            "name": "Received Nitro Launcher",
+            "name": "Received Weapon 2",
             "item_count": 1
           }
         ]
@@ -2862,7 +2862,7 @@
         ],
         "sections": [
           {
-            "name": "Infobot: Florana",
+            "name": "Reach the Dropship",
             "item_count": 1
           }
         ]
@@ -2886,12 +2886,12 @@
         ],
         "sections": [
           {
-            "name": "Received Plasma Whip",
+            "name": "Gadgetron Vendor 1 - 7,500",
             "visibility_rules": [ "WepVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Received N60 Storm",
+            "name": "Gadgetron Vendor 2 - 15,000",
             "visibility_rules": [ "WepVendorOn"],
             "item_count": 1
           }
@@ -2934,7 +2934,7 @@
       },
       {
         "name": "Path of Death",
-        "access_rules": [ "Heli" ],
+        "access_rules": [ "Heli", "ThrustOn, chargeBoots" ],
         "map_locations": [
           {
             "map": "Florana",
@@ -3003,19 +3003,19 @@
         ],
         "sections": [
           {
-            "name": "Received Suck Cannon",
+            "name": "Gadgetron Vendor 1 - 8,000",
             "access_rules": [ "Phoenix, IntSkipOn", "Phoenix, IntSkipOff, Heli", "Phoenix, IntSkipOff, chargeBoots" ],
             "visibility_rules": [ "WepVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Received Infector",
+            "name": "Gadgetron Vendor 2 - 18,000",
             "access_rules": [ "Phoenix, IntSkipOn", "Phoenix, IntSkipOff, Heli", "Phoenix, IntSkipOff, chargeBoots" ],
             "visibility_rules": [ "WepVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Received RY3N0",
+            "name": "Gadgetron Vendor - 3,000,000",
             "access_rules": [ "NanoCount:10" ],
             "visibility_rules": [ "WepVendorOn"],
             "item_count": 1
@@ -3041,229 +3041,229 @@
         ],
         "sections": [
           {
-            "name": "Ship Vendor Wings 1",
+            "name": "Ship Vendor Wings 1 - 2,000",
             "access_rules": [ "NanoCount:2" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Wings 2",
+            "name": "Ship Vendor Wings 2 - 4,000",
             "access_rules": [ "NanoCount:2" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Wings 3",
+            "name": "Ship Vendor Wings 3 - 6,000",
             "access_rules": [ "NanoCount:2" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Nose 1",
+            "name": "Ship Vendor Nose 1 - 8,000",
             "access_rules": [ "NanoCount:3" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Nose 2",
+            "name": "Ship Vendor Nose 2 - 10,000",
             "access_rules": [ "NanoCount:3" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Nose 3",
+            "name": "Ship Vendor Nose 3 - 12,000",
             "access_rules": [ "NanoCount:3" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 1",
+            "name": "Ship Vendor Skin 1 - 14,000",
             "access_rules": [ "NanoCount:4" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 2",
+            "name": "Ship Vendor Skin 2 - 15,000",
             "access_rules": [ "NanoCount:4" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 3",
+            "name": "Ship Vendor Skin 3 - 16,000",
             "access_rules": [ "NanoCount:4" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 4",
+            "name": "Ship Vendor Skin 4 - 17,000",
             "access_rules": [ "NanoCount:5" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 5",
+            "name": "Ship Vendor Skin 5 - 18,000",
             "access_rules": [ "NanoCount:5" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 6",
+            "name": "Ship Vendor Skin 6 - 19,000",
             "access_rules": [ "NanoCount:5" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 7",
+            "name": "Ship Vendor Skin 7 - 20,000",
             "access_rules": [ "NanoCount:6" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 8",
+            "name": "Ship Vendor Skin 8 - 21,000",
             "access_rules": [ "NanoCount:6" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 9",
+            "name": "Ship Vendor Skin 9 - 22,000",
             "access_rules": [ "NanoCount:6" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 10",
+            "name": "Ship Vendor Skin 10 - 23,000",
             "access_rules": [ "NanoCount:7" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 11",
+            "name": "Ship Vendor Skin 11 - 24,000",
             "access_rules": [ "NanoCount:7" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 12",
+            "name": "Ship Vendor Skin 12 - 25,000",
             "access_rules": [ "NanoCount:7" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 13",
+            "name": "Ship Vendor Skin 13 - 26,000",
             "access_rules": [ "NanoCount:8" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 14",
+            "name": "Ship Vendor Skin 14 - 27,000",
             "access_rules": [ "NanoCount:8" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 15",
+            "name": "Ship Vendor Skin 15 - 28,000",
             "access_rules": [ "NanoCount:8" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 16",
+            "name": "Ship Vendor Skin 16 - 29,000",
             "access_rules": [ "NanoCount:9" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 17",
+            "name": "Ship Vendor Skin 17 - 30,000",
             "access_rules": [ "NanoCount:9" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 18",
+            "name": "Ship Vendor Skin 18 - 31,000",
             "access_rules": [ "NanoCount:9" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 19",
+            "name": "Ship Vendor Skin 19 - 32,000",
             "access_rules": [ "NanoCount:10" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 20",
+            "name": "Ship Vendor Skin 20 - 33,000",
             "access_rules": [ "NanoCount:10" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 21",
+            "name": "Ship Vendor Skin 21 - 34,000",
             "access_rules": [ "NanoCount:10" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 22",
+            "name": "Ship Vendor Skin 22 - 35,000",
             "access_rules": [ "NanoCount:11" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 23",
+            "name": "Ship Vendor Skin 23 - 36,000",
             "access_rules": [ "NanoCount:11" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 24",
+            "name": "Ship Vendor Skin 24 - 37,000",
             "access_rules": [ "NanoCount:11" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 25",
+            "name": "Ship Vendor Skin 25 - 38,000",
             "access_rules": [ "NanoCount:12" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 26",
+            "name": "Ship Vendor Skin 26 - 39,000",
             "access_rules": [ "NanoCount:12" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 27",
+            "name": "Ship Vendor Skin 27 - 40,000",
             "access_rules": [ "NanoCount:12" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 28",
+            "name": "Ship Vendor Skin 28 - 41,000",
             "access_rules": [ "NanoCount:13" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 29",
+            "name": "Ship Vendor Skin 29 - 42,000",
             "access_rules": [ "NanoCount:13" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 30",
+            "name": "Ship Vendor Skin 30 - 43,000",
             "access_rules": [ "NanoCount:13" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 31",
+            "name": "Ship Vendor Skin 31 - 44,000",
             "access_rules": [ "NanoCount:14" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Ship Vendor Skin 32",
+            "name": "Ship Vendor Skin 32 - 45,000",
             "access_rules": [ "NanoCount:14" ],
             "visibility_rules": [ "ShipVendorOn"],
             "item_count": 1
@@ -3302,19 +3302,19 @@
             "item_count": 1
           },
           {
-            "name": "VR Gadget Training",
+            "name": "VR Gadget Training Complete",
             "visibility_rules": ["Unstable"],
             "access_rules": [ "Tyhrranosis, hacker, hyperShot" ],
             "item_count": 1
           },
           {
-            "name": "Received Hacker",
+            "name": "VR Gadget Training Reward 1",
         "visibility_rules": ["Unstable"],
             "access_rules": [ "Tyhrranosis, hacker, hyperShot" ],
             "item_count": 1
           },
           {
-            "name": "Received Hypershot",
+            "name": "VR Gadget Training Reward 2",
         "visibility_rules": ["Unstable"],
             "access_rules": [ "Tyhrranosis, hacker, hyperShot" ],
             "item_count": 1
@@ -3374,21 +3374,21 @@
         ],
         "sections": [
           {
-            "name": "Received Magna Plate Armor",
+            "name": "Armor Vendor 1 - 10,000",
             "item_count": 1
           },
           {
-            "name": "Received Adamantine Armor",
+            "name": "Armor Vendor 2 - 60,000",
             "access_rules": [ "Aquatos" ],
             "item_count": 1
           },
           {
-            "name": "Received Aegis Mark V Armor",
+            "name": "Armor Vendor 3 - 250,000",
             "access_rules": [ "ZeldrinStarport" ],
             "item_count": 1
           },
           {
-            "name": "Received Infernox Armor",
+            "name": "Armor Vendor 4 - 1,000,000",
             "access_rules": [ "Koros" ],
             "item_count": 1
           },
@@ -3633,7 +3633,7 @@
         ],
         "sections": [
           {
-            "name": "Received Spitting Hydra",
+            "name": "Gadgetron Vendor - 40,000",
             "visibility_rules": [ "WepVendorOn"],
             "item_count": 1
           }
@@ -3650,7 +3650,7 @@
         ],
         "sections": [
           {
-            "name": "Received Refractor",
+            "name": "Start of Laser Defence Facility",
             "visibility_rules": [ "RangerOn", "RangerStory" ],
             "item_count": 1
           }
@@ -3801,7 +3801,7 @@
         ],
         "sections": [
           {
-            "name": "Received Agents of Doom",
+            "name": "Gadgetron Vendor - 60,000",
             "visibility_rules": [ "WepVendorOn"],
             "item_count": 1
           }
@@ -3818,7 +3818,7 @@
         ],
         "sections": [
           {
-            "name": "Received Tyhrra-Guise",
+            "name": "Grand Prize Bout Reward",
         "visibility_rules": [ "ArenaOn", "ArenaFirst" ],
             "item_count": 1
           },
@@ -3831,7 +3831,7 @@
         ]
       },
       {
-        "name": "T-Bolt: Heat Street",
+        "name": "T-Bolt: Cliff",
         "map_locations": [
           {
             "map": "Annihilation Nation",
@@ -3848,7 +3848,7 @@
         ]
       },
       {
-        "name": "T-Bolt: Maze of Blaze",
+        "name": "T-Bolt: Platform",
         "map_locations": [
           {
             "map": "Annihilation Nation",
@@ -3896,7 +3896,7 @@
       },
       {
         "name": "Gauntlet Revisit Challenges",
-        "access_rules": [ "Daxx, hyperShot, Heli", "Daxx, hyperShot, ThrustOn" ],
+        "access_rules": [ "Daxx, hyperShot, Heli", "Daxx, hyperShot, ThrustOn", "Daxx, hyperShot, chargeBoots" ],
         "visibility_rules": [ "ArenaOn", "ArenaSecond" ],
         "map_locations": [
           {
@@ -4164,7 +4164,7 @@
         ],
         "sections": [
           {
-            "name": "Received Flux Rifle",
+            "name": "Gadgetron Vendor - 75,000",
             "visibility_rules": [ "WepVendorOn"],
             "item_count": 1
           }
@@ -4240,7 +4240,7 @@
         ]
       },
       {
-        "name": "Top Left Bolt",        
+        "name": "North Pipe Bolt",        
         "map_locations": [
           {
             "map": "Aquatos Sewers",
@@ -4874,29 +4874,29 @@
         ],
         "sections": [
           {
-            "name": "Received Mini-Turret Glove",
+            "name": "Slim Cognito 1 - 40,000",
             "visibility_rules": [ "WepVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Received Lava Gun",
+            "name": "Slim Cognito 2 - 25,000",
             "visibility_rules": [ "WepVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Received Bouncer",
+            "name": "Qwarks Hideout Weapon - 150,000",
             "visibility_rules": [ "WepVendorOn"],
             "access_rules": [ "QwarksHideout" ],
             "item_count": 1
           },
           {
-            "name": "Received Plasma Coil",
+            "name": "Koros Weapon - 250,000",
             "visibility_rules": [ "WepVendorOn"],
             "access_rules": [ "Koros" ],
             "item_count": 1
           },
           {
-            "name": "Received Shield Charger",
+            "name": "Command Center Weapon - 250,000",
             "visibility_rules": [ "WepVendorOn"],
             "access_rules": [ "CommandCenter" ],
             "item_count": 1
@@ -4938,12 +4938,12 @@
         ],
         "sections": [
           {
-            "name": "Received Annihilator",
+            "name": "Gadgetron Vendor 1 - 150,000",
             "visibility_rules": [ "WepVendorOn"],
             "item_count": 1
           },
           {
-            "name": "Received Holo-Shield Glove",
+            "name": "Gadgetron Vendor 2 - 30,000",
             "visibility_rules": [ "WepVendorOn"],
             "item_count": 1
           }
@@ -5074,21 +5074,33 @@
         "access_rules": [ "Daxx, IntSkipOn", "Daxx, IntSkipOff, Heli", "Daxx, IntSkipOff, chargeBoots" ],
     "children": [
       {
-        "name": "Around the Island",
+        "name": "Building Above Ship",
         "map_locations": [
           {
             "map": "Daxx",
-            "x": 399,
+            "x": 422,
+            "y": 385
+          }
+        ],
+        "sections": [
+          {
+            "name": "Around the Island",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ledge Overlooking Ship",
+        "map_locations": [
+          {
+            "map": "Daxx",
+            "x": 390,
             "y": 389
           }
         ],
         "sections": [
           {
-            "name": "Received Charge Boots",
-            "item_count": 1
-          },
-          {
-            "name": "Trophy: Ledge overlooking Ship",
+            "name": "Plumber Trophy",
             "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
             "item_count": 1
           }
@@ -5158,14 +5170,14 @@
         ],
         "sections": [
           {
-            "name": "Infobot: Obani Gemini",
+            "name": "Reach the Terminal",
             "access_rules": [ "hacker, hyperShot" ],
             "item_count": 1
           }
         ]
       },
       {
-        "name": "Skill Point: Bugs to Birdie",
+        "name": "Skill Point: Bugs to Birds",
         "visibility_rules": [ "SkillMaster", "SkillSimple" ],
         "map_locations": [
           {
@@ -5201,7 +5213,7 @@
         ],
         "sections": [
           {
-            "name": "Received Disk-Blade Gun",
+            "name": "Gadgetron Vendor - 175,000",
             "visibility_rules": [ "WepVendorOn"],
             "item_count": 1
           }
@@ -5270,7 +5282,7 @@
         ],
         "sections": [
           {
-            "name": "Infobot: Blackwater City",
+            "name": "Meet Skidd",
             "item_count": 1
           }
         ]
@@ -5312,7 +5324,7 @@
         ],
         "sections": [
           {
-            "name": "Received Grav Boots",
+            "name": "Ranger Missions Complete",
             "item_count": 1
           }
         ]
@@ -5385,7 +5397,7 @@
         ],
         "sections": [
           {
-            "name": "Received Rift Inducer",
+            "name": "Received Gadgetron Vendor - 180,000",
             "visibility_rules": [ "WepVendorOn"],
             "item_count": 1
           }
@@ -5428,7 +5440,7 @@
         ]
       },
       {
-        "name": "Lot 42's Grav Ramp",
+        "name": "Lot 42's Gravity Ramp",
         "map_locations": [
           {
             "map": "Holostar Studios",
@@ -5464,7 +5476,7 @@
         ]
       },
       {
-        "name": "Escape the Tyhrranoid Ambush",
+        "name": "Galaxy Burger",
         "map_locations": [
           {
             "map": "Holostar Studios",
@@ -5474,7 +5486,7 @@
         ],
         "sections": [
           {
-            "name": "Skidd is captured",
+            "name": "Skidd is Captured!",
             "access_rules": [ "hacker, hyperShot" ],
             "item_count": 1
           }
@@ -5499,7 +5511,7 @@
         ],
         "sections": [
           {
-            "name": "Infobot: Zeldrin Starport",
+            "name": "Dispose the Disposable Popstar",
             "item_count": 1
           }
         ]
@@ -5523,12 +5535,12 @@
         ],
         "sections": [
           {
-            "name": "Received Bolt Grabber V2",
+            "name": "End of the Starport 1",
             "access_rules": [ "hyperShot, Heli", "hyperShot, ThrustOn", "hyperShot, chargeBoots" ],
             "item_count": 1
           },
           {
-            "name": "Received Box Breaker",
+            "name": "End of the Starport 2",
             "access_rules": [ "hyperShot, Heli", "hyperShot, ThrustOn", "hyperShot, chargeBoots" ],
             "item_count": 1
           }
@@ -5581,7 +5593,7 @@
         ],
         "sections": [
           {
-            "name": "Vid-Comic 4",
+            "name": "Leave that Jungle Business Behind",
             "access_rules": [ "Heli", "ThrustOn", "chargeBoots" ],
             "item_count": 1
           }
@@ -5683,7 +5695,7 @@
         ]
       },
       {
-        "name": "Right of the Balcony",
+        "name": "Before Grav-wall",
         "map_locations": [
           {
             "map": "Metropolis",
@@ -5710,7 +5722,7 @@
         ],
         "sections": [
           {
-            "name": "Infobot: Crash Site",
+            "name": "Save Clank!",
             "access_rules": [ "refractor, gravBoots" ],
             "item_count": 1
           }
@@ -5749,7 +5761,7 @@
             "item_count": 1
           },
           {
-            "name": "Received Map-O-Matic",
+            "name": "Ranger Missions Complete",
             "item_count": 1
           }
         ]
@@ -5773,7 +5785,7 @@
         ],
         "sections": [
           {
-            "name": "Received Nano-Pak",
+            "name": "Gadget Under the Crashed Ship",
             "access_rules": [ "hyperShot, gravBoots" ],
             "item_count": 1
           }
@@ -5841,7 +5853,7 @@
         ],
         "sections": [
           {
-            "name": "Infobot: Aridia",
+            "name": "Rangers Call for Help",
             "access_rules": [ "gravBoots, Heli", "gravBoots, ThrustOn" ],
             "item_count": 1
           }
@@ -5926,7 +5938,7 @@
             "item_count": 1
           },
           {
-            "name": "Received Warp Pad",
+            "name": "Ranger Missions Complete",
             "access_rules": [ "gravBoots" ],
             "item_count": 1
           }
@@ -6014,7 +6026,7 @@
         ],
         "sections": [
           {
-            "name": "Received Qwack-O-Ray",
+            "name": "Gadgetron Vendor - 200,000",
             "visibility_rules": [ "WepVendorOn"],
             "item_count": 1
           }
@@ -6039,7 +6051,7 @@
         ],
         "sections": [
           {
-            "name": "Received Gadgetron PDA",
+            "name": "PDA Vendor",
             "access_rules": [ "gravBoots" ],
             "item_count": 1
           }
@@ -6205,7 +6217,7 @@
         ],
         "sections": [
           {
-            "name": "Infobot: Command Center",
+            "name": "Fire the Cannon",
             "item_count": 1
           }
         ]
