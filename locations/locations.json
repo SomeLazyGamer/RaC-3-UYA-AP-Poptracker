@@ -970,7 +970,7 @@
             "item_count": 1
           },
           {
-            "name": "T-Bolt: North PipeFgrav Bolt",
+            "name": "T-Bolt: North Pipe Bolt",
             "access_rules": [ "gravBoots" ],
             "visibility_rules": [ "Bolt" ],
             "item_count": 1
@@ -1232,7 +1232,7 @@
             "item_count": 1
           },
           {
-            "name": "Received Gadgetron Vendor - 180,000",
+            "name": "Gadgetron Vendor - 180,000",
             "visibility_rules": [ "WepVendorOn"],
             "item_count": 1
           },
@@ -1261,7 +1261,7 @@
             "item_count": 1
           },
           {
-            "name": "Skidd is captured",
+            "name": "Skidd is Captured!",
             "access_rules": [ "hacker, hyperShot" ],
             "item_count": 1
           }
@@ -3831,7 +3831,7 @@
         ]
       },
       {
-        "name": "T-Bolt: Cliff",
+        "name": "Cliff",
         "map_locations": [
           {
             "map": "Annihilation Nation",
@@ -3848,7 +3848,7 @@
         ]
       },
       {
-        "name": "T-Bolt: Platform",
+        "name": "Platform",
         "map_locations": [
           {
             "map": "Annihilation Nation",
@@ -5397,7 +5397,7 @@
         ],
         "sections": [
           {
-            "name": "Received Gadgetron Vendor - 180,000",
+            "name": "Gadgetron Vendor - 180,000",
             "visibility_rules": [ "WepVendorOn"],
             "item_count": 1
           }
