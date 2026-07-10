@@ -196,9 +196,9 @@ function onClear(slot_data)
             obj.CurrentStage = stage
         end
     end
-    if slot_data['Intro Skip'] then
+    if slot_data['Shortcuts']['Veldin skip'] then
         local obj = Tracker:FindObjectForCode("IntSkip")
-        local stage = slot_data['Intro Skip']
+        local stage = slot_data['Shortcuts']['Veldin skip']
         if obj then
             obj.CurrentStage = stage
         end
@@ -274,6 +274,20 @@ function onClear(slot_data)
             obj.CurrentStage = stage
         end
     end
+    if slot_data['NG+ Vendor'] then
+        local obj = Tracker:FindObjectForCode("NGPVendor")
+        local stage = slot_data['NG+ Vendor']
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
+    if slot_data['Armor Vendor'] then
+        local obj = Tracker:FindObjectForCode("ArmorVendor")
+        local stage = slot_data['Armor Vendor']
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
     if slot_data['Ship Vendor'] then
         local obj = Tracker:FindObjectForCode("ShipVendor")
         local stage = slot_data['Ship Vendor']
@@ -288,6 +302,13 @@ function onClear(slot_data)
             obj.CurrentStage = stage
         end
     end
+    if slot_data["Bolt and XP Multiplier"] then
+        local obj = Tracker:FindObjectForCode("XPM")
+        local stage = slot_data["Bolt and XP Multiplier"]
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
     if slot_data["One HP Challenge"]["Ratchet"] then
        local obj = Tracker:FindObjectForCode("1HPRat")
         local stage = slot_data["One HP Challenge"]["Ratchet"]
@@ -295,9 +316,37 @@ function onClear(slot_data)
             obj.CurrentStage = stage
         end
     end
-    if slot_data["Holostar Skip"] then
+    if slot_data["Shortcuts"]["Holostar skip clank"] then
        local obj = Tracker:FindObjectForCode("HoloSkip")
-        local stage = slot_data["Holostar Skip"]
+        local stage = slot_data["Shortcuts"]["Holostar skip clank"]
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
+    if slot_data["NG+ Start"] then
+        local obj = Tracker:FindObjectForCode("NGP")
+        local stage = slot_data["NG+ Start"]
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
+    if slot_data['NG+ Items'] then
+        local obj = Tracker:FindObjectForCode("NGPItems")
+        local stage = slot_data['NG+ Items']
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
+    if slot_data['Progressive Weapons'] then
+        local obj = Tracker:FindObjectForCode("ProgWeapons")
+        local stage = slot_data['Progressive Weapons']
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
+    if slot_data["Weapon Level Locations"] then
+        local obj = Tracker:FindObjectForCode("WeaponLvls")
+        local stage = slot_data["Weapon Level Locations"]
         if obj then
             obj.CurrentStage = stage
         end

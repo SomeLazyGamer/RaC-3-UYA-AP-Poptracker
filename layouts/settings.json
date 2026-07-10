@@ -12,46 +12,44 @@
         "item_size": "431, 39",
         "rows": [
           [
-            "Clank"
-          ],
-          [
-            "SkillSanity"
-          ],
-          [
-            "TrophySanity"
-          ],
-          [
-            "BoltSanity"
-          ],
-          [
-            "WepVendor"
-          ],
-          [
-            "ShipVendor"
-          ],
-          [
-            "RangerChecks"
-          ],
-          [
+            "Clank",
             "VCChecks"
           ],
           [
+            "WepVendor",
             "VRChecks"
           ],
           [
+            "ArmorVendor",
             "ArenaChecks"
           ],
           [
-            "Nano"
-          ],
-          [
+            "ShipVendor",
             "Crystals"
           ],
           [
-            "AutoTab"
+            "NGPVendor",
+            "Nano"
           ],
           [
-            "Unstable"
+            "SkillSanity",
+            "ProgWeapons"
+          ],
+          [
+            "TrophySanity",
+            "WeaponLvls"
+          ],
+          [
+            "BoltSanity",
+            "NGP"
+          ],
+          [
+            "RangerChecks",
+            "NGPItems"
+          ],
+          [
+            "Unstable",
+            "AutoTab"
           ]
         ]
       }

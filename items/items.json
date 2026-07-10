@@ -2,7 +2,7 @@
   {
     "name": "Shock Blaster",
     "type": "consumable",
-    "max_quantity": 5,
+    "max_quantity": 8,
     "increment": 1,
      "decrement": 1,
     "initial_quantity": 0,
@@ -12,7 +12,7 @@
   {
     "name": "Nitro Launcher",
     "type": "consumable",
-    "max_quantity": 5,
+    "max_quantity": 8,
     "increment": 1,
      "decrement": 1,
     "initial_quantity": 0,
@@ -22,7 +22,7 @@
   {
     "name": "N60 Storm",
     "type": "consumable",
-    "max_quantity": 5,
+    "max_quantity": 8,
     "increment": 1,
      "decrement": 1,
     "initial_quantity": 0,
@@ -32,7 +32,7 @@
   {
     "name": "Plasma Whip",
     "type": "consumable",
-    "max_quantity": 5,
+    "max_quantity": 8,
     "increment": 1,
      "decrement": 1,
     "initial_quantity": 0,
@@ -42,7 +42,7 @@
   {
     "name": "Infector",
     "type": "consumable",
-    "max_quantity": 5,
+    "max_quantity": 8,
     "increment": 1,
      "decrement": 1,
     "initial_quantity": 0,
@@ -52,7 +52,7 @@
   {
     "name": "Suck Cannon",
     "type": "consumable",
-    "max_quantity": 5,
+    "max_quantity": 8,
     "increment": 1,
      "decrement": 1,
     "initial_quantity": 0,
@@ -60,15 +60,9 @@
     "codes": "SuckCannon"
   },
   {
-    "name": "NonProgressive Suck Cannon",
-    "type": "toggle",
-    "img": "images/items/weapon/SuckCannon.png",
-    "codes": "NPSuckCannon"
-  },
-  {
     "name": "Spitting Hydra",
     "type": "consumable",
-    "max_quantity": 5,
+    "max_quantity": 8,
     "increment": 1,
      "decrement": 1,
     "initial_quantity": 0,
@@ -78,7 +72,7 @@
   {
     "name": "Agents Of Doom",
     "type": "consumable",
-    "max_quantity": 5,
+    "max_quantity": 8,
     "increment": 1,
      "decrement": 1,
     "initial_quantity": 0,
@@ -88,7 +82,7 @@
   {
     "name": "Flux Rifle",
     "type": "consumable",
-    "max_quantity": 5,
+    "max_quantity": 8,
     "increment": 1,
      "decrement": 1,
     "initial_quantity": 0,
@@ -98,7 +92,7 @@
   {
     "name": "Annihilator",
     "type": "consumable",
-    "max_quantity": 5,
+    "max_quantity": 8,
     "increment": 1,
      "decrement": 1,
     "initial_quantity": 0,
@@ -108,7 +102,7 @@
   {
     "name": "Holo Shield Glove",
     "type": "consumable",
-    "max_quantity": 5,
+    "max_quantity": 8,
     "increment": 1,
      "decrement": 1,
     "initial_quantity": 0,
@@ -118,7 +112,7 @@
   {
     "name": "Disk Blade Gun",
     "type": "consumable",
-    "max_quantity": 5,
+    "max_quantity": 8,
     "increment": 1,
      "decrement": 1,
     "initial_quantity": 0,
@@ -128,7 +122,7 @@
   {
     "name": "Rift Inducer",
     "type": "consumable",
-    "max_quantity": 5,
+    "max_quantity": 8,
     "increment": 1,
      "decrement": 1,
     "initial_quantity": 0,
@@ -138,7 +132,7 @@
   {
     "name": "Qwack-O-Ray",
     "type": "consumable",
-    "max_quantity": 5,
+    "max_quantity": 8,
     "increment": 1,
      "decrement": 1,
     "initial_quantity": 0,
@@ -158,7 +152,7 @@
   {
     "name": "Miniturret Glove",
     "type": "consumable",
-    "max_quantity": 5,
+    "max_quantity": 8,
     "increment": 1,
      "decrement": 1,
     "initial_quantity": 0,
@@ -168,7 +162,7 @@
   {
     "name": "Lava Gun",
     "type": "consumable",
-    "max_quantity": 5,
+    "max_quantity": 8,
     "increment": 1,
      "decrement": 1,
     "initial_quantity": 0,
@@ -178,7 +172,7 @@
   {
     "name": "Shield Charger",
     "type": "consumable",
-    "max_quantity": 5,
+    "max_quantity": 8,
     "increment": 1,
      "decrement": 1,
     "initial_quantity": 0,
@@ -188,7 +182,7 @@
   {
     "name": "Bouncer",
     "type": "consumable",
-    "max_quantity": 5,
+    "max_quantity": 8,
     "increment": 1,
      "decrement": 1,
     "initial_quantity": 0,
@@ -198,12 +192,32 @@
   {
     "name": "Plasma Coil",
     "type": "consumable",
-    "max_quantity": 5,
+    "max_quantity": 8,
     "increment": 1,
      "decrement": 1,
     "initial_quantity": 0,
     "img": "images/items/weapon/PlasmaCoil.png",
     "codes": "PlasmaCoil"
+  },
+  {
+    "name": "Progressive Weapons",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": false,
+    "stages": [
+      {
+          "name": "Progressive Weapons - Off",
+          "inherit_codes": false,
+          "img": "images/items/settings/ProgWeaponsOff.png",
+          "codes": "ProgWeapons,ProgWeaponsOff"
+      },
+      {
+        "name": "Progressive Weapons - On",
+        "inherit_codes": false,
+        "img": "images/items/settings/ProgWeaponsOn.png",
+        "codes": "ProgWeapons,ProgWeaponsOn"
+      }
+    ]
   },
   {
     "name": "Lightsaber Wrench",
@@ -900,6 +914,42 @@
     ]
   },
   {
+    "name": "NG+ Vendors",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": false,
+    "stages": [
+      {
+          "img": "images/items/settings/NGPVenOff.png",
+          "name": "NG+ Vendors - Off",
+          "codes": "NGPVendor,NGPVendorOff"
+      },
+      {
+        "img": "images/items/settings/NGPVenOn.png",
+        "name": "NG+ Vendors - On",
+        "codes": "NGPVendor,NGPVendorOn"
+      }
+    ]
+  },
+  {
+    "name": "Armor Vendor",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": false,
+    "stages": [
+      {
+          "img": "images/items/settings/ArmorOff.png",
+          "name": "Armor Vendor - Off",
+          "codes": "ArmorVendor,ArmorVendorOff"
+      },
+      {
+        "img": "images/items/settings/ArmorOn.png",
+        "name": "Armor Vendor - On",
+        "codes": "ArmorVendor,ArmorVendorOn"
+      }
+    ]
+  },
+  {
     "name": "Ship Vendor",
     "type": "progressive",
     "loop": false,
@@ -1011,8 +1061,82 @@
     "initial_quantity": 11,
     "min_quantity": 11,
     "increment": 1,
-    "max_quantity": 100,
+    "max_quantity": 200,
     "codes": "NanoTotal"
+  },
+  {
+    "name": "XP Multiplier",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": false,
+    "stages": [
+      {
+          "name": "XP Multi - 1",
+          "codes": "XPM,XPM1",
+          "inherit_codes": false
+      },
+      {
+          "name": "XP Multi - 2",
+          "codes": "XPM,XPM2",
+          "inherit_codes": false
+      },
+      {
+          "name": "XP Multi - 4",
+          "codes": "XPM,XPM4",
+          "inherit_codes": false
+      },
+      {
+          "name": "XP Multi - 8",
+          "codes": "XPM,XPM8",
+          "inherit_codes": false
+      },
+      {
+          "name": "XP Multi - 16",
+          "codes": "XPM,XPM16",
+          "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "NG+ Mode",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": false,
+    "stages": [
+      {
+          "name": "NG+ Mode - Off",
+          "img": "images/items/settings/NGPOff.png",
+          "codes": "NGP,NGPOff"
+      },
+      {
+        "name": "NG+ Mode - On",
+          "img": "images/items/settings/NGPOn.png",
+        "codes": "NGP,NGPOn"
+      },
+      {
+        "name": "NG+ Mode - On with Multipler",
+          "img": "images/items/settings/NGPOnMult.png",
+        "codes": "NGP,NGPOnMult"
+      }
+    ]
+  },
+  {
+    "name": "NG+ Items",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": false,
+    "stages": [
+      {
+          "name": "NG+ Items - Off",
+          "img": "images/items/settings/NGPItemsOff.png",
+          "codes": "NGPItems,NGPItemsOff"
+      },
+      {
+        "name": "NG+ Items - On",
+          "img": "images/items/settings/NGPItemsOn.png",
+        "codes": "NGPItems,NGPItemsOn"
+      }
+    ]
   },
   {
     "name": "Sewer Crystals",
@@ -1133,6 +1257,32 @@
         "name": "Holostar Skip On",
           "inherit_codes": false,
         "codes": "HoloSkip,HoloSkipOn"
+      }
+    ]
+  },
+  {
+    "name": "Weapon Level Locations",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": false,
+    "stages": [
+      {
+          "name": "Weapon Level Locations - Off",
+          "img": "images/items/settings/WeaponLvlsOff.png",
+          "inherit_codes": false,
+          "codes": "WeaponLvls,WeaponLvlsOff"
+      },
+      {
+        "name": "Weapon Level Locations - V5 Only",
+        "img": "images/items/settings/WeaponLvlsV5.png",
+        "inherit_codes": false,
+        "codes": "WeaponLvls,WeaponLvlsV5"
+      },
+      {
+        "name": "Weapon Level Locations - All On",
+        "img": "images/items/settings/WeaponLvlsOn.png",
+          "inherit_codes": false,
+        "codes": "WeaponLvls,WeaponLvlsOn"
       }
     ]
   }
