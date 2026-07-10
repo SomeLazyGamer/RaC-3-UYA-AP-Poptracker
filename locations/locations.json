@@ -3221,49 +3221,49 @@
           },
           {
             "name": "Sewer Crystals Traded: 51",
-            "access_rules": ["gravBoots"],
+            "access_rules": ["[gravBoots]"],
             "visibility_rules": [ "CrystalsAll, CrystalsTotal:51" ],
             "item_count": 1
           },
           {
             "name": "Sewer Crystals Traded: 52",
-            "access_rules": ["gravBoots"],
+            "access_rules": ["[gravBoots]"],
             "visibility_rules": [ "CrystalsAll, CrystalsTotal:52" ],
             "item_count": 1
           },
           {
             "name": "Sewer Crystals Traded: 53",
-            "access_rules": ["gravBoots"],
+            "access_rules": ["[gravBoots]"],
             "visibility_rules": [ "CrystalsAll, CrystalsTotal:53" ],
             "item_count": 1
           },
           {
             "name": "Sewer Crystals Traded: 54",
-            "access_rules": ["gravBoots"],
+            "access_rules": ["[gravBoots]"],
             "visibility_rules": [ "CrystalsAll, CrystalsTotal:54" ],
             "item_count": 1
           },
           {
             "name": "Sewer Crystals Traded: 55",
-            "access_rules": ["gravBoots"],
+            "access_rules": ["[gravBoots]"],
             "visibility_rules": [ "CrystalsAll, CrystalsTotal:55", "Crystals5, CrystalsTotal:55" ],
             "item_count": 1
           },
           {
             "name": "Sewer Crystals Traded: 56",
-            "access_rules": ["gravBoots"],
+            "access_rules": ["[gravBoots]"],
             "visibility_rules": [ "CrystalsAll, CrystalsTotal:56" ],
             "item_count": 1
           },
           {
             "name": "Sewer Crystals Traded: 57",
-            "access_rules": ["gravBoots"],
+            "access_rules": ["[gravBoots]"],
             "visibility_rules": [ "CrystalsAll, CrystalsTotal:57" ],
             "item_count": 1
           },
           {
             "name": "Sewer Crystals Traded: 58",
-            "access_rules": ["gravBoots"],
+            "access_rules": ["[gravBoots]"],
             "visibility_rules": [ "CrystalsAll, CrystalsTotal:58" ],
             "item_count": 1
           },
@@ -6337,49 +6337,49 @@
           },
           {
             "name": "Sewer Crystals Traded: 51",
-            "access_rules": ["gravBoots"],
+            "access_rules": ["[gravBoots]"],
             "visibility_rules": [ "CrystalsAll, CrystalsTotal:51" ],
             "item_count": 1
           },
           {
             "name": "Sewer Crystals Traded: 52",
-            "access_rules": ["gravBoots"],
+            "access_rules": ["[gravBoots]"],
             "visibility_rules": [ "CrystalsAll, CrystalsTotal:52" ],
             "item_count": 1
           },
           {
             "name": "Sewer Crystals Traded: 53",
-            "access_rules": ["gravBoots"],
+            "access_rules": ["[gravBoots]"],
             "visibility_rules": [ "CrystalsAll, CrystalsTotal:53" ],
             "item_count": 1
           },
           {
             "name": "Sewer Crystals Traded: 54",
-            "access_rules": ["gravBoots"],
+            "access_rules": ["[gravBoots]"],
             "visibility_rules": [ "CrystalsAll, CrystalsTotal:54" ],
             "item_count": 1
           },
           {
             "name": "Sewer Crystals Traded: 55",
-            "access_rules": ["gravBoots"],
+            "access_rules": ["[gravBoots]"],
             "visibility_rules": [ "CrystalsAll, CrystalsTotal:55", "Crystals5, CrystalsTotal:55" ],
             "item_count": 1
           },
           {
             "name": "Sewer Crystals Traded: 56",
-            "access_rules": ["gravBoots"],
+            "access_rules": ["[gravBoots]"],
             "visibility_rules": [ "CrystalsAll, CrystalsTotal:56" ],
             "item_count": 1
           },
           {
             "name": "Sewer Crystals Traded: 57",
-            "access_rules": ["gravBoots"],
+            "access_rules": ["[gravBoots]"],
             "visibility_rules": [ "CrystalsAll, CrystalsTotal:57" ],
             "item_count": 1
           },
           {
             "name": "Sewer Crystals Traded: 58",
-            "access_rules": ["gravBoots"],
+            "access_rules": ["[gravBoots]"],
             "visibility_rules": [ "CrystalsAll, CrystalsTotal:58" ],
             "item_count": 1
           },
