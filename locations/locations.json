@@ -1531,7 +1531,7 @@
           },
           {
             "name": "T-Bolt: Behind the Base (X12 Endgame)",
-            "access_rules": [ "gravBoots", "FluxRifle", "Annihilator", "RY3N0", "SuckCannon", "DiskBladeGun", "PlasmaCoil", "ProgWeaponsOff, RiftInducer", "ProgWeaponsOn, RiftInducer:2" ],
+            "access_rules": [ "gravBoots" ],
             "visibility_rules": [ "Bolt" ],
             "item_count": 1
           },
@@ -7772,7 +7772,7 @@
         "sections": [
           {
             "name": "Titanium Bolt",
-            "access_rules": [ "gravBoots", "FluxRifle", "Annihilator", "RY3N0", "SuckCannon", "DiskBladeGun", "PlasmaCoil", "ProgWeaponsOff, RiftInducer", "ProgWeaponsOn, RiftInducer:2" ],
+            "access_rules": [ "gravBoots" ],
             "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
