@@ -196,9 +196,9 @@ function onClear(slot_data)
             obj.CurrentStage = stage
         end
     end
-    if slot_data['Shortcuts']['Veldin skip'] then
+    if slot_data['Shortcuts']['Veldin Skip'] then
         local obj = Tracker:FindObjectForCode("IntSkip")
-        local stage = slot_data['Shortcuts']['Veldin skip']
+        local stage = slot_data['Shortcuts']['Veldin Skip']
         if obj then
             obj.CurrentStage = stage
         end
