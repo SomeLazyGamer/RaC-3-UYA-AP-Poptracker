@@ -1566,7 +1566,7 @@
           },
           {
             "name": "Find Qwark",
-            "access_rules": [ "warpPad, hyperShot, Heli", "chargeBoots" ],
+            "access_rules": [ "warpPad, hyperShot, Heli", "warpPad, chargeBoots" ],
             "item_count": 1
           },
           {
@@ -1584,7 +1584,7 @@
           {
             "name": "Trophy: Outside Qwarks Room",
             "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
-            "access_rules": [ "warpPad, hyperShot, Heli", "chargeBoots" ],
+            "access_rules": [ "warpPad, hyperShot, Heli", "warpPad, chargeBoots" ],
             "item_count": 1
           }
         ]
@@ -7922,7 +7922,7 @@
           {
             "name": "Qwark Trophy",
             "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
-            "access_rules": [ "warpPad, hyperShot, Heli", "chargeBoots" ],
+            "access_rules": [ "warpPad, hyperShot, Heli", "warpPad, chargeBoots" ],
             "item_count": 1
           }
         ]
@@ -7939,7 +7939,7 @@
         "sections": [
           {
             "name": "Find Qwark",
-            "access_rules": [ "warpPad, hyperShot, Heli", "chargeBoots" ],
+            "access_rules": [ "warpPad, hyperShot, Heli", "warpPad, chargeBoots" ],
             "item_count": 1
           }
         ]
