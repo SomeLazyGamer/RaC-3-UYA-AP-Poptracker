@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "1.5.5",
+			"download_url": "https://github.com/SomeLazyGamer/RaC-3-UYA-AP-Poptracker/releases/download/1.5.5/RaC3_Tracker_SLG_1.5.5.zip",
+			"sha256": "d33f5a5908e32a6468018a6fa39a7bc6053ed4d9794538ce230883984cb8baa6",
+			"changelog": ["Misc. 0.6.0 apmod fixes"]
+		},
+		{
 			"package_version": "1.5.3",
 			"download_url": "https://github.com/SomeLazyGamer/RaC-3-UYA-AP-Poptracker/releases/download/1.5.3/RaC3_Tracker_SLG_1.5.3.zip",
 			"sha256": "f2db731d57c4057516b31d178dfb319555f0273909e41647408a6f5cff33d02c",
