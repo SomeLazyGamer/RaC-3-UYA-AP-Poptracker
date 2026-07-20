@@ -316,9 +316,9 @@ function onClear(slot_data)
             obj.CurrentStage = stage
         end
     end
-    if slot_data["Shortcuts"]["Holostar skip clank"] then
+    if slot_data["Shortcuts"]["Holostar Skip Clank"] then
        local obj = Tracker:FindObjectForCode("HoloSkip")
-        local stage = slot_data["Shortcuts"]["Holostar skip clank"]
+        local stage = slot_data["Shortcuts"]["Holostar Skip Clank"]
         if obj then
             obj.CurrentStage = stage
         end

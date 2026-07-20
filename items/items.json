@@ -422,6 +422,16 @@
     ]
   },
   {
+    "name": "Titanium Bolts",
+    "type": "consumable",
+    "max_quantity": 40,
+    "increment": 1,
+     "decrement": 1,
+    "initial_quantity": 0,
+    "img": "images/items/gadget/TBolt.png",
+    "codes": "TBolt"
+  },
+  {
     "name": "Veldin",
     "type": "progressive",
     "allow_disabled": false,
@@ -1106,12 +1116,14 @@
       {
           "name": "NG+ Mode - Off",
           "img": "images/items/settings/NGPOff.png",
-          "codes": "NGP,NGPOff"
+          "codes": "NGP,NGPOff",
+          "inherit_codes": false
       },
       {
         "name": "NG+ Mode - On",
           "img": "images/items/settings/NGPOn.png",
-        "codes": "NGP,NGPOn"
+        "codes": "NGP,NGPOn",
+          "inherit_codes": false
       },
       {
         "name": "NG+ Mode - On with Multipler",
@@ -1129,12 +1141,14 @@
       {
           "name": "NG+ Items - Off",
           "img": "images/items/settings/NGPItemsOff.png",
-          "codes": "NGPItems,NGPItemsOff"
+          "codes": "NGPItems,NGPItemsOff",
+          "inherit_codes": false
       },
       {
         "name": "NG+ Items - On",
           "img": "images/items/settings/NGPItemsOn.png",
-        "codes": "NGPItems,NGPItemsOn"
+        "codes": "NGPItems,NGPItemsOn",
+          "inherit_codes": false
       }
     ]
   },

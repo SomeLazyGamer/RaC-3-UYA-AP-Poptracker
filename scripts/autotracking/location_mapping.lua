@@ -88,7 +88,7 @@ LOCATION_MAPPING = {
 	--Daxx
 	[LOCATION_ID + 71] = { {"@Daxx/Infiltrate Weapons Facility/Reach the Terminal"}, {"@Galaxy/Daxx/Infiltrate Weapons Facility"} },
 	[LOCATION_ID + 70] = { {"@Daxx/Building Above Ship/Around the Island"}, {"@Galaxy/Daxx/Building above ship"} },
-	[LOCATION_ID + 72] = { {"@Daxx/Explore the Docks/Gunship" }, {"@Galaxy/Daxx/Gunship"} },
+	[LOCATION_ID + 72] = { {"@Daxx/Explore the Docks/Warship" }, {"@Galaxy/Daxx/Warship"} },
 	--Obani Gemini
 	[LOCATION_ID + 73] = { {"@Obani Moons/Explore the Second Moon/Meet Skidd"}, {"@Galaxy/Obani Gemini/Meet Skidd"} },
 	--Blackwater City	
@@ -128,6 +128,7 @@ LOCATION_MAPPING = {
 	[LOCATION_ID + 98] = { {"@Aridia/Operation: DEATH VALLEY/X12 Endgame"}, {"@Galaxy/Aridia/DEATH VALLEY 5: X12 Endgame"} },
 	--Qwark's Hideout
 	[LOCATION_ID + 99] = { {"@Qwark's Hideout/Grav-Ramp Path/PDA Vendor"}, {"@Galaxy/Hideout/PDA Vendor"} },
+	[LOCATION_ID + 100] = { {"@Qwark's Hideout/Qwark's Room/Find Qwark"}, {"@Galaxy/Hideout/Find Qwark"} },
 	--Koros
 	[LOCATION_ID + 101] = { {"@Koros/Access big gun control panel/Fire the Cannon"}, {"@Galaxy/Koros/Fire the Cannon"} },
 	--Command Center

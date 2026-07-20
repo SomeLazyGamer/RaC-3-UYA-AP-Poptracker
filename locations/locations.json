@@ -993,7 +993,7 @@
           {
             "name": "SP: Hit the Motherload",
             "visibility_rules": [ "SkillMaster, CrystalsTotal:100" ],
-            "access_rules": [ "gravBoots" ],
+            "access_rules": [ "gravBoots, mapOMatic" ],
             "item_count": 1
           },
           {
@@ -1133,7 +1133,7 @@
             "item_count": 1
           },
           {
-            "name": "Gunship",
+            "name": "Warship",
             "access_rules": [ "hyperShot" ],
             "item_count": 1
           },
@@ -1223,6 +1223,7 @@
           },
           {
             "name": "Skidd is Captured!",
+            "visibility_rules": [ "RangerOn", "RangerStory" ],
             "access_rules": [ "Holostar, hacker, hyperShot, Blackwater" ],
             "item_count": 1
           }
@@ -1281,6 +1282,7 @@
           },
           {
             "name": "Skidd is Captured!",
+            "visibility_rules": [ "RangerOn", "RangerStory" ],
             "access_rules": [ "Holostar, hacker, hyperShot, Blackwater" ],
             "item_count": 1
           }
@@ -1472,8 +1474,8 @@
           },
           {
             "name": "SP: Suck it up!",
-        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
-            "access_rules": [ "ProgWeaponsOn, SuckCannon:3", "ProgWeaponsOff, SuckCannon" ],
+        "visibility_rules": [ "SkillMaster" ],
+            "access_rules": [ "NGPOff, ProgWeaponsOn, SuckCannon:3", "NGPOn, ProgWeaponsOn, NGPItemsOff, SuckCannon:5", "NGPOn, ProgWeaponsOn, NGPItemsOn, SuckCannon:6", "ProgWeaponsOff, SuckCannon" ],
             "item_count": 1
           }
         ]
@@ -6642,7 +6644,7 @@
             "name": "Skill Point: Hit the Motherload",
             "visibility_rules": [ "SkillMaster, CrystalsTotal:100" ],
             "item_count": 1,
-            "access_rules": [ "gravBoots" ]
+            "access_rules": [ "gravBoots, mapOMatic" ]
           }
         ]
       },
@@ -6936,7 +6938,7 @@
         ],
         "sections": [
           {
-            "name": "Gunship",
+            "name": "Warship",
             "access_rules": [ "hyperShot" ],
             "item_count": 1
           }
@@ -7148,6 +7150,7 @@
         "sections": [
           {
             "name": "Skidd is Captured!",
+            "visibility_rules": [ "RangerOn", "RangerStory" ],
             "access_rules": [ "Holostar, hacker, hyperShot, Blackwater" ],
             "item_count": 1
           }
@@ -7304,6 +7307,7 @@
         "sections": [
           {
             "name": "Skidd is Captured!",
+            "visibility_rules": [ "RangerOn", "RangerStory" ],
             "access_rules": [ "Holostar, hacker, hyperShot, Blackwater" ],
             "item_count": 1
           }
@@ -7695,7 +7699,7 @@
       },
       {
         "name": "Skill Point: Suck it up!",
-        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
+        "visibility_rules": [ "SkillMaster" ],
         "map_locations": [
           {
             "map": "Crash Site",
@@ -7706,7 +7710,7 @@
         "sections": [
           {
             "name": "Kill 40 enemies using the Suck Cannon",
-            "access_rules": [ "ProgWeaponsOff, SuckCannon", "ProgWeaponsOn, SuckCannon:3" ],
+            "access_rules": [ "NGPOff, ProgWeaponsOn, SuckCannon:3", "NGPOn, ProgWeaponsOn, NGPItemsOff, SuckCannon:5", "NGPOn, ProgWeaponsOn, NGPItemsOn, SuckCannon:6", "ProgWeaponsOff, SuckCannon" ],
             "item_count": 1
           }
         ]
