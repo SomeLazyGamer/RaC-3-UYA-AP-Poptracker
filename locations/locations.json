@@ -5,7 +5,7 @@
     "chest_opened_img": "images/Q_Force.png",
     "children": [
       {
-        "name": "Veldin",
+        "name": "Veldin", 
         "access_rules": [ "Veldin" ],
         "visibility_rules": [ "IntSkipOff"],
         "map_locations": [
