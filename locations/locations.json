@@ -459,6 +459,7 @@
           },
           {
             "name": "Return after winning Grand Prize Bout",
+            "visibility_rules": [ "ArenaOn", "ArenaFirst" ],
             "access_rules": [ "Phoenix, IntSkipOn, Annihilation", "Phoenix, IntSkipOff, Heli, Annihilation", "Phoenix, IntSkipOff, chargeBoots, Annihilation" ],
             "item_count": 1
           },
@@ -5176,6 +5177,7 @@
         "sections": [
           {
             "name": "Return after winning Grand Prize Bout",
+            "visibility_rules": [ "ArenaOn", "ArenaFirst" ],
             "access_rules": [ "Annihilation" ],
             "item_count": 1
           },
