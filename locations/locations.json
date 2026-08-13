@@ -3786,7 +3786,7 @@
           {
             "name": "RY3N0: V5",
             "access_rules": ["RY3N0, ProgWeaponsOff, NGPOn", "RY3N0:5, ProgWeaponsOn, NGPOn", "RY3N0, ProgWeaponsOff, Koros", "RY3N0:5, ProgWeaponsOn, Koros", "RY3N0, ProgWeaponsOff, CrashSite", "RY3N0:5 ,ProgWeaponsOn, CrashSite", "RY3N0, ProgWeaponsOff, Metropolis", "RY3N0:5, ProgWeaponsOn, Metropolis", "RY3N0, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "RY3N0:5, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "RY3N0, ProgWeaponsOff, CommandCenter, Heli", "RY3N0:5, ProgWeaponsOn, CommandCenter, Heli", "RY3N0, ProgWeaponsOff, CommandCenter, ThrustOn", "RY3N0:5, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsV5", "WeaponLvlsOn, NGPItemsOn" ],
+            "visibility_rules": [ "WeaponLvlsV5, NGPItemsOn", "WeaponLvlsOn, NGPItemsOn" ],
             "item_count": 1
           }
         ]
