@@ -18,15 +18,15 @@
         "sections": [
           {
             "name": "First Ranger",
-            "item_count": 1
+            "ref": "Veldin/First Ranger/Received Weapon 1"
           },
           {
             "name": "Second Ranger",
-            "item_count": 1
+            "ref": "Veldin/Second Ranger/Received Weapon 2"
           },
           {
             "name": "Save Veldin",
-            "item_count": 1
+            "ref": "Veldin/Save Veldin!/Reach the Dropship"
           }
         ]
       },
@@ -43,41 +43,31 @@
         "sections": [
           {
             "name": "Gadgetron Vendor 1 - 7,500",
-            "visibility_rules": [ "WepVendorOn"],
-            "item_count": 1
+            "ref": "Florana/Vendor/Gadgetron Vendor 1 - 7,500"
           },
           {
             "name": "Gadgetron Vendor 2 - 15,000",
-            "visibility_rules": [ "WepVendorOn"],
-            "item_count": 1
+            "ref": "Florana/Vendor/Gadgetron Vendor 2 - 15,000"
           },
           {
             "name": "T-Bolt: Below Gadgetron Vendor",
-            "visibility_rules": [ "Bolt" ],
-            "item_count": 1
+            "ref": "Florana/Below Gadgetron Vendor/Titanium Bolt"
           },
           {
             "name": "Trophy: 2nd Building Upstairs North-East",
-            "access_rules": [ "Heli", "chargeBoots" ],
-            "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
-            "item_count": 1
+            "ref": "Florana/2nd Building Upstairs North-East/Ratchet Trophy"
           },
           {
             "name": "T-Bolt: Path of Death",
-            "access_rules": [ "Heli", "ThrustOn, chargeBoots" ],
-            "visibility_rules": [ "Bolt" ],
-            "item_count": 1
+            "ref": "Florana/Path of Death/Titanium Bolt"
           },
           {
             "name": "SP: Stay Squeaky Clean",
-            "access_rules": [ "Heli", "chargeBoots" ],
-            "visibility_rules": [ "SkillMaster, 1HPRatOff" ],
-            "item_count": 1
+            "ref": "Florana/Skill Point: Stay Squeaky Clean/Complete the Path of Death without a hit"
           },
           {
             "name": "Defeat Qwark",
-            "access_rules": [ "Heli", "chargeBoots" ],
-            "item_count": 1
+            "ref": "Florana/Walk the PATH OF DEATH!/Defeat Qwark"
           }
         ]
       },
@@ -93,530 +83,355 @@
         "sections": [
           {
             "name": "Gadgetron Vendor 1 - 8,000",
-            "access_rules": [ "Phoenix, IntSkipOn", "Phoenix, IntSkipOff, Heli", "Phoenix, IntSkipOff, chargeBoots" ],
-            "visibility_rules": [ "WepVendorOn"],
-            "item_count": 1
+            "ref": "Phoenix Vendors/Vendor/Gadgetron Vendor 1 - 8,000"
           },
           {
             "name": "Gadgetron Vendor 2 - 18,000",
-            "access_rules": [ "Phoenix, IntSkipOn", "Phoenix, IntSkipOff, Heli", "Phoenix, IntSkipOff, chargeBoots" ],
-            "visibility_rules": [ "WepVendorOn"],
-            "item_count": 1
+            "ref": "Phoenix Vendors/Vendor/Gadgetron Vendor 2 - 18,000"
           },
           {
             "name": "Gadgetron Vendor - 3,000,000",
-            "access_rules": [ "NanoCount:10" ],
-            "visibility_rules": [ "WepVendorOn, NGPVendorOn"],
-            "item_count": 1
+            "ref": "Phoenix Vendors/Vendor/Gadgetron Vendor - 3,000,000"
           },
           {
             "name": "Ship Vendor Wings 1 - 2,000",
-            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:1", "Phoenix, IntSkipOff, Heli, NanoCount:1", "Phoenix, IntSkipOff, chargeBoots, NanoCount:1" ],
-            "visibility_rules": [ "ShipVendorOn"],
-            "item_count": 1
+            "ref": "Ship Vendor/Vendor/Ship Vendor Wings 1 - 2,000"
           },
           {
             "name": "Ship Vendor Wings 2 - 4,000",
-            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:1", "Phoenix, IntSkipOff, Heli, NanoCount:1", "Phoenix, IntSkipOff, chargeBoots, NanoCount:1" ],
-            "visibility_rules": [ "ShipVendorOn"],
-            "item_count": 1
+            "ref": "Ship Vendor/Vendor/Ship Vendor Wings 2 - 4,000"
           },
           {
             "name": "Ship Vendor Wings 3 - 6,000",
-            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:2", "Phoenix, IntSkipOff, Heli, NanoCount:2", "Phoenix, IntSkipOff, chargeBoots, NanoCount:2" ],
-            "visibility_rules": [ "ShipVendorOn"],
-            "item_count": 1
+            "ref": "Ship Vendor/Vendor/Ship Vendor Wings 3 - 6,000"
           },
           {
             "name": "Ship Vendor Nose 1 - 8,000",
-            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:2", "Phoenix, IntSkipOff, Heli, NanoCount:2", "Phoenix, IntSkipOff, chargeBoots, NanoCount:2" ],
-            "visibility_rules": [ "ShipVendorOn"],
-            "item_count": 1
+            "ref": "Ship Vendor/Vendor/Ship Vendor Nose 1 - 8,000"
           },
           {
             "name": "Ship Vendor Nose 2 - 10,000",
-            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:3", "Phoenix, IntSkipOff, Heli, NanoCount:3", "Phoenix, IntSkipOff, chargeBoots, NanoCount:3" ],
-            "visibility_rules": [ "ShipVendorOn"],
-            "item_count": 1
+            "ref": "Ship Vendor/Vendor/Ship Vendor Nose 2 - 10,000"
           },
           {
             "name": "Ship Vendor Nose 3 - 12,000",
-            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:3", "Phoenix, IntSkipOff, Heli, NanoCount:3", "Phoenix, IntSkipOff, chargeBoots, NanoCount:3" ],
-            "visibility_rules": [ "ShipVendorOn"],
-            "item_count": 1
+            "ref": "Ship Vendor/Vendor/Ship Vendor Nose 3 - 12,000"
           },
           {
             "name": "Ship Vendor Skin 1 - 14,000",
-            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:4", "Phoenix, IntSkipOff, Heli, NanoCount:4", "Phoenix, IntSkipOff, chargeBoots, NanoCount:4" ],
-            "visibility_rules": [ "ShipVendorOn"],
-            "item_count": 1
+            "ref": "Ship Vendor/Vendor/Ship Vendor Skin 1 - 14,000"
           },
           {
             "name": "Ship Vendor Skin 2 - 15,000",
-            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:4", "Phoenix, IntSkipOff, Heli, NanoCount:4", "Phoenix, IntSkipOff, chargeBoots, NanoCount:4" ],
-            "visibility_rules": [ "ShipVendorOn"],
-            "item_count": 1
+            "ref": "Ship Vendor/Vendor/Ship Vendor Skin 2 - 15,000"
           },
           {
             "name": "Ship Vendor Skin 3 - 16,000",
-            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:5", "Phoenix, IntSkipOff, Heli, NanoCount:5", "Phoenix, IntSkipOff, chargeBoots, NanoCount:5" ],
-            "visibility_rules": [ "ShipVendorOn"],
-            "item_count": 1
+            "ref": "Ship Vendor/Vendor/Ship Vendor Skin 3 - 16,000"
           },
           {
             "name": "Ship Vendor Skin 4 - 17,000",
-            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:5", "Phoenix, IntSkipOff, Heli, NanoCount:5", "Phoenix, IntSkipOff, chargeBoots, NanoCount:5" ],
-            "visibility_rules": [ "ShipVendorOn"],
-            "item_count": 1
+            "ref": "Ship Vendor/Vendor/Ship Vendor Skin 4 - 17,000"
           },
           {
             "name": "Ship Vendor Skin 5 - 18,000",
-            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:6", "Phoenix, IntSkipOff, Heli, NanoCount:6", "Phoenix, IntSkipOff, chargeBoots, NanoCount:6" ],
-            "visibility_rules": [ "ShipVendorOn"],
-            "item_count": 1
+            "ref": "Ship Vendor/Vendor/Ship Vendor Skin 5 - 18,000"
           },
           {
             "name": "Ship Vendor Skin 6 - 19,000",
-            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:6", "Phoenix, IntSkipOff, Heli, NanoCount:6", "Phoenix, IntSkipOff, chargeBoots, NanoCount:6" ],
-            "visibility_rules": [ "ShipVendorOn"],
-            "item_count": 1
+            "ref": "Ship Vendor/Vendor/Ship Vendor Skin 6 - 19,000"
           },
           {
             "name": "Ship Vendor Skin 7 - 20,000",
-            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:7", "Phoenix, IntSkipOff, Heli, NanoCount:7", "Phoenix, IntSkipOff, chargeBoots, NanoCount:7" ],
-            "visibility_rules": [ "ShipVendorOn"],
-            "item_count": 1
+            "ref": "Ship Vendor/Vendor/Ship Vendor Skin 7 - 20,000"
           },
           {
             "name": "Ship Vendor Skin 8 - 21,000",
-            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:7", "Phoenix, IntSkipOff, Heli, NanoCount:7", "Phoenix, IntSkipOff, chargeBoots, NanoCount:7" ],
-            "visibility_rules": [ "ShipVendorOn"],
-            "item_count": 1
+            "ref": "Ship Vendor/Vendor/Ship Vendor Skin 8 - 21,000"
           },
           {
             "name": "Ship Vendor Skin 9 - 22,000",
-            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:8", "Phoenix, IntSkipOff, Heli, NanoCount:8", "Phoenix, IntSkipOff, chargeBoots, NanoCount:8" ],
-            "visibility_rules": [ "ShipVendorOn"],
-            "item_count": 1
+            "ref": "Ship Vendor/Vendor/Ship Vendor Skin 9 - 22,000"
           },
           {
             "name": "Ship Vendor Skin 10 - 23,000",
-            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:8", "Phoenix, IntSkipOff, Heli, NanoCount:8", "Phoenix, IntSkipOff, chargeBoots, NanoCount:8" ],
-            "visibility_rules": [ "ShipVendorOn"],
-            "item_count": 1
+            "ref": "Ship Vendor/Vendor/Ship Vendor Skin 10 - 23,000"
           },
           {
             "name": "Ship Vendor Skin 11 - 24,000",
-            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:9", "Phoenix, IntSkipOff, Heli, NanoCount:9", "Phoenix, IntSkipOff, chargeBoots, NanoCount:9" ],
-            "visibility_rules": [ "ShipVendorOn"],
-            "item_count": 1
+            "ref": "Ship Vendor/Vendor/Ship Vendor Skin 11 - 24,000"
           },
           {
             "name": "Ship Vendor Skin 12 - 25,000",
-            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:9", "Phoenix, IntSkipOff, Heli, NanoCount:9", "Phoenix, IntSkipOff, chargeBoots, NanoCount:9" ],
-            "visibility_rules": [ "ShipVendorOn"],
-            "item_count": 1
+            "ref": "Ship Vendor/Vendor/Ship Vendor Skin 12 - 25,000"
           },
           {
             "name": "Ship Vendor Skin 13 - 26,000",
-            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:10", "Phoenix, IntSkipOff, Heli, NanoCount:10", "Phoenix, IntSkipOff, chargeBoots, NanoCount:10" ],
-            "visibility_rules": [ "ShipVendorOn"],
-            "item_count": 1
+            "ref": "Ship Vendor/Vendor/Ship Vendor Skin 13 - 26,000"
           },
           {
             "name": "Ship Vendor Skin 14 - 27,000",
-            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:10", "Phoenix, IntSkipOff, Heli, NanoCount:10", "Phoenix, IntSkipOff, chargeBoots, NanoCount:10" ],
-            "visibility_rules": [ "ShipVendorOn"],
-            "item_count": 1
+            "ref": "Ship Vendor/Vendor/Ship Vendor Skin 14 - 27,000"
           },
           {
             "name": "Ship Vendor Skin 15 - 28,000",
-            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:11", "Phoenix, IntSkipOff, Heli, NanoCount:11", "Phoenix, IntSkipOff, chargeBoots, NanoCount:11" ],
-            "visibility_rules": [ "ShipVendorOn"],
-            "item_count": 1
+            "ref": "Ship Vendor/Vendor/Ship Vendor Skin 15 - 28,000"
           },
           {
             "name": "Ship Vendor Skin 16 - 29,000",
-            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:11", "Phoenix, IntSkipOff, Heli, NanoCount:11", "Phoenix, IntSkipOff, chargeBoots, NanoCount:11" ],
-            "visibility_rules": [ "ShipVendorOn"],
-            "item_count": 1
+            "ref": "Ship Vendor/Vendor/Ship Vendor Skin 16 - 29,000"
           },
           {
             "name": "Ship Vendor Skin 17 - 30,000",
-            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:12", "Phoenix, IntSkipOff, Heli, NanoCount:12", "Phoenix, IntSkipOff, chargeBoots, NanoCount:12" ],
-            "visibility_rules": [ "ShipVendorOn"],
-            "item_count": 1
+            "ref": "Ship Vendor/Vendor/Ship Vendor Skin 17 - 30,000"
           },
           {
             "name": "Ship Vendor Skin 18 - 31,000",
-            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:12", "Phoenix, IntSkipOff, Heli, NanoCount:12", "Phoenix, IntSkipOff, chargeBoots, NanoCount:12" ],
-            "visibility_rules": [ "ShipVendorOn"],
-            "item_count": 1
+            "ref": "Ship Vendor/Vendor/Ship Vendor Skin 18 - 31,000"
           },
           {
             "name": "Ship Vendor Skin 19 - 32,000",
-            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:13", "Phoenix, IntSkipOff, Heli, NanoCount:13", "Phoenix, IntSkipOff, chargeBoots, NanoCount:13" ],
-            "visibility_rules": [ "ShipVendorOn"],
-            "item_count": 1
+            "ref": "Ship Vendor/Vendor/Ship Vendor Skin 19 - 32,000"
           },
           {
             "name": "Ship Vendor Skin 20 - 33,000",
-            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:13", "Phoenix, IntSkipOff, Heli, NanoCount:13", "Phoenix, IntSkipOff, chargeBoots, NanoCount:13" ],
-            "visibility_rules": [ "ShipVendorOn"],
-            "item_count": 1
+            "ref": "Ship Vendor/Vendor/Ship Vendor Skin 20 - 33,000"
           },
           {
             "name": "Ship Vendor Skin 21 - 34,000",
-            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:14", "Phoenix, IntSkipOff, Heli, NanoCount:14", "Phoenix, IntSkipOff, chargeBoots, NanoCount:14" ],
-            "visibility_rules": [ "ShipVendorOn"],
-            "item_count": 1
+            "ref": "Ship Vendor/Vendor/Ship Vendor Skin 21 - 34,000"
           },
           {
             "name": "Ship Vendor Skin 22 - 35,000",
-            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:14", "Phoenix, IntSkipOff, Heli, NanoCount:14", "Phoenix, IntSkipOff, chargeBoots, NanoCount:14" ],
-            "visibility_rules": [ "ShipVendorOn"],
-            "item_count": 1
+            "ref": "Ship Vendor/Vendor/Ship Vendor Skin 22 - 35,000"
           },
           {
             "name": "Ship Vendor Skin 23 - 36,000",
-            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:15", "Phoenix, IntSkipOff, Heli, NanoCount:15", "Phoenix, IntSkipOff, chargeBoots, NanoCount:15" ],
-            "visibility_rules": [ "ShipVendorOn"],
-            "item_count": 1
+            "ref": "Ship Vendor/Vendor/Ship Vendor Skin 23 - 36,000"
           },
           {
             "name": "Ship Vendor Skin 24 - 37,000",
-            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:15", "Phoenix, IntSkipOff, Heli, NanoCount:15", "Phoenix, IntSkipOff, chargeBoots, NanoCount:15" ],
-            "visibility_rules": [ "ShipVendorOn"],
-            "item_count": 1
+            "ref": "Ship Vendor/Vendor/Ship Vendor Skin 24 - 37,000"
           },
           {
             "name": "Ship Vendor Skin 25 - 38,000",
-            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:16", "Phoenix, IntSkipOff, Heli, NanoCount:16", "Phoenix, IntSkipOff, chargeBoots, NanoCount:16" ],
-            "visibility_rules": [ "ShipVendorOn"],
-            "item_count": 1
+            "ref": "Ship Vendor/Vendor/Ship Vendor Skin 25 - 38,000"
           },
           {
             "name": "Ship Vendor Skin 26 - 39,000",
-            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:16", "Phoenix, IntSkipOff, Heli, NanoCount:16", "Phoenix, IntSkipOff, chargeBoots, NanoCount:16" ],
-            "visibility_rules": [ "ShipVendorOn"],
-            "item_count": 1
+            "ref": "Ship Vendor/Vendor/Ship Vendor Skin 26 - 39,000"
           },
           {
             "name": "Ship Vendor Skin 27 - 40,000",
-            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:17", "Phoenix, IntSkipOff, Heli, NanoCount:17", "Phoenix, IntSkipOff, chargeBoots, NanoCount:17" ],
-            "visibility_rules": [ "ShipVendorOn"],
-            "item_count": 1
+            "ref": "Ship Vendor/Vendor/Ship Vendor Skin 27 - 40,000"
           },
           {
             "name": "Ship Vendor Skin 28 - 41,000",
-            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:17", "Phoenix, IntSkipOff, Heli, NanoCount:17", "Phoenix, IntSkipOff, chargeBoots, NanoCount:17" ],
-            "visibility_rules": [ "ShipVendorOn"],
-            "item_count": 1
+            "ref": "Ship Vendor/Vendor/Ship Vendor Skin 28 - 41,000"
           },
           {
             "name": "Ship Vendor Skin 29 - 42,000",
-            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:18", "Phoenix, IntSkipOff, Heli, NanoCount:18", "Phoenix, IntSkipOff, chargeBoots, NanoCount:18" ],
-            "visibility_rules": [ "ShipVendorOn"],
-            "item_count": 1
+            "ref": "Ship Vendor/Vendor/Ship Vendor Skin 29 - 42,000"
           },
           {
             "name": "Ship Vendor Skin 30 - 43,000",
-            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:18", "Phoenix, IntSkipOff, Heli, NanoCount:18", "Phoenix, IntSkipOff, chargeBoots, NanoCount:18" ],
-            "visibility_rules": [ "ShipVendorOn"],
-            "item_count": 1
+            "ref": "Ship Vendor/Vendor/Ship Vendor Skin 30 - 43,000"
           },
           {
             "name": "Ship Vendor Skin 31 - 44,000",
-            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:19", "Phoenix, IntSkipOff, Heli, NanoCount:19", "Phoenix, IntSkipOff, chargeBoots, NanoCount:19" ],
-            "visibility_rules": [ "ShipVendorOn"],
-            "item_count": 1
+            "ref": "Ship Vendor/Vendor/Ship Vendor Skin 31 - 44,000"
           },
           {
             "name": "Ship Vendor Skin 32 - 45,000",
-            "access_rules": [ "Phoenix, IntSkipOn, NanoCount:19", "Phoenix, IntSkipOff, Heli, NanoCount:19", "Phoenix, IntSkipOff, chargeBoots, NanoCount:19" ],
-            "visibility_rules": [ "ShipVendorOn"],
-            "item_count": 1
+            "ref": "Ship Vendor/Vendor/Ship Vendor Skin 32 - 45,000"
           },
           {
             "name": "T-Bolt: VR Gadget Training",
-            "access_rules": [ "Phoenix, IntSkipOn, Tyhrranosis, hacker, hyperShot", "Phoenix, IntSkipOff, Heli, Tyhrranosis, hacker, hyperShot", "Phoenix, IntSkipOff, chargeBoots, Tyhrranosis, hacker, hyperShot" ],
-            "visibility_rules": [ "Bolt"],
-            "item_count": 1
+            "ref": "Phoenix/VR Training/T-Bolt: VR Gadget Training"
           },
           {
             "name": "SP: Beat Helga's Best Time (0:50)",
-            "visibility_rules": [ "SkillMaster", "SkillSimple" ],
-            "access_rules": [ "Phoenix, IntSkipOn, Tyhrranosis, hacker, hyperShot", "Phoenix, IntSkipOff, Heli, Tyhrranosis, hacker, hyperShot", "Phoenix, IntSkipOff, chargeBoots, Tyhrranosis, hacker, hyperShot" ],
-            "item_count": 1
+            "ref": "Phoenix/VR Training/Skill Point: Beat Helga's Best Time (0:50)"
           },
           {
             "name": "VR Gadget Training Complete",
-            "visibility_rules": ["VRChecksOn" ],
-            "access_rules": [ "Phoenix, IntSkipOn, Tyhrranosis, hacker, hyperShot", "Phoenix, IntSkipOff, Heli, Tyhrranosis, hacker, hyperShot", "Phoenix, IntSkipOff, chargeBoots, Tyhrranosis, hacker, hyperShot" ],
-            "item_count": 1
+            "ref": "Phoenix/VR Training/VR Gadget Training Complete"
           },
           {
             "name": "VR Gadget Training Reward 1",
-            "visibility_rules": ["VRChecksOn" ],
-            "access_rules": [ "Phoenix, IntSkipOn, Tyhrranosis, hacker, hyperShot", "Phoenix, IntSkipOff, Heli, Tyhrranosis, hacker, hyperShot", "Phoenix, IntSkipOff, chargeBoots, Tyhrranosis, hacker, hyperShot" ],
-            "item_count": 1
+            "ref": "Phoenix/VR Training/VR Gadget Training Reward 1"
           },
           {
             "name": "VR Gadget Training Reward 2",
-            "visibility_rules": ["VRChecksOn" ],
-            "access_rules": [ "Phoenix, IntSkipOn, Tyhrranosis, hacker, hyperShot", "Phoenix, IntSkipOff, Heli, Tyhrranosis, hacker, hyperShot", "Phoenix, IntSkipOff, chargeBoots, Tyhrranosis, hacker, hyperShot" ],
-            "item_count": 1
+            "ref": "Phoenix/VR Training/VR Gadget Training Reward 2"
           },
           {
             "name": "VR: Warm Up",
-            "access_rules": [ "Phoenix, IntSkipOn", "Phoenix, IntSkipOff, Heli", "Phoenix, IntSkipOff, chargeBoots" ],
-            "visibility_rules": [ "VRChecksOn" ],
-            "item_count": 1
+            "ref": "Phoenix/VR Training/Warm Up"
           },
           {
             "name": "VR: Don't Look Down",
-            "access_rules": [ "Phoenix, IntSkipOn", "Phoenix, IntSkipOff, Heli", "Phoenix, IntSkipOff, chargeBoots" ],
-            "visibility_rules": [ "VRChecksOn" ],
-            "item_count": 1
+            "ref": "Phoenix/VR Training/Don't Look Down"
           },
           {
             "name": "VR: Speed Round",
-            "access_rules": [ "Phoenix, IntSkipOn", "Phoenix, IntSkipOff, Heli", "Phoenix, IntSkipOff, chargeBoots" ],
-            "visibility_rules": [ "VRChecksOn" ],
-            "item_count": 1
+            "ref": "Phoenix/VR Training/Speed Round"
           },
           {
             "name": "VR: Hot Stepper",
-            "access_rules": [ "Phoenix, IntSkipOn", "Phoenix, IntSkipOff, Heli", "Phoenix, IntSkipOff, chargeBoots" ],
-            "visibility_rules": [ "VRChecksOn" ],
-            "item_count": 1
+            "ref": "Phoenix/VR Training/Hot Stepper"
           },
           {
             "name": "VR: 90 Second Slayer",
-            "access_rules": [ "Phoenix, IntSkipOn", "Phoenix, IntSkipOff, Heli", "Phoenix, IntSkipOff, chargeBoots" ],
-            "visibility_rules": [ "VRChecksOn" ],
-            "item_count": 1
+            "ref": "Phoenix/VR Training/90 Second Slayer"
           },
           {
             "name": "VR: The Shocker",
-            "access_rules": [ "Phoenix, IntSkipOn, ShockBlaster", "Phoenix, IntSkipOff, Heli, ShockBlaster", "Phoenix, IntSkipOff, chargeBoots, ShockBlaster" ],
-            "visibility_rules": [ "VRChecksOn" ],
-            "item_count": 1
+            "ref": "Phoenix/VR Training/The Shocker"
           },
           {
             "name": "VR: Wrench Beatdown",
-            "access_rules": [ "Phoenix, IntSkipOn, ShockBlaster", "Phoenix, IntSkipOff, Heli, ShockBlaster", "Phoenix, IntSkipOff, chargeBoots, ShockBlaster" ],
-            "visibility_rules": [ "VRChecksOn" ],
-            "item_count": 1
+            "ref": "Phoenix/VR Training/Wrench Beatdown"
           },
           {
             "name": "VR: Nerves of Titanium",
-            "access_rules": [ "Phoenix, IntSkipOn, ShockBlaster", "Phoenix, IntSkipOff, Heli, ShockBlaster", "Phoenix, IntSkipOff, chargeBoots, ShockBlaster" ],
-            "visibility_rules": [ "VRChecksOn" ],
-            "item_count": 1
+            "ref": "Phoenix/VR Training/Nerves of Titanium"
           },
           {
             "name": "T-Bolt: VR Nerves of Titanium",
-            "access_rules": [ "Phoenix, IntSkipOn, ShockBlaster", "Phoenix, IntSkipOff, Heli, ShockBlaster", "Phoenix, IntSkipOff, chargeBoots, ShockBlaster" ],
-            "visibility_rules": [ "VRChecksOn, Bolt" ],
-            "item_count": 1
+            "ref": "Phoenix/VR Training/T-Bolt: Nerves of Titanium"
           },
           {
             "name": "Armor Vendor 1 - 10,000",
-            "access_rules": [ "Phoenix, IntSkipOn", "Phoenix, IntSkipOff, Heli", "Phoenix, IntSkipOff, chargeBoots" ],
-            "visibility_rules": ["ArmorVendorOn"],
-            "item_count": 1
+            "ref": "Phoenix/Armor Vendor/Armor Vendor 1 - 10,000"
           },
           {
             "name": "Armor Vendor 2 - 60,000",
-            "visibility_rules": ["ArmorVendorOn"],
-            "access_rules": [ "Phoenix, IntSkipOn, Aquatos", "Phoenix, IntSkipOff, Heli, Aquatos", "Phoenix, IntSkipOff, chargeBoots, Aquatos" ],
-            "item_count": 1
+            "ref": "Phoenix/Armor Vendor/Armor Vendor 2 - 60,000"
           },
           {
             "name": "Armor Vendor 3 - 250,000",
-            "visibility_rules": ["ArmorVendorOn"],
-            "access_rules": [ "Phoenix, IntSkipOn, ZeldrinStarport", "Phoenix, IntSkipOff, Heli, ZeldrinStarport", "Phoenix, IntSkipOff, chargeBoots, ZeldrinStarport" ],
-            "item_count": 1
+            "ref": "Phoenix/Armor Vendor/Armor Vendor 3 - 250,000"
           },
           {
             "name": "Armor Vendor 4 - 1,000,000",
-            "visibility_rules": ["ArmorVendorOn"],
-            "access_rules": [ "Phoenix, IntSkipOn, Koros", "Phoenix, IntSkipOff, Heli, Koros", "Phoenix, IntSkipOff, chargeBoots, Koros" ],
-            "item_count": 1
+            "ref": "Phoenix/Armor Vendor/Armor Vendor 4 - 1,000,000"
           },
           {
             "name": "SP: Turn Up The Heat!",
-            "visibility_rules": [ "SkillMaster", "SkillSimple" ],
-            "access_rules": [ "Phoenix, IntSkipOn, Koros", "Phoenix, IntSkipOff, Heli, Koros", "Phoenix, IntSkipOff, chargeBoots, Koros" ],
-            "item_count": 1
+            "ref": "Phoenix/Armor Vendor/Skill Point: Turn Up The Heat!"
           },
           {
             "name": "Meet Sasha on the Bridge",
-            "access_rules": [ "Phoenix, IntSkipOn", "Phoenix, IntSkipOff, Heli", "Phoenix, IntSkipOff, chargeBoots" ],
-            "visibility_rules": ["Unstable" ],
-            "item_count": 1
+            "ref": "Phoenix/The Bridge/Meet Sasha on the Bridge"
           },
           {
             "name": "Return after winning Grand Prize Bout",
-            "visibility_rules": [ "ArenaOn", "ArenaFirst" ],
-            "access_rules": [ "Phoenix, IntSkipOn, Annihilation", "Phoenix, IntSkipOff, Heli, Annihilation", "Phoenix, IntSkipOff, chargeBoots, Annihilation" ],
-            "item_count": 1
+            "ref": "Phoenix/Phoenix Missions/Return after winning Grand Prize Bout"
           },
           {
             "name": "Deliver the Star Map to Qwark",
-            "access_rules": [ "Phoenix, IntSkipOn, StarMap", "Phoenix, IntSkipOff, Heli, StarMap", "Phoenix, IntSkipOff, chargeBoots, StarMap" ],
-            "item_count": 1
+            "ref": "Phoenix/Phoenix Missions/Deliver the Star Map to Qwark"
           },
           {
             "name": "Give Al the Master Plan",
-            "access_rules": [ "Phoenix, IntSkipOn, MasterPlan", "Phoenix, IntSkipOff, Heli, MasterPlan", "Phoenix, IntSkipOff, chargeBoots, MasterPlan" ],
-            "item_count": 1
+            "ref": "Phoenix/Phoenix Missions/Give Al the Master Plan"
           },
           {
             "name": "Qwark Vidcomic 1 Clear",
-            "visibility_rules": [ "VCChecksOn" ],
-            "access_rules": [ "Phoenix, IntSkipOn, vidComic", "Phoenix, IntSkipOff, Heli, vidComic", "Phoenix, IntSkipOff, chargeBoots, vidComic" ],
-            "item_count": 1
+            "ref": "Phoenix/Qwark Vid Comics/Qwark Vidcomic 1 Clear"
           },
           {
             "name": "SP: Pirate Booty - Set a new record for Qwark (2:40)",
-            "visibility_rules": [ "VCChecksOn, SkillMaster" ],
-            "access_rules": [ "Phoenix, IntSkipOn, vidComic", "Phoenix, IntSkipOff, Heli, vidComic", "Phoenix, IntSkipOff, chargeBoots, vidComic" ],
-            "item_count": 1
+            "ref": "Phoenix/Qwark Vid Comics/SP: Pirate Booty - Set a new record for Qwark (2:40)"
           },
           {
             "name": "T-Bolt: VidComic 1 100%",
-            "access_rules": [ "Phoenix, IntSkipOn, vidComic", "Phoenix, IntSkipOff, Heli, vidComic", "Phoenix, IntSkipOff, chargeBoots, vidComic" ],
-            "visibility_rules": [ "VCChecksOn, Bolt" ],
-            "item_count": 1
+            "ref": "Phoenix/Qwark Vid Comics/T-Bolt: Vidcomic 1 100% Clear"
           },
           {
             "name": "Qwark Vidcomic 2 Clear",
-            "visibility_rules": [ "VCChecksOn" ],
-            "access_rules": [ "Phoenix, IntSkipOn, vidComic2", "Phoenix, IntSkipOff, Heli, vidComic2", "Phoenix, IntSkipOff, chargeBoots, vidComic2" ],
-            "item_count": 1
+            "ref": "Phoenix/Qwark Vid Comics/Qwark Vidcomic 2 Clear"
           },
           {
             "name": "SP: Arriba Amoeba! - Set a new record for Qwark (2:10)",
-            "visibility_rules": [ "VCChecksOn, SkillMaster" ],
-            "access_rules": [ "Phoenix, IntSkipOn, vidComic2", "Phoenix, IntSkipOff, Heli, vidComic2", "Phoenix, IntSkipOff, chargeBoots, vidComic2" ],
-            "item_count": 1
+            "ref": "Phoenix/Qwark Vid Comics/SP: Arriba Amoeba! - Set a new record for Qwark (2:10)"
           },
           {
             "name": "T-Bolt: VidComic 2 100%",
-            "access_rules": [ "Phoenix, IntSkipOn, vidComic2", "Phoenix, IntSkipOff, Heli, vidComic2", "Phoenix, IntSkipOff, chargeBoots, vidComic2" ],
-            "visibility_rules": [ "VCChecksOn, Bolt" ],
-            "item_count": 1
+            "ref": "Phoenix/Qwark Vid Comics/T-Bolt: Vidcomic 2 100% Clear"
           },
           {
             "name": "Qwark Vidcomic 3 Clear",
-            "visibility_rules": [ "VCChecksOn" ],
-            "access_rules": [ "Phoenix, IntSkipOn, vidComic3", "Phoenix, IntSkipOff, Heli, vidComic3", "Phoenix, IntSkipOff, chargeBoots, vidComic3" ],
-            "item_count": 1
+            "ref": "Phoenix/Qwark Vid Comics/Qwark Vidcomic 3 Clear"
           },
           {
             "name": "SP: Shadow of the Robot - Set a new record for Qwark (1:50)",
-            "visibility_rules": [ "VCChecksOn, SkillMaster" ],
-            "access_rules": [ "Phoenix, IntSkipOn, vidComic3", "Phoenix, IntSkipOff, Heli, vidComic3", "Phoenix, IntSkipOff, chargeBoots, vidComic3" ],
-            "item_count": 1
+            "ref": "Phoenix/Qwark Vid Comics/SP: Shadow of the Robot - Set a new record for Qwark (1:50)"
           },
           {
             "name": "T-Bolt: VidComic 3 100%",
-            "access_rules": [ "Phoenix, IntSkipOn, vidComic3", "Phoenix, IntSkipOff, Heli, vidComic3", "Phoenix, IntSkipOff, chargeBoots, vidComic3" ],
-            "visibility_rules": [ "VCChecksOn, Bolt" ],
-            "item_count": 1
+            "ref": "Phoenix/Qwark Vid Comics/T-Bolt: Vidcomic 3 100% Clear"
           },
           {
             "name": "Qwark Vidcomic 4 Clear",
-            "visibility_rules": [ "VCChecksOn" ],
-            "access_rules": [ "Phoenix, IntSkipOn, vidComic4", "Phoenix, IntSkipOff, Heli, vidComic4", "Phoenix, IntSkipOff, chargeBoots, vidComic4" ],
-            "item_count": 1
+            "ref": "Phoenix/Qwark Vid Comics/Qwark Vidcomic 4 Clear"
           },
           {
             "name": "SP: Deja Q All Over Again - Set a new record for Qwark (4:45)",
-            "visibility_rules": [ "VCChecksOn, SkillMaster" ],
-            "access_rules": [ "Phoenix, IntSkipOn, vidComic4", "Phoenix, IntSkipOff, Heli, vidComic4", "Phoenix, IntSkipOff, chargeBoots, vidComic4" ],
-            "item_count": 1
+            "ref": "Phoenix/Qwark Vid Comics/SP: Deja Q All Over Again - Set a new record for Qwark (4:45)"
           },
           {
             "name": "T-Bolt: VidComic 4 100%",
-            "access_rules": [ "Phoenix, IntSkipOn, vidComic4", "Phoenix, IntSkipOff, Heli, vidComic4", "Phoenix, IntSkipOff, chargeBoots, vidComic4" ],
-            "visibility_rules": [ "VCChecksOn, Bolt" ],
-            "item_count": 1
+            "ref": "Phoenix/Qwark Vid Comics/T-Bolt: Vidcomic 4 100% Clear"
           },
           {
             "name": "Qwark Vidcomic 5 Clear",
-            "visibility_rules": [ "VCChecksOn" ],
-            "access_rules": [ "Phoenix, IntSkipOn, vidComic5", "Phoenix, IntSkipOff, Heli, vidComic5", "Phoenix, IntSkipOff, chargeBoots, vidComic5" ],
-            "item_count": 1
+            "ref": "Phoenix/Qwark Vid Comics/Qwark Vidcomic 5 Clear"
           },
           {
             "name": "SP: The Shaming of the Q - Set a new record for Qwark (2:00)",
-            "visibility_rules": [ "VCChecksOn, SkillMaster" ],
-            "access_rules": [ "Phoenix, IntSkipOn, vidComic5", "Phoenix, IntSkipOff, Heli, vidComic5", "Phoenix, IntSkipOff, chargeBoots, vidComic5" ],
-            "item_count": 1
+            "ref": "Phoenix/Qwark Vid Comics/SP: The Shaming of the Q - Set a new record for Qwark (2:00)"
           },
           {
             "name": "T-Bolt: VidComic 5 100%",
-            "access_rules": [ "Phoenix, IntSkipOn, vidComic5", "Phoenix, IntSkipOff, Heli, vidComic5", "Phoenix, IntSkipOff, chargeBoots, vidComic5" ],
-            "visibility_rules": [ "VCChecksOn, Bolt" ],
-            "item_count": 1
+            "ref": "Phoenix/Qwark Vid Comics/T-Bolt: Vidcomic 5 100% Clear"
           },
           {
             "name": "SP: Strive for Arcade Perfection",
-            "visibility_rules": [ "VCChecksOn, SkillMaster" ],
-            "access_rules": [ "Phoenix, IntSkipOn, vidComic5", "Phoenix, IntSkipOff, Heli, vidComic5", "Phoenix, IntSkipOff, chargeBoots, vidComic5" ],
-            "item_count": 1
+            "ref": "Phoenix/Qwark Vid Comics/Skill Point: Strive for Arcade Perfection"
           },
           {
             "name": "SP: Monkeying Around",
-            "visibility_rules": [ "SkillMaster, Unstable", "SkillSimple, Unstable" ],
-            "access_rules": [ "Phoenix, IntSkipOn, tyhrraGuise", "Phoenix, IntSkipOff, Heli, tyhrraGuise", "Phoenix, IntSkipOff, chargeBoots, tyhrraGuise" ],
-            "item_count": 1
+            "ref": "Phoenix/The Bridge/Skill Point: Monkeying Around"
           },
           {
             "name": "Post Hideout Assault",
-            "access_rules": [ "QwarksHideout, refractor, warpPad, hyperShot, Phoenix, IntSkipOn", "QwarksHideout, refractor, warpPad, hyperShot, Phoenix, IntSkipOff, Heli", "QwarksHideout, refractor, warpPad, hyperShot, Phoenix, IntSkipOff, chargeBoots" ],
-            "item_count": 1
+            "ref": "Phoenix/Get to the Bridge/Post Hideout Assault"
           },
           {
             "name": "Long Term Trophy: Titanium Collector",
-            "access_rules": [ "refractor, warpPad, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots, Marcadia, Annihilation, Aquatos, Tyhrranosis, Daxx, Gemini, Blackwater, Holostar, ZeldrinStarport, Metropolis, CrashSite, Aridia, QwarksHideout, Koros, CommandCenter, Phoenix"],
-            "visibility_rules": [ "Bolt, TrophiesAll" ],
-            "item_count": 1
+            "ref": "Phoenix/Long Term Trophies/Titanium Collector"
           },
           {
             "name": "Long Term Trophy: Friend of the Rangers",
-            "access_rules": [ "refractor, gravBoots, Marcadia, Tyhrranosis, Blackwater, Metropolis, Aridia, Phoenix" ],
-            "visibility_rules": [ "RangerOn, TrophiesAll" ],
-            "item_count": 1
+            "ref": "Phoenix/Long Term Trophies/Friend of the Rangers"
           },
           {
             "name": "Long Term Trophy: Annihilation Nation Champion",
-            "access_rules": [ "Daxx, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots, refractor, CommandCenter, Phoenix" ],
-            "visibility_rules": [ "ArenaOn, TrophiesAll" ],
-            "item_count": 1
+            "ref": "Phoenix/Long Term Trophies/Annihilation Nation Champion"
           },
           {
             "name": "Long Term Trophy: Skill Master",
-            "access_rules": [ "refractor, warpPad, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots, Marcadia, Annihilation, Aquatos, Tyhrranosis, Daxx, Gemini, Blackwater, Holostar, ZeldrinStarport, Metropolis, CrashSite, Aridia, QwarksHideout, Koros, CommandCenter, PlasmaWhip, SpittingHydra, SuckCannon, DiskBladeGun, FluxRifle, QwackORay, Annihilator, Infector",
-          "refractor, warpPad, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots, Marcadia, Annihilation, Aquatos, Tyhrranosis, Daxx, Gemini, Blackwater, Holostar, ZeldrinStarport, Metropolis, CrashSite, Aridia, QwarksHideout, Koros, CommandCenter, PlasmaWhip, SpittingHydra, NPSuckCannon, DiskBladeGun, FluxRifle, QwackORay, Annihilator, Infector, Phoenix" ],
-            "visibility_rules": [ "SkillMaster, TrophiesAll, RangerOn, ArenaOn, VCChecksOn, CrystalsTotal:100, 1HPRatOff" ],
-            "item_count": 1
+            "ref": "Phoenix/Long Term Trophies/Skill Master"
           },
           {
             "name": "Long Term Trophy: Nano Finder",
-            "visibility_rules": [ "NGP, TrophiesAll, NanoTotal:200" ],
-            "access_rules": ["NGP, IntSkipOff, XPM1, NanoCount:10", "NGP, IntSkipOff, XPM2, NanoCount:7", "NGP, IntSkipOff, XPM4, NanoCount:5", "NGP, IntSkipOff, XPM8, NanoCount:4", "NGP, IntSkipOff, XPM16, NanoCount:2", "NGP, IntSkipOn, XPM1, NanoCount:11", "NGP, IntSkipOn, XPM2, NanoCount:8", "NGP, IntSkipOn, XPM4, NanoCount:6", "NGP, IntSkipOn, XPM8, NanoCount:5", "NGP, IntSkipOn, XPM16, NanoCount:3"],
-            "item_count": 1
+            "ref": "Phoenix/Long Term Trophies/Nano Finder"
           },
           {
             "name": "Long Term Trophy: Omega Arsenal",
-            "visibility_rules": [ "NGP, TrophiesAll" ],
-            "access_rules": [ "ProgWeaponsOff, ShockBlaster, NitroLauncher, N60Storm, PlasmaWhip, Infector, SuckCannon, SpittingHydra, AgentsOfDoom, FluxRifle, Annihilator, HoloShieldGlove, DiskBladeGun, RiftInducer, QwackORay, RY3N0, MiniTurretGlove, LavaGun, ShieldCharger, Bouncer, PlasmaCoil", 
-          "ProgWeaponsOn, ShockBlaster:8, NitroLauncher:8, N60Storm:8, PlasmaWhip:8, Infector:8, SuckCannon:8, SpittingHydra:8, AgentsOfDoom:8, FluxRifle:8, Annihilator:8, HoloShieldGlove:8, DiskBladeGun:8, RiftInducer:8, QwackORay:8, RY3N0:5, MiniTurretGlove:8, LavaGun:8, ShieldCharger:8, Bouncer:8, PlasmaCoil:8" ],
-            "item_count": 1
+            "ref": "Phoenix/Long Term Trophies/Omega Arsenal"
           }
         ]
       },
@@ -633,71 +448,51 @@
         "sections": [
           {
             "name": "Gadgetron Vendor - 40,000",
-            "visibility_rules": [ "WepVendorOn"],
-            "item_count": 1
+            "ref": "Marcadia/Vendor/Gadgetron Vendor - 40,000"
           },
           {
             "name": "Start of Laser Defence Facility",
-            "visibility_rules": [ "RangerOn", "RangerStory" ],
-            "item_count": 1
+            "ref": "Marcadia/Laser Defense Facility/Start of Laser Defence Facility"
           },
           {
             "name": "Meet Al",
-            "visibility_rules": [ "RangerOn", "RangerStory" ],
-            "access_rules": [ "refractor" ],
-            "item_count": 1
+            "ref": "Marcadia/Repair the Laser Defense Shield/Meet Al"
           },
           {
             "name": "SP: Reflect on how to score",
-            "visibility_rules": [ "RangerOn, SkillMaster", "RangerStory, SkillMaster", "RangerOn, SkillSimple", "RangerStory, SkillSimple" ],
-            "access_rules": [ "refractor" ],
-            "item_count": 1
+            "ref": "Marcadia/Skill Point: Reflect on how to score/Kill 25 enemies with the Refractor"
           },
           {
             "name": "T-Bolt: After Pool of Water",
-            "visibility_rules": [ "Bolt" ],
-            "item_count": 1
+            "ref": "Marcadia/After Pool of Water/Titanium Bolt"
           },
           {
             "name": "T-Bolt: Last Refractor Room",
-            "visibility_rules": [ "RangerOn, Bolt", "RangerStory, Bolt" ],
-            "access_rules": [
-             "refractor, gravBoots"
-            ],
-            "item_count": 1
+            "ref": "Marcadia/Last Refractor Room/Titanium Bolt"
           },
           {
             "name": "T-Bolt: Ceiling just before Al",
-            "visibility_rules": [ "RangerOn, Bolt", "RangerStory, Bolt" ],
-            "access_rules": [
-             "refractor, gravBoots"
-            ],
-            "item_count": 1
+            "ref": "Marcadia/Ceiling just before Al/Titanium Bolt"
           },
           {
             "name": "IRON SHIELD 1: Secure the Area",
-            "visibility_rules": [ "RangerOn", "RangerStory" ],
-            "item_count": 1
+            "ref": "Marcadia/Operation: IRON SHIELD/Secure the Area"
           },
           {
             "name": "IRON SHIELD 2: Air Assault",
-            "visibility_rules": [ "RangerOn", "RangerStory" ],
-            "item_count": 1
+            "ref": "Marcadia/Operation: IRON SHIELD/Air Assault"
           },
           {
             "name": "IRON SHIELD 3: Turret Command",
-            "visibility_rules": [ "RangerOn", "RangerStory" ],
-            "item_count": 1
+            "ref": "Marcadia/Operation: IRON SHIELD/Turret Command"
           },
           {
             "name": "IRON SHIELD 4: Under the Gun",
-            "visibility_rules": [ "RangerOn", "RangerStory" ],
-            "item_count": 1
+            "ref": "Marcadia/Operation: IRON SHIELD/Under the Gun"
           },
           {
             "name": "IRON SHIELD 5: Hit n' Run",
-            "visibility_rules": [ "RangerOn", "RangerStory" ],
-            "item_count": 1
+            "ref": "Marcadia/Operation: IRON SHIELD/Hit n' Run"
           }
         ]
       },
@@ -714,231 +509,163 @@
         "sections": [
           {
             "name": "Gadgetron Vendor - 60,000",
-            "visibility_rules": [ "WepVendorOn"],
-            "item_count": 1
+            "ref": "Annihilation Nation/Vendor/Gadgetron Vendor - 60,000"
           },
           {
             "name": "Grand Prize Bout Reward",
-            "visibility_rules": [ "ArenaOn", "ArenaFirst" ],
-            "item_count": 1
+            "ref": "Annihilation Nation/Grand Prizes/Grand Prize Bout Reward"
           },
           {
             "name": "Infobot: Holostar Studios",
-            "access_rules": [ "Daxx, hyperShot" ],
-            "visibility_rules": [ "ArenaOn", "ArenaSecond" ],
-            "item_count": 1
+            "ref": "Annihilation Nation/Grand Prizes/Infobot: Holostar Studios"
           },
           {
             "name": "T-Bolt: Cliff",
-            "visibility_rules": [ "ArenaOn, Bolt", "ArenaFirst, Bolt", "ArenaSecond, Bolt" ],
-            "item_count": 1
+            "ref": "Annihilation Nation/Cliff/Titanium Bolt"
           },
           {
             "name": "T-Bolt: Platform",
-            "access_rules": [ "Daxx, hyperShot, Heli", "Daxx, hyperShot, ThrustOn" ],
-            "visibility_rules": [ "ArenaOn, Bolt", "ArenaSecond, Bolt" ],
-            "item_count": 1
+            "ref": "Annihilation Nation/Platform/Titanium Bolt"
           },
           {
             "name": "Heat Street",
-            "visibility_rules": [ "ArenaOn", "ArenaFirst" ],
-            "item_count": 1
+            "ref": "Annihilation Nation/Gauntlet Challenges/Heat Street"
           },
           {
             "name": "Crispy Critter",
-            "visibility_rules": [ "ArenaOn", "ArenaFirst"],
-            "item_count": 1
+            "ref": "Annihilation Nation/Gauntlet Challenges/Crispy Critter"
           },
           {
             "name": "Pyro Playground",
-            "visibility_rules": [ "ArenaOn", "ArenaFirst" ],
-            "item_count": 1
+            "ref": "Annihilation Nation/Gauntlet Challenges/Pyro Playground"
           },
           {
             "name": "Suicide Run",
-            "visibility_rules": [ "ArenaOn", "ArenaFirst" ],
-            "item_count": 1
+            "ref": "Annihilation Nation/Gauntlet Challenges/Suicide Run"
           },
           {
             "name": "BBQ Boulevard",
-            "visibility_rules": [ "ArenaOn", "ArenaSecond" ],
-            "access_rules": [ "Daxx, hyperShot, Heli", "Daxx, hyperShot, ThrustOn", "Daxx, hyperShot, chargeBoots" ],
-            "item_count": 1
+            "ref": "Annihilation Nation/Gauntlet Revisit Challenges/BBQ Boulevard"
           },
           {
             "name": "Maze of Blaze",
-            "visibility_rules": [ "ArenaOn", "ArenaSecond" ],
-            "access_rules": [ "Daxx, hyperShot, Heli", "Daxx, hyperShot, ThrustOn", "Daxx, hyperShot, chargeBoots" ],
-            "item_count": 1
+            "ref": "Annihilation Nation/Gauntlet Revisit Challenges/Maze of Blaze"
           },
           {
             "name": "Cremation Station",
-            "visibility_rules": [ "ArenaOn", "ArenaSecond" ],
-            "access_rules": [ "Daxx, hyperShot, Heli", "Daxx, hyperShot, ThrustOn", "Daxx, hyperShot, chargeBoots" ],
-            "item_count": 1
+            "ref": "Annihilation Nation/Gauntlet Revisit Challenges/Cremation Station"
           },
           {
             "name": "The Annihilator",
-            "visibility_rules": [ "ArenaOn", "ArenaSecond" ],
-            "access_rules": [ "Daxx, hyperShot, Heli", "Daxx, hyperShot, ThrustOn", "Daxx, hyperShot, chargeBoots" ],
-            "item_count": 1
+            "ref": "Annihilation Nation/Gauntlet Revisit Challenges/The Annihilator"
           },
           {
             "name": "Grand Prize Bout",
-            "visibility_rules": [ "ArenaOn", "ArenaFirst" ],
-            "item_count": 1
+            "ref": "Annihilation Nation/Arena Challenges/Grand Prize Bout"
           },
           {
             "name": "The Terrible Two",
-            "visibility_rules": [ "ArenaOn", "ArenaFirst" ],
-            "item_count": 1
+            "ref": "Annihilation Nation/Arena Challenges/The Terrible Two"
           },
           {
             "name": "Robot Rampage",
-            "visibility_rules": [ "ArenaOn", "ArenaFirst" ],
-            "item_count": 1
+            "ref": "Annihilation Nation/Arena Challenges/Robot Rampage"
           },
           {
             "name": "Two Minute Warning",
-            "visibility_rules": [ "ArenaOn", "ArenaFirst" ],
-            "item_count": 1
+            "ref": "Annihilation Nation/Arena Challenges/Two Minute Warning"
           },
           {
             "name": "90 Seconds of Carnage",
-            "visibility_rules": [ "ArenaOn", "ArenaFirst" ],
-            "item_count": 1
+            "ref": "Annihilation Nation/Arena Challenges/90 Seconds of Carnage"
           },
           {
             "name": "Onslaught",
-            "visibility_rules": [ "ArenaOn", "ArenaFirst" ],
-            "item_count": 1
+            "ref": "Annihilation Nation/Arena Challenges/Onslaught"
           },
           {
             "name": "Whip it Good",
-            "visibility_rules": [ "ArenaOn", "ArenaFirst" ],
-            "access_rules": [ "PlasmaWhip" ],
-            "item_count": 1
+            "ref": "Annihilation Nation/Arena Challenges/Whip it Good"
           },
           {
             "name": "Hydra'n Seek",
-            "visibility_rules": [ "ArenaOn", "ArenaFirst" ],
-            "access_rules": [ "SpittingHydra, PlasmaWhip" ],
-            "item_count": 1
+            "ref": "Annihilation Nation/Arena Challenges/Hydra'n Seek"
           },
           {
             "name": "Championship Bout",
-            "visibility_rules": [ "ArenaOn", "ArenaFirst" ],
-            "item_count": 1
+            "ref": "Annihilation Nation/Arena Challenges/Championship Bout"
           },
           {
             "name": "Meet Courtney - Arena",
-            "visibility_rules": [ "ArenaOn", "ArenaSecond" ],
-            "access_rules": [ "Daxx, hyperShot" ],
-            "item_count": 1
+            "ref": "Annihilation Nation/Arena Revisit Challenges/Meet Courtney - Arena"
           },
           {
             "name": "Ninja Challenge",
-            "visibility_rules": [ "ArenaOn", "ArenaSecond" ],
-            "access_rules": [ "Daxx, hyperShot" ],
-            "item_count": 1
+            "ref": "Annihilation Nation/Arena Revisit Challenges/Ninja Challenge"
           },
           {
             "name": "Counting Ducks",
-            "visibility_rules": [ "ArenaOn", "ArenaSecond" ],
-            "access_rules": [ "Daxx, hyperShot" ],
-            "item_count": 1
+            "ref": "Annihilation Nation/Arena Revisit Challenges/Counting Ducks"
           },
           {
             "name": "Cycling Weapons",
-            "visibility_rules": [ "ArenaOn", "ArenaSecond" ],
-            "access_rules": [ "Daxx, hyperShot" ],
-            "item_count": 1
+            "ref": "Annihilation Nation/Arena Revisit Challenges/Cycling Weapons"
           },
           {
             "name": "One Hit Wonder",
-            "visibility_rules": [ "ArenaOn", "ArenaSecond" ],
-            "access_rules": [ "Daxx, hyperShot" ],
-            "item_count": 1
+            "ref": "Annihilation Nation/Arena Revisit Challenges/One Hit Wonder"
           },
           {
             "name": "Time to Suck",
-            "visibility_rules": [ "ArenaOn", "ArenaSecond" ],
-            "access_rules": [ "Daxx, hyperShot, SuckCannon",
-          "Daxx, hyperShot, NPSuckCannon" ],
-            "item_count": 1
+            "ref": "Annihilation Nation/Arena Revisit Challenges/Time to Suck"
           },
           {
             "name": "Naptime",
-            "visibility_rules": [ "ArenaOn", "ArenaSecond" ],
-            "access_rules": [ "Daxx, hyperShot" ],
-            "item_count": 1
+            "ref": "Annihilation Nation/Arena Revisit Challenges/Naptime"
           },
           {
             "name": "More Cycling Weapons",
-            "visibility_rules": [ "ArenaOn", "ArenaSecond" ],
-            "access_rules": [ "Daxx, hyperShot" ],
-            "item_count": 1
+            "ref": "Annihilation Nation/Arena Revisit Challenges/More Cycling Weapons"
           },
           {
             "name": "Dodge the Twins",
-            "visibility_rules": [ "ArenaOn", "ArenaSecond" ],
-            "access_rules": [ "Daxx, hyperShot" ],
-            "item_count": 1
+            "ref": "Annihilation Nation/Arena Revisit Challenges/Dodge the Twins"
           },
           {
             "name": "Chop Chop",
-            "visibility_rules": [ "ArenaOn", "ArenaSecond" ],
-            "access_rules": [ "Daxx, hyperShot, DiskBladeGun, SuckCannon",
-          "Daxx, hyperShot, DiskBladeGun, NPSuckCannon" ],
-            "item_count": 1
+            "ref": "Annihilation Nation/Arena Revisit Challenges/Chop Chop"
           },
           {
             "name": "Sleep Inducer",
-            "visibility_rules": [ "ArenaOn", "ArenaSecond" ],
-            "access_rules": [ "Daxx, hyperShot, RiftInducer, DiskBladeGun, SuckCannon",
-          "Daxx, hyperShot, RiftInducer, DiskBladeGun, NPSuckCannon" ],
-            "item_count": 1
+            "ref": "Annihilation Nation/Arena Revisit Challenges/Sleep Inducer"
           },
           {
             "name": "The Other White Meat",
-            "visibility_rules": [ "ArenaOn", "ArenaSecond" ],
-            "access_rules": [ "Daxx, hyperShot, QwackORay, RiftInducer, DiskBladeGun, SuckCannon",
-          "Daxx, hyperShot, QwackORay, RiftInducer, DiskBladeGun, NPSuckCannon" ],
-            "item_count": 1
+            "ref": "Annihilation Nation/Arena Revisit Challenges/The Other White Meat"
           },
           {
             "name": "Championship Bout II",
-            "visibility_rules": [ "ArenaOn", "ArenaSecond" ],
-            "access_rules": [ "Daxx, hyperShot" ],
-            "item_count": 1
+            "ref": "Annihilation Nation/Arena Revisit Challenges/Championship Bout II"
           },
           {
             "name": "Qwarktastic Battle",
-            "visibility_rules": ["ArenaOn, Unstable"],
-            "access_rules": [ "Daxx, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots, refractor, CommandCenter" ],
-            "item_count": 1
+            "ref": "Annihilation Nation/Qwarktastic Battle/It's Qwarktastic!"
           },
           {
             "name": "SP: Bash the Bug",
-        "visibility_rules": [ "ArenaOn, SkillMaster", "ArenaSecond, SkillMaster" ],
-            "access_rules": [ "Daxx, hyperShot" ],
-            "item_count": 1
+            "ref": "Annihilation Nation/Skill Point: Bash the Bug/Beat Scorpio using only the wrench"
           },
           {
             "name": "SP: Be an eight time champ",
-        "visibility_rules": [ "ArenaOn, SkillMaster" ],
-            "access_rules": [ "Daxx, hyperShot" ],
-            "item_count": 1
+            "ref": "Annihilation Nation/Skill Point: Be an eight time champ/Beat all the Gauntlet challenges"
           },
           {
             "name": "SP: Flee Flawlessly",
-        "visibility_rules": [ "ArenaOn, SkillMaster, 1HPRatOff", "ArenaFirst, SkillMaster, 1HPRatOff", "ArenaSecond, SkillMaster, 1HPRatOff" ],
-            "item_count": 1
+            "ref": "Annihilation Nation/Skill Point: Flee Flawlessly/Complete a Gauntlet without taking a hit"
           },
           {
             "name": "SP: Lights, camera action!",
-        "visibility_rules": [ "ArenaOn, SkillMaster", "ArenaFirst, SkillMaster", "ArenaSecond, SkillMaster", "ArenaOn, SkillSimple", "ArenaFirst, SkillSimple", "ArenaSecond, SkillSimple" ],
-            "item_count": 1
+            "ref": "Annihilation Nation/Skill Point: Lights, camera action!/Destroy 5 Floating Cameras in the gauntlet"
           }
         ]
       },
@@ -955,79 +682,59 @@
         "sections": [
           {
             "name": "Gadgetron Vendor - 75,000",
-            "visibility_rules": [ "WepVendorOn"],
-            "item_count": 1
+            "ref": "Aquatos/Vendor/Gadgetron Vendor - 75,000"
           },
           {
             "name": "T-Bolt: Under the Bridge",
-            "visibility_rules": [ "Bolt" ],
-            "item_count": 1
+            "ref": "Aquatos/Under the Bridge/Titanium Bolt"
           },
           {
             "name": "T-Bolt: Underwater Bolt",
-            "visibility_rules": [ "Bolt" ],
-            "item_count": 1
+            "ref": "Aquatos/Underwater Bolt/Titanium Bolt"
           },
           {
             "name": "SP: Search for Sunken Treasure",
-            "visibility_rules": [ "SkillMaster", "SkillSimple" ],
-            "item_count": 1
+            "ref": "Aquatos/Skill Point: Search for Sunken Treasure/Blow up 40 underwater crates"
           },
           {
             "name": "T-Bolt: Behind the Locked Gate",
-            "access_rules": [ "hacker" ],
-            "visibility_rules": [ "Bolt" ],
-            "item_count": 1
+            "ref": "Aquatos/Behind the Locked Gate/Titanium Bolt"
           },
           {
             "name": "T-Bolt: North Pipe Bolt",
-            "access_rules": [ "gravBoots" ],
-            "visibility_rules": [ "Bolt" ],
-            "item_count": 1
+            "ref": "Aquatos/North Pipe Bolt/Titanium Bolt"
           },
           {
             "name": "T-Bolt Swinging Bolt",
-            "access_rules": [ "gravBoots, hyperShot" ],
-            "visibility_rules": [ "Bolt" ],
-            "item_count": 1
+            "ref": "Aquatos/Swinging Bolt/Titanium Bolt"
           },
           {
             "name": "SP: Hit the Motherload",
-            "visibility_rules": [ "SkillMaster, CrystalsTotal:100" ],
-            "access_rules": [ "gravBoots, mapOMatic" ],
-            "item_count": 1
+            "ref": "Aquatos/Gather Sewer Crystals/Skill Point: Hit the Motherload"
           },
           {
             "name": "Slim Cognito 1 - 40,000",
-            "visibility_rules": [ "WepVendorOn"],
-            "item_count": 1
+            "ref": "Aquatos/Slim Cognito/Slim Cognito 1 - 40,000"
           },
           {
             "name": "Slim Cognito 2 - 25,000",
-            "visibility_rules": [ "WepVendorOn"],
-            "item_count": 1
+            "ref": "Aquatos/Slim Cognito/Slim Cognito 2 - 25,000"
           },
           {
             "name": "Qwarks Hideout Weapon - 150,000",
-            "visibility_rules": [ "WepVendorOn"],
-            "access_rules": [ "QwarksHideout" ],
-            "item_count": 1
+            "ref": "Aquatos/Slim Cognito/Qwarks Hideout Weapon - 150,000"
           },
           {
             "name": "Koros Weapon - 250,000",
-            "visibility_rules": [ "WepVendorOn"],
-            "access_rules": [ "Koros" ],
-            "item_count": 1
+            "ref": "Aquatos/Slim Cognito/Koros Weapon - 250,000"
           },
           {
             "name": "Command Center Weapon - 250,000",
-            "visibility_rules": [ "WepVendorOn"],
-            "access_rules": [ "CommandCenter" ],
-            "item_count": 1
+            "ref": "Aquatos/Slim Cognito/Command Center Weapon - 250,000"
           },
           {
             "name": "Infiltrate the Nefarious Base",
-            "item_count": 1
+            "ref": "Aquatos/Underwater Hideout/Infiltrate the Nefarious Base"
           }
         ]
       },
@@ -1044,60 +751,47 @@
         "sections": [
           {
             "name": "Gadgetron Vendor 1 - 150,000",
-            "visibility_rules": [ "WepVendorOn"],
-            "item_count": 1
+            "ref": "Tyhrranosis/Vendor/Gadgetron Vendor 1 - 150,000"
           },
           {
             "name": "Gadgetron Vendor 2 - 30,000",
-            "visibility_rules": [ "WepVendorOn"],
-            "item_count": 1
+            "ref": "Tyhrranosis/Vendor/Gadgetron Vendor 2 - 30,000"
           },
           {
             "name": "SP: Be a Sharpshooter",
-            "visibility_rules": [ "SkillMaster", "SkillSimple" ],
-            "access_rules": [ "FluxRifle" ],
-            "item_count": 1
+            "ref": "Tyhrranosis/Skill Point: Be a Sharpshooter/Snipe 10 Tyhrranoids in the towers"
           },
           {
             "name": "T-Bolt: South East Cannon",
-            "visibility_rules": [ "Bolt" ],
-            "item_count": 1
+            "ref": "Tyhrranosis/South East Cannon/Titanium Bolt"
           },
           {
             "name": "T-Bolt: Underground Cave Bolt",
-            "access_rules": [ "hyperShot" ],
-            "visibility_rules": [ "Bolt" ],
-            "item_count": 1
+            "ref": "Tyhrranosis/Underground Cave Bolt/Titanium Bolt"
           },
           {
             "name": "Trophy: North East Pillar",
-            "access_rules": [ "Heli" ],
-            "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
-            "item_count": 1
+            "ref": "Tyhrranosis/North East Pillar/Al Trophy"
           },
           {
             "name": "Destroy the Momma Tyhrranoid",
-            "item_count": 1
+            "ref": "Tyhrranosis/Destroy the Momma Tyhrranoid/IRON. HARD. ABS."
           },
           {
             "name": "ISLAND STRIKE 1: Assault on Kavu Island",
-            "visibility_rules": [ "RangerOn", "RangerOptional" ],
-            "item_count": 1
+            "ref": "Tyhrranosis/Operation: ISLAND STRIKE/Assault on Kavu Island"
           },
           {
             "name": "ISLAND STRIKE 2: Dogfight over Kavu Island",
-            "visibility_rules": [ "RangerOn", "RangerOptional" ],
-            "item_count": 1
+            "ref": "Tyhrranosis/Operation: ISLAND STRIKE/Dogfight over Kavu Island"
           },
           {
             "name": "ISLAND STRIKE 3: Operation Thunderbolt",
-            "visibility_rules": [ "RangerOn", "RangerOptional" ],
-            "item_count": 1
+            "ref": "Tyhrranosis/Operation: ISLAND STRIKE/Operation Thunderbolt"
           },
           {
             "name": "ISLAND STRIKE 4: The Final Battle",
-            "visibility_rules": [ "RangerOn", "RangerOptional" ],
-            "item_count": 1
+            "ref": "Tyhrranosis/Operation: ISLAND STRIKE/The Final Battle"
           }
         ]
       },
@@ -1114,40 +808,31 @@
         "sections": [
           {
             "name": "Building above ship",
-            "item_count": 1
+            "ref": "Daxx/Building Above Ship/Around the Island"
           },
           {
             "name": "Trophy: Ledge overlooking Ship",
-            "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
-            "item_count": 1
+            "ref": "Daxx/Ledge Overlooking Ship/Plumber Trophy"
           },
           {
             "name": "T-Bolt: Right of the Taxi",
-            "access_rules": [ "hyperShot, Heli" ],
-            "visibility_rules": [ "Bolt" ],
-            "item_count": 1
+            "ref": "Daxx/Right of the Taxi/Titanium Bolt"
           },
           {
             "name": "T-Bolt: Time Sensitive Door",
-            "access_rules": [ "hacker, hyperShot, chargeBoots" ],
-            "visibility_rules": [ "Bolt" ],
-            "item_count": 1
+            "ref": "Daxx/Time Sensitive Door/Titanium Bolt"
           },
           {
             "name": "Warship",
-            "access_rules": [ "hyperShot" ],
-            "item_count": 1
+            "ref": "Daxx/Explore the Docks/Warship"
           },
           {
             "name": "Infiltrate Weapons Facility",
-            "access_rules": [ "hacker, hyperShot" ],
-            "item_count": 1
+            "ref": "Daxx/Infiltrate Weapons Facility/Reach the Terminal"
           },
           {
             "name": "SP: Bugs to Birds",
-        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
-            "access_rules": [ "QwackORay" ],
-            "item_count": 1
+            "ref": "Daxx/Skill Point: Bugs to Birds/Turn 15 Floranian Blood Flies into ducks"
           }
         ]
       },
@@ -1164,28 +849,23 @@
         "sections": [
           {
             "name": "Gadgetron Vendor - 175,000",
-            "visibility_rules": [ "WepVendorOn"],
-            "item_count": 1
+            "ref": "Obani Moons/Vendor/Gadgetron Vendor - 175,000"
           },
           {
             "name": "T-Bolt: Follow the Lava",
-            "access_rules": [ "hyperShot" ],
-            "visibility_rules": [ "Bolt" ],
-            "item_count": 1
+            "ref": "Obani Moons/Follow the Lava/Titanium Bolt"
           },
           {
             "name": "SP: Get to the Belt",
-            "visibility_rules": [ "SkillMaster", "SkillSimple" ],
-            "item_count": 1
+            "ref": "Obani Moons/Skill Point: Get to the Belt/Get onto the floating asteroid ring"
           },
           {
             "name": "T-Bolt: Between the Twin Towers",
-            "visibility_rules": [ "Bolt" ],
-            "item_count": 1
+            "ref": "Obani Moons/Between the Twin Towers/Titanium Bolt"
           },
           {
             "name": "Meet Skidd", 
-            "item_count": 1
+            "ref": "Obani Moons/Explore the Second Moon/Meet Skidd"
           }
         ]
       },
@@ -1203,30 +883,27 @@
         "sections": [
           {
             "name": "SP: Bash the Party",
-            "visibility_rules": [ "SkillMaster", "SkillSimple"],
-            "item_count": 1
+            "ref": "Blackwater City/Skill Point: Bash the Party/Kill 20 enemies with the wrench"
           },
           {
             "name": "Ranger Missions Complete",
-            "item_count": 1
+            "ref": "Blackwater City/Save Blackwater City/Ranger Missions Complete"
           },
           {
             "name": "BLACK TIDE 1: The Battle of Blackwater City",
-            "item_count": 1
+            "ref": "Blackwater City/Operation: BLACK TIDE/The Battle of Blackwater City"
           },
           {
             "name": "BLACK TIDE 2: The Bridge",
-            "item_count": 1
+            "ref": "Blackwater City/Operation: BLACK TIDE/The Bridge"
           },
           {
             "name": "BLACK TIDE 3: Counterattack",
-            "item_count": 1
+            "ref": "Blackwater City/Operation: BLACK TIDE/Counterattack"
           },
           {
             "name": "Skidd is Captured!",
-            "visibility_rules": [ "RangerOn", "RangerStory" ],
-            "access_rules": [ "Holostar, hacker, hyperShot, Blackwater" ],
-            "item_count": 1
+            "ref": "Blackwater City/Galaxy Burger/Skidd is Captured!"
           }
         ]
       },
@@ -1243,49 +920,35 @@
         "sections": [
           {
             "name": "SP: Feeling Lucky?",
-            "access_rules": [ "HoloSkipOff", "HoloSkipOn, hacker"],
-            "visibility_rules": [ "SkillMaster"],
-            "item_count": 1
+            "ref": "Holostar Studios/Skill Point: Feeling Lucky?/Win the jackpot"
           },
           {
             "name": "Gadgetron Vendor - 180,000",
-            "visibility_rules": [ "WepVendorOn"],
-            "item_count": 1
+            "ref": "Holostar Studios/Vendor/Gadgetron Vendor - 180,000"
           },
           {
             "name": "Trophy: After Tall Elevator",
-            "access_rules": [ "hacker" ],
-            "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
-            "item_count": 1
+            "ref": "Holostar Studios/After Tall Elevator/Clank Trophy"
           },
           {
             "name": "T-Bolt: Atop the Chairs",
-            "access_rules": [ "hacker" ],
-            "visibility_rules": [ "Bolt" ],
-            "item_count": 1
+            "ref": "Holostar Studios/Atop the Chairs/Titanium Bolt"
           },
           {
             "name": "T-Bolt: Lot 42's Gravity Ramp",
-            "access_rules": [ "hacker, hyperShot, gravBoots" ],
-            "visibility_rules": [ "Bolt" ],
-            "item_count": 1
+            "ref": "Holostar Studios/Lot 42's Gravity Ramp/Titanium Bolt"
           },
           {
             "name": "T-Bolt: Kamikaze Noids",
-            "access_rules": [ "hacker, hyperShot, gravBoots" ],
-            "visibility_rules": [ "Bolt" ],
-            "item_count": 1
+            "ref": "Holostar Studios/Kamikaze Noids/Titanium Bolt"
           },
           {
             "name": "Return to Your Ship",
-            "access_rules": [ "hacker, hyperShot" ],
-            "item_count": 1
+            "ref": "Holostar Studios/Return to Your Ship/Sprockets are lubed!"
           },
           {
             "name": "Skidd is Captured!",
-            "visibility_rules": [ "RangerOn", "RangerStory" ],
-            "access_rules": [ "Holostar, hacker, hyperShot, Blackwater" ],
-            "item_count": 1
+            "ref": "Holostar Studios/Galaxy Burger/Skidd is Captured!"
           }
         ]
       },
@@ -1302,7 +965,7 @@
         "sections": [
           {
             "name": "Defeat Courtney Gears",
-            "item_count": 1
+            "ref": "Obani Draco/Defeat Courtney Gears/Dispose the Disposable Popstar"
           }
         ]
       },
@@ -1319,29 +982,23 @@
         "sections": [
           {
             "name": "End of the Starport 1",
-            "access_rules": [ "hyperShot, Heli", "hyperShot, ThrustOn", "hyperShot, chargeBoots" ],
-            "item_count": 1
+            "ref": "Zeldrin Starport/Go to the Zeldrin Starport/End of the Starport 1"
           },
           {
             "name": "End of the Starport 2",
-            "access_rules": [ "hyperShot, Heli", "hyperShot, ThrustOn", "hyperShot, chargeBoots" ],
-            "item_count": 1
+            "ref": "Zeldrin Starport/Go to the Zeldrin Starport/End of the Starport 2"
           },
           {
             "name": "T-Bolt: Inside the Second Ship",
-            "visibility_rules": [ "Bolt" ],
-            "item_count": 1
+            "ref": "Zeldrin Starport/Inside the Second Ship/Titanium Bolt"
           },
           {
             "name": "T-Bolt: Atop the Twin Shooters",
-            "access_rules": [ "hyperShot, Heli", "hyperShot, ThrustOn" ],
-            "visibility_rules": [ "Bolt" ],
-            "item_count": 1
+            "ref": "Zeldrin Starport/Atop the Twin Shooters/Titanium Bolt"
           },
           {
             "name": "Escape the Exploding Ship",
-            "access_rules": [ "Heli", "ThrustOn", "chargeBoots" ],
-            "item_count": 1
+            "ref": "Zeldrin Starport/Escape the Exploding Ship/Leave that Jungle Business Behind"
           }
         ]
       },
@@ -1358,77 +1015,55 @@
         "sections": [
           {
             "name": "SP: 2002 was a good year in the city",
-            "visibility_rules": [ "SkillMaster", "SkillSimple" ],
-            "access_rules": [ "FluxRifle", "Annihilator", "RY3NO", "SuckCannon", "DiskBladeGun",
-          "NPSuckCannon" ],
-            "item_count": 1
+            "ref": "Metropolis/Skill Point: 2002 was a good year in the city/Destroy the Blimp"
           },
           {
             "name": "T-Bolt: Across the Gap",
-            "access_rules": [ "hyperShot" ],
-            "visibility_rules": [ "Bolt" ],
-            "item_count": 1
+            "ref": "Metropolis/Across the Gap/Titanium Bolt"
           },
           {
             "name": "Trophy: 2nd Building Window",
-            "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
-            "item_count": 1
+            "ref": "Metropolis/2nd Building Window/Skrunch Trophy"
           },
           {
             "name": "Metal-Noids",
-            "item_count": 1
+            "ref": "Metropolis/Metal-Noids/The AAAAGE OF ROBOTS!!!"
           },
           {
             "name": "T-Bolt: Before Grav-wall",
-            "visibility_rules": [ "Bolt" ],
-            "item_count": 1
+            "ref": "Metropolis/Before Grav-wall/Titanium Bolt"
           },
           {
             "name": "Defeat Klunk",
-            "access_rules": [ "refractor, gravBoots" ],
-            "item_count": 1
+            "ref": "Metropolis/Defeat Klunk/Save Clank!"
           },
           {
             "name": "T-Bolt: Tall Tower (Hovership)",
-            "access_rules": [ "refractor, gravBoots" ],
-            "visibility_rules": [ "RangerOn, Bolt", "RangerOptional, Bolt" ],
-            "item_count": 1
+            "ref": "Metropolis/Tall Tower (Hovership)/Titanium Bolt"
           },
           {
             "name": "URBAN STORM 1: Countdown",
-            "visibility_rules": [ "RangerOn", "RangerOptional" ],
-            "access_rules": [ "refractor, gravBoots" ],
-            "item_count": 1
+            "ref": "Metropolis/Operation: URBAN STORM/Countdown"
           },
           {
             "name": "URBAN STORM 2: Urban Combat",
-            "visibility_rules": [ "RangerOn", "RangerOptional" ],
-            "access_rules": [ "refractor, gravBoots" ],
-            "item_count": 1
+            "ref": "Metropolis/Operation: URBAN STORM/Urban Combat"
           },
           {
             "name": "URBAN STORM 3: Tower Attack",
-            "visibility_rules": [ "RangerOn", "RangerOptional" ],
-            "access_rules": [ "refractor, gravBoots" ],
-            "item_count": 1
+            "ref": "Metropolis/Operation: URBAN STORM/Tower Attack"
           },
           {
             "name": "URBAN STORM 4: Air Superiority",
-            "visibility_rules": [ "RangerOn", "RangerOptional" ],
-            "access_rules": [ "refractor, gravBoots" ],
-            "item_count": 1
+            "ref": "Metropolis/Operation: URBAN STORM/Air Superiority"
           },
           {
             "name": "URBAN STORM 5: Turret Command",
-            "visibility_rules": [ "RangerOn", "RangerOptional" ],
-            "access_rules": [ "refractor, gravBoots" ],
-            "item_count": 1
+            "ref": "Metropolis/Operation: URBAN STORM/Turret Command"
           },
           {
             "name": "Ranger Missions Complete",
-            "visibility_rules": [ "RangerOn", "RangerOptional" ],
-            "access_rules": [ "refractor, gravBoots" ],
-            "item_count": 1
+            "ref": "Metropolis/Operation: URBAN STORM/Ranger Missions Complete"
           }
         ]
       },
@@ -1445,39 +1080,31 @@
         "sections": [
           {
             "name": "T-Bolt: Turn Around",
-            "visibility_rules": [ "Bolt" ],
-            "item_count": 1
+            "ref": "Crash Site/Turn Around/Titanium Bolt"
           },
           {
             "name": "Trophy: Near first corner",
-            "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
-            "item_count": 1
+            "ref": "Crash Site/Near First Corner/Dr Nefarious Trophy"
           },
           {
             "name": "Gadget Under the Crashed Ship",
-            "access_rules": [ "hyperShot, gravBoots" ],
-            "item_count": 1
+            "ref": "Crash Site/Side Route/Gadget Under the Crashed Ship"
           },
           {
             "name": "Escape Pod",
-            "item_count": 1
+            "ref": "Crash Site/Explore Crash Site/Escape Pod"
           },
           {
             "name": "Rangers Call for Help",
-            "access_rules": [ "Heli, gravBoots", "ThrustOn, gravBoots" ],
-            "item_count": 1
+            "ref": "Crash Site/Post Explore Crash Site/Rangers Call for Help"
           },
           {
             "name": "SP: Aim High",
-        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
-            "access_rules": [ "FluxRifle" ],
-            "item_count": 1
+            "ref": "Crash Site/Skill Point: Aim High/Kill 10 Skreeducks"
           },
           {
             "name": "SP: Suck it up!",
-        "visibility_rules": [ "SkillMaster" ],
-            "access_rules": [ "NGPOff, ProgWeaponsOn, SuckCannon:3", "NGPOn, ProgWeaponsOn, NGPItemsOff, SuckCannon:5", "NGPOn, ProgWeaponsOn, NGPItemsOn, SuckCannon:6", "ProgWeaponsOff, SuckCannon" ],
-            "item_count": 1
+            "ref": "Crash Site/Skill Point: Suck it up!/Kill 40 enemies using the Suck Cannon"
           }
         ]
       },
@@ -1495,59 +1122,47 @@
         "sections": [
           {
             "name": "Gadgetron Vendor - 200,000",
-            "visibility_rules": [ "WepVendorOn"],
-            "item_count": 1
+            "ref": "Aridia/Vendor/Gadgetron Vendor - 200,000"
           },
           {
             "name": "DEATH VALLEY 1: The Tunnels of Outpost X12",
-            "item_count": 1
+            "ref": "Aridia/Operation: DEATH VALLEY/The Tunnels of Outpost X12"
           },
           {
             "name": "DEATH VALLEY 2: Ambush in Red Rock Valley",
-            "item_count": 1
+            "ref": "Aridia/Operation: DEATH VALLEY/Ambush in Red Rock Valley"
           },
           {
             "name": "DEATH VALLEY 3: Assassination",
-            "access_rules": [ "gravBoots", "FluxRifle", "Annihilator", "RY3N0", "SuckCannon", "DiskBladeGun", "PlasmaCoil", "ProgWeaponsOff, RiftInducer", "ProgWeaponsOn, RiftInducer:2" ],
-            "item_count": 1
+            "ref": "Aridia/Operation: DEATH VALLEY/Assassination"
           },
           {
             "name": "DEATH VALLEY 4: Reclaim the Valley",
-            "access_rules": [ "gravBoots", "FluxRifle", "Annihilator", "RY3N0", "SuckCannon", "DiskBladeGun", "PlasmaCoil", "ProgWeaponsOff, RiftInducer", "ProgWeaponsOn, RiftInducer:2" ],
-            "item_count": 1
+            "ref": "Aridia/Operation: DEATH VALLEY/Reclaim the Valley"
           },
           {
             "name": "DEATH VALLEY 5: X12 Endgame",
-            "access_rules": [ "gravBoots", "FluxRifle", "Annihilator", "RY3N0", "SuckCannon", "DiskBladeGun", "PlasmaCoil", "ProgWeaponsOff, RiftInducer", "ProgWeaponsOn, RiftInducer:2" ],
-            "item_count": 1
+            "ref": "Aridia/Operation: DEATH VALLEY/X12 Endgame"
           },
           {
             "name": "Ranger Missions Complete",
-            "access_rules": [ "gravBoots", "FluxRifle", "Annihilator", "RY3N0", "SuckCannon", "DiskBladeGun", "PlasmaCoil", "ProgWeaponsOff, RiftInducer", "ProgWeaponsOn, RiftInducer:2" ],
-            "item_count": 1
+            "ref": "Aridia/Operation: DEATH VALLEY/Ranger Missions Complete"
           },
           {
             "name": "T-Bolt: Under the Bridge (Assassination)",
-            "access_rules": [ "gravBoots" ],
-            "visibility_rules": [ "Bolt" ],
-            "item_count": 1
+            "ref": "Aridia/Under the Bridge (Assassination)/Titanium Bolt"
           },
           {
             "name": "T-Bolt: Behind the Base (X12 Endgame)",
-            "access_rules": [ "gravBoots" ],
-            "visibility_rules": [ "Bolt" ],
-            "item_count": 1
+            "ref": "Aridia/Behind the Base (X12 Endgame)/Titanium Bolt"
           },
           {
             "name": "SP: Go for hang time",
-            "visibility_rules": [ "SkillMaster", "SkillSimple" ],
-            "item_count": 1
+            "ref": "Aridia/Skill Point: Go for hang time/Get 2 seconds of air with the Turbo Slider"
           },
           {
             "name": "SP: Zap back at ya'",
-            "visibility_rules": [ "SkillMaster", "SkillSimple" ],
-            "access_rules": [ "refractor" ],
-            "item_count": 1
+            "ref": "Aridia/Skill Point: Zap back at ya'/Kill 10 enemies with the Refractor"
           }
         ]
       },
@@ -1564,31 +1179,23 @@
         "sections": [
           {
             "name": "PDA Vendor",
-            "access_rules": [ "gravBoots" ],
-            "item_count": 1
+            "ref": "Qwark's Hideout/Grav-Ramp Path/PDA Vendor"
           },
           {
             "name": "Find Qwark",
-            "access_rules": [ "warpPad, hyperShot, Heli", "warpPad, hyperShot, chargeBoots" ],
-            "item_count": 1
+            "ref": "Qwark's Hideout/Qwark's Room/Find Qwark"
           },
           {
             "name": "T-Bolt: Glide from the Ramp",
-            "access_rules": [ "gravBoots" ],
-            "visibility_rules": [ "Bolt" ],
-            "item_count": 1
+            "ref": "Qwark's Hideout/Glide from the Ramp/Titanium Bolt"
           },
           {
             "name": "SP: Break the Dan",
-            "visibility_rules": [ "SkillMaster", "SkillSimple" ],
-            "access_rules": [ "warpPad, hyperShot" ],
-            "item_count": 1
+            "ref": "Qwark's Hideout/Skill Point: Break the Dan/Break the Dan o7"
           },
           {
             "name": "Trophy: Outside Qwarks Room",
-            "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
-            "access_rules": [ "warpPad, hyperShot, Heli", "warpPad, hyperShot, chargeBoots" ],
-            "item_count": 1
+            "ref": "Qwark's Hideout/Outside Qwark's Room/Qwark Trophy"
           }
         ]
       },
@@ -1605,28 +1212,23 @@
         "sections": [
           {
             "name": "Trophy: Glass House",
-            "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
-            "item_count": 1
+            "ref": "Koros/Glass House/Courtny Gears Trophy"
           },
           {
             "name": "T-Bolt: Behind the Metal Fence",
-            "visibility_rules": [ "Bolt" ],
-            "item_count": 1
+            "ref": "Koros/Behind the Metal Fence/Titanium Bolt"
           },
           {
             "name": "T-Bolt: Pair of Towers",
-            "visibility_rules": [ "Bolt" ],
-            "item_count": 1
+            "ref": "Koros/Pair of Towers/Titanium Bolt"
           },
           {
             "name": "SP: You break it, you win it",
-            "visibility_rules": [ "SkillMaster", "SkillSimple" ],
-            "access_rules": [ "BoxBreaker" ],
-            "item_count": 1
+            "ref": "Koros/Skill Point: You break it, you win it/Smash up the Robot Base"
           },
           {
             "name": "Fire the Cannon",
-            "item_count": 1
+            "ref": "Koros/Access big gun control panel/Fire the Cannon"
           }
         ]
       },
@@ -1643,30 +1245,23 @@
         "sections": [
           {
             "name": "T-Bolt: Behind the Forcefield",
-            "visibility_rules": [ "Bolt" ],
-            "item_count": 1
+            "ref": "Command Center/Behind the Forcefield/Titanium Bolt"
           },
           {
             "name": "Trophy: Up a Ladder",
-            "access_rules": [ "Heli", "ThrustOn" ],
-            "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
-            "item_count": 1
+            "ref": "Command Center/Up a Ladder/Lawrence Trophy"
           },
           {
             "name": "SP: Spread Your Germs",
-            "visibility_rules": [ "SkillMaster", "SkillSimple" ],
-            "access_rules": [ "Infector" ],
-            "item_count": 1
+            "ref": "Command Center/Skill Point: Spread Your Germs/Infect 30 enemies"
           },
           {
             "name": "Dr. Nefarious Defeated!",
-        "access_rules": [ "hacker, refractor, Heli", "hacker, refractor, ThrustOn" ],
-            "item_count": 1
+            "ref": "Command Center/Defeat Dr. Nefarious/Dr. Nefarious Defeated!"
           },
           {
             "name": "Biobliterator Defeated!",
-        "access_rules": [ "hacker, refractor, Heli", "hacker, refractor, ThrustOn" ],
-            "item_count": 1
+            "ref": "Command Center/Defeat the Biobliterator/Biobliterator Defeated!"
           }
         ]
       },
@@ -2948,103 +2543,83 @@
         "sections": [
           {
             "name": "Sewer Crystals Traded: 1",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:1" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 1-20/Sewer Crystals Traded: 1"
           },
           {
             "name": "Sewer Crystals Traded: 2",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:2" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 1-20/Sewer Crystals Traded: 2"
           },
           {
             "name": "Sewer Crystals Traded: 3",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:3" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 1-20/Sewer Crystals Traded: 3"
           },
           {
             "name": "Sewer Crystals Traded: 4",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:4" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 1-20/Sewer Crystals Traded: 4"
           },
           {
             "name": "Sewer Crystals Traded: 5",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:5", "Crystals5, CrystalsTotal:5" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 1-20/Sewer Crystals Traded: 5"
           },
           {
             "name": "Sewer Crystals Traded: 6",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:6" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 1-20/Sewer Crystals Traded: 6"
           },
           {
             "name": "Sewer Crystals Traded: 7",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:7" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 1-20/Sewer Crystals Traded: 7"
           },
           {
             "name": "Sewer Crystals Traded: 8",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:8" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 1-20/Sewer Crystals Traded: 8"
           },
           {
             "name": "Sewer Crystals Traded: 9",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:9" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 1-20/Sewer Crystals Traded: 9"
           },
           {
             "name": "Sewer Crystals Traded: 10",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:10", "Crystals5, CrystalsTotal:10", "Crystals10, CrystalsTotal:10" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 1-20/Sewer Crystals Traded: 10"
           },
           {
             "name": "Sewer Crystals Traded: 11",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:11" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 1-20/Sewer Crystals Traded: 11"
           },
           {
             "name": "Sewer Crystals Traded: 12",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:12" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 1-20/Sewer Crystals Traded: 12"
           },
           {
             "name": "Sewer Crystals Traded: 13",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:13" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 1-20/Sewer Crystals Traded: 13"
           },
           {
             "name": "Sewer Crystals Traded: 14",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:14" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 1-20/Sewer Crystals Traded: 14"
           },
           {
             "name": "Sewer Crystals Traded: 15",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:15", "Crystals5, CrystalsTotal:15" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 1-20/Sewer Crystals Traded: 15"
           },
           {
             "name": "Sewer Crystals Traded: 16",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:16" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 1-20/Sewer Crystals Traded: 16"
           },
           {
             "name": "Sewer Crystals Traded: 17",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:17" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 1-20/Sewer Crystals Traded: 17"
           },
           {
             "name": "Sewer Crystals Traded: 18",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:18" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 1-20/Sewer Crystals Traded: 18"
           },
           {
             "name": "Sewer Crystals Traded: 19",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:19" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 1-20/Sewer Crystals Traded: 19"
           },
           {
             "name": "Sewer Crystals Traded: 20",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:20", "Crystals5, CrystalsTotal:20", "Crystals10, CrystalsTotal:20", "Crystals20, CrystalsTotal:20" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 1-20/Sewer Crystals Traded: 20"
           }
         ]
       },
@@ -3061,103 +2636,83 @@
         "sections": [
           {
             "name": "Sewer Crystals Traded: 21",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:21" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 21-40/Sewer Crystals Traded: 21"
           },
           {
             "name": "Sewer Crystals Traded: 22",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:22" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 21-40/Sewer Crystals Traded: 22"
           },
           {
             "name": "Sewer Crystals Traded: 23",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:23" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 21-40/Sewer Crystals Traded: 23"
           },
           {
             "name": "Sewer Crystals Traded: 24",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:24" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 21-40/Sewer Crystals Traded: 24"
           },
           {
             "name": "Sewer Crystals Traded: 25",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:25", "Crystals5, CrystalsTotal:25" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 21-40/Sewer Crystals Traded: 25"
           },
           {
             "name": "Sewer Crystals Traded: 26",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:26" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 21-40/Sewer Crystals Traded: 26"
           },
           {
             "name": "Sewer Crystals Traded: 27",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:27" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 21-40/Sewer Crystals Traded: 27"
           },
           {
             "name": "Sewer Crystals Traded: 28",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:28" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 21-40/Sewer Crystals Traded: 28"
           },
           {
             "name": "Sewer Crystals Traded: 29",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:29" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 21-40/Sewer Crystals Traded: 29"
           },
           {
             "name": "Sewer Crystals Traded: 30",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:30", "Crystals5, CrystalsTotal:30", "Crystals10, CrystalsTotal:30" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 21-40/Sewer Crystals Traded: 30"
           },
           {
             "name": "Sewer Crystals Traded: 31",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:31" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 21-40/Sewer Crystals Traded: 31"
           },
           {
             "name": "Sewer Crystals Traded: 32",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:32" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 21-40/Sewer Crystals Traded: 32"
           },
           {
             "name": "Sewer Crystals Traded: 33",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:33" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 21-40/Sewer Crystals Traded: 33"
           },
           {
             "name": "Sewer Crystals Traded: 34",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:34" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 21-40/Sewer Crystals Traded: 34"
           },
           {
             "name": "Sewer Crystals Traded: 35",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:35", "Crystals5, CrystalsTotal:35" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 21-40/Sewer Crystals Traded: 35"
           },
           {
             "name": "Sewer Crystals Traded: 36",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:36" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 21-40/Sewer Crystals Traded: 36"
           },
           {
             "name": "Sewer Crystals Traded: 37",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:37" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 21-40/Sewer Crystals Traded: 37"
           },
           {
             "name": "Sewer Crystals Traded: 38",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:38" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 21-40/Sewer Crystals Traded: 38"
           },
           {
             "name": "Sewer Crystals Traded: 39",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:39" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 21-40/Sewer Crystals Traded: 39"
           },
           {
             "name": "Sewer Crystals Traded: 40",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:40", "Crystals5, CrystalsTotal:40", "Crystals10, CrystalsTotal:40", "Crystals20, CrystalsTotal:40" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 21-40/Sewer Crystals Traded: 40"
           }
         ]
       },
@@ -3174,113 +2729,83 @@
         "sections": [
           {
             "name": "Sewer Crystals Traded: 41",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:41" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 41-60/Sewer Crystals Traded: 41"
           },
           {
             "name": "Sewer Crystals Traded: 42",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:42" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 41-60/Sewer Crystals Traded: 42"
           },
           {
             "name": "Sewer Crystals Traded: 43",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:43" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 41-60/Sewer Crystals Traded: 43"
           },
           {
             "name": "Sewer Crystals Traded: 44",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:44" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 41-60/Sewer Crystals Traded: 44"
           },
           {
             "name": "Sewer Crystals Traded: 45",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:45", "Crystals5, CrystalsTotal:45" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 41-60/Sewer Crystals Traded: 45"
           },
           {
             "name": "Sewer Crystals Traded: 46",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:46" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 41-60/Sewer Crystals Traded: 46"
           },
           {
             "name": "Sewer Crystals Traded: 47",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:47" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 41-60/Sewer Crystals Traded: 47"
           },
           {
             "name": "Sewer Crystals Traded: 48",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:48" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 41-60/Sewer Crystals Traded: 48"
           },
           {
             "name": "Sewer Crystals Traded: 49",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:49" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 41-60/Sewer Crystals Traded: 49"
           },
           {
             "name": "Sewer Crystals Traded: 50",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:50", "Crystals5, CrystalsTotal:50", "Crystals10, CrystalsTotal:50" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 41-60/Sewer Crystals Traded: 50"
           },
           {
             "name": "Sewer Crystals Traded: 51",
-            "access_rules": ["[gravBoots]"],
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:51" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 41-60/Sewer Crystals Traded: 51"
           },
           {
             "name": "Sewer Crystals Traded: 52",
-            "access_rules": ["[gravBoots]"],
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:52" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 41-60/Sewer Crystals Traded: 52"
           },
           {
             "name": "Sewer Crystals Traded: 53",
-            "access_rules": ["[gravBoots]"],
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:53" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 41-60/Sewer Crystals Traded: 53"
           },
           {
             "name": "Sewer Crystals Traded: 54",
-            "access_rules": ["[gravBoots]"],
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:54" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 41-60/Sewer Crystals Traded: 54"
           },
           {
             "name": "Sewer Crystals Traded: 55",
-            "access_rules": ["[gravBoots]"],
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:55", "Crystals5, CrystalsTotal:55" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 41-60/Sewer Crystals Traded: 55"
           },
           {
             "name": "Sewer Crystals Traded: 56",
-            "access_rules": ["[gravBoots]"],
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:56" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 41-60/Sewer Crystals Traded: 56"
           },
           {
             "name": "Sewer Crystals Traded: 57",
-            "access_rules": ["[gravBoots]"],
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:57" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 41-60/Sewer Crystals Traded: 57"
           },
           {
             "name": "Sewer Crystals Traded: 58",
-            "access_rules": ["[gravBoots]"],
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:58" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 41-60/Sewer Crystals Traded: 58"
           },
           {
             "name": "Sewer Crystals Traded: 59",
-            "access_rules": ["gravBoots"],
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:59" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 41-60/Sewer Crystals Traded: 59"
           },
           {
             "name": "Sewer Crystals Traded: 60",
-            "access_rules": ["gravBoots"],
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:60", "Crystals5, CrystalsTotal:60", "Crystals10, CrystalsTotal:60", "Crystals20, CrystalsTotal:60" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 41-60/Sewer Crystals Traded: 60"
           }
         ]
       },
@@ -3297,103 +2822,83 @@
         "sections": [
           {
             "name": "Sewer Crystals Traded: 61",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:61" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 61-80/Sewer Crystals Traded: 61"
           },
           {
             "name": "Sewer Crystals Traded: 62",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:62" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 61-80/Sewer Crystals Traded: 62"
           },
           {
             "name": "Sewer Crystals Traded: 63",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:63" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 61-80/Sewer Crystals Traded: 63"
           },
           {
             "name": "Sewer Crystals Traded: 64",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:64" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 61-80/Sewer Crystals Traded: 64"
           },
           {
             "name": "Sewer Crystals Traded: 65",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:65", "Crystals5, CrystalsTotal:65" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 61-80/Sewer Crystals Traded: 65"
           },
           {
             "name": "Sewer Crystals Traded: 66",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:66" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 61-80/Sewer Crystals Traded: 66"
           },
           {
             "name": "Sewer Crystals Traded: 67",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:67" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 61-80/Sewer Crystals Traded: 67"
           },
           {
             "name": "Sewer Crystals Traded: 68",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:68" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 61-80/Sewer Crystals Traded: 68"
           },
           {
             "name": "Sewer Crystals Traded: 69",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:69" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 61-80/Sewer Crystals Traded: 69"
           },
           {
             "name": "Sewer Crystals Traded: 70",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:70", "Crystals5, CrystalsTotal:70", "Crystals10, CrystalsTotal:70" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 61-80/Sewer Crystals Traded: 70"
           },
           {
             "name": "Sewer Crystals Traded: 71",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:71" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 61-80/Sewer Crystals Traded: 71"
           },
           {
             "name": "Sewer Crystals Traded: 72",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:72" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 61-80/Sewer Crystals Traded: 72"
           },
           {
             "name": "Sewer Crystals Traded: 73",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:73" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 61-80/Sewer Crystals Traded: 73"
           },
           {
             "name": "Sewer Crystals Traded: 74",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:74" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 61-80/Sewer Crystals Traded: 74"
           },
           {
             "name": "Sewer Crystals Traded: 75",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:75", "Crystals5, CrystalsTotal:75" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 61-80/Sewer Crystals Traded: 75"
           },
           {
             "name": "Sewer Crystals Traded: 76",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:76" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 61-80/Sewer Crystals Traded: 76"
           },
           {
             "name": "Sewer Crystals Traded: 77",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:77" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 61-80/Sewer Crystals Traded: 77"
           },
           {
             "name": "Sewer Crystals Traded: 78",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:78" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 61-80/Sewer Crystals Traded: 78"
           },
           {
             "name": "Sewer Crystals Traded: 79",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:79" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 61-80/Sewer Crystals Traded: 79"
           },
           {
             "name": "Sewer Crystals Traded: 80",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:80", "Crystals5, CrystalsTotal:80", "Crystals10, CrystalsTotal:80", "Crystals20, CrystalsTotal:80" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 61-80/Sewer Crystals Traded: 80"
           }
         ]
       },
@@ -3410,108 +2915,87 @@
         "sections": [
           {
             "name": "Sewer Crystals Traded: 81",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:81" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 81-101/Sewer Crystals Traded: 81"
           },
           {
             "name": "Sewer Crystals Traded: 82",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:82" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 81-101/Sewer Crystals Traded: 82"
           },
           {
             "name": "Sewer Crystals Traded: 83",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:83" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 81-101/Sewer Crystals Traded: 83"
           },
           {
             "name": "Sewer Crystals Traded: 84",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:84" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 81-101/Sewer Crystals Traded: 84"
           },
           {
             "name": "Sewer Crystals Traded: 85",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:85", "Crystals5, CrystalsTotal:85" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 81-101/Sewer Crystals Traded: 85"
           },
           {
             "name": "Sewer Crystals Traded: 86",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:86" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 81-101/Sewer Crystals Traded: 86"
           },
           {
             "name": "Sewer Crystals Traded: 87",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:87" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 81-101/Sewer Crystals Traded: 87"
           },
           {
             "name": "Sewer Crystals Traded: 88",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:88" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 81-101/Sewer Crystals Traded: 88"
           },
           {
             "name": "Sewer Crystals Traded: 89",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:89" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 81-101/Sewer Crystals Traded: 89"
           },
           {
             "name": "Sewer Crystals Traded: 90",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:90", "Crystals5, CrystalsTotal:90", "Crystals10, CrystalsTotal:90" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 81-101/Sewer Crystals Traded: 90"
           },
           {
             "name": "Sewer Crystals Traded: 91",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:91" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 81-101/Sewer Crystals Traded: 91"
           },
           {
             "name": "Sewer Crystals Traded: 92",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:92" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 81-101/Sewer Crystals Traded: 92"
           },
           {
             "name": "Sewer Crystals Traded: 93",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:93" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 81-101/Sewer Crystals Traded: 93"
           },
           {
             "name": "Sewer Crystals Traded: 94",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:94" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 81-101/Sewer Crystals Traded: 94"
           },
           {
             "name": "Sewer Crystals Traded: 95",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:95", "Crystals5, CrystalsTotal:95" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 81-101/Sewer Crystals Traded: 95"
           },
           {
             "name": "Sewer Crystals Traded: 96",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:96" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 81-101/Sewer Crystals Traded: 96"
           },
           {
             "name": "Sewer Crystals Traded: 97",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:97" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 81-101/Sewer Crystals Traded: 97"
           },
           {
             "name": "Sewer Crystals Traded: 98",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:98" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 81-101/Sewer Crystals Traded: 98"
           },
           {
             "name": "Sewer Crystals Traded: 99",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:99" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 81-101/Sewer Crystals Traded: 99"
           },
           {
             "name": "Sewer Crystals Traded: 100",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:100", "Crystals5, CrystalsTotal:100", "Crystals10, CrystalsTotal:100", "Crystals20, CrystalsTotal:100" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 81-101/Sewer Crystals Traded: 100"
           },
           {
             "name": "Sewer Crystals Traded: 101",
-            "visibility_rules": [ "CrystalsAll, CrystalsTotal:101" ],
-            "item_count": 1
+            "ref": "Aquatos/Sewer Crystals 81-101/Sewer Crystals Traded: 101"
           }
         ]
       },
@@ -3551,19 +3035,19 @@
           },
           {
             "name": "Shock Blaster: V6",
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "access_rules": ["ShockBlaster, ProgWeaponsOff, NGPOn", "ShockBlaster:6, ProgWeaponsOn, NGPOn", "ShockBlaster, ProgWeaponsOff, Koros", "ShockBlaster:6, ProgWeaponsOn, Koros", "ShockBlaster, ProgWeaponsOff, CrashSite", "ShockBlaster:6 ,ProgWeaponsOn, CrashSite", "ShockBlaster, ProgWeaponsOff, Metropolis", "ShockBlaster:6, ProgWeaponsOn, Metropolis", "ShockBlaster, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "ShockBlaster:6, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "ShockBlaster, ProgWeaponsOff, CommandCenter, Heli", "ShockBlaster:6, ProgWeaponsOn, CommandCenter, Heli", "ShockBlaster, ProgWeaponsOff, CommandCenter, ThrustOn", "ShockBlaster:6, ProgWeaponsOn, CommandCenter, ThrustOn"],
             "item_count": 1
           },
           {
             "name": "Shock Blaster: V7",
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "access_rules": ["ShockBlaster, ProgWeaponsOff, NGPOn", "ShockBlaster:7, ProgWeaponsOn, NGPOn", "ShockBlaster, ProgWeaponsOff, Koros", "ShockBlaster:7, ProgWeaponsOn, Koros", "ShockBlaster, ProgWeaponsOff, CrashSite", "ShockBlaster:7 ,ProgWeaponsOn, CrashSite", "ShockBlaster, ProgWeaponsOff, Metropolis", "ShockBlaster:7, ProgWeaponsOn, Metropolis", "ShockBlaster, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "ShockBlaster:7, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "ShockBlaster, ProgWeaponsOff, CommandCenter, Heli", "ShockBlaster:7, ProgWeaponsOn, CommandCenter, Heli", "ShockBlaster, ProgWeaponsOff, CommandCenter, ThrustOn", "ShockBlaster:7, ProgWeaponsOn, CommandCenter, ThrustOn"],
             "item_count": 1
           },
           {
             "name": "Shock Blaster: V8",
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "access_rules": ["ShockBlaster, ProgWeaponsOff, NGPOn", "ShockBlaster:8, ProgWeaponsOn, NGPOn", "ShockBlaster, ProgWeaponsOff, Koros", "ShockBlaster:8, ProgWeaponsOn, Koros", "ShockBlaster, ProgWeaponsOff, CrashSite", "ShockBlaster:8 ,ProgWeaponsOn, CrashSite", "ShockBlaster, ProgWeaponsOff, Metropolis", "ShockBlaster:8, ProgWeaponsOn, Metropolis", "ShockBlaster, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "ShockBlaster:8, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "ShockBlaster, ProgWeaponsOff, CommandCenter, Heli", "ShockBlaster:8, ProgWeaponsOn, CommandCenter, Heli", "ShockBlaster, ProgWeaponsOff, CommandCenter, ThrustOn", "ShockBlaster:8, ProgWeaponsOn, CommandCenter, ThrustOn"],
             "item_count": 1
           }
@@ -3605,20 +3089,20 @@
           },
           {
             "name": "Nitro Launcher: V6",
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "access_rules": ["NitroLauncher, ProgWeaponsOff, NGPOn", "NitroLauncher:6, ProgWeaponsOn, NGPOn", "NitroLauncher, ProgWeaponsOff, Koros", "NitroLauncher:6, ProgWeaponsOn, Koros", "NitroLauncher, ProgWeaponsOff, CrashSite", "NitroLauncher:6 ,ProgWeaponsOn, CrashSite", "NitroLauncher, ProgWeaponsOff, Metropolis", "NitroLauncher:6, ProgWeaponsOn, Metropolis", "NitroLauncher, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "NitroLauncher:6, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "NitroLauncher, ProgWeaponsOff, CommandCenter, Heli", "NitroLauncher:6, ProgWeaponsOn, CommandCenter, Heli", "NitroLauncher, ProgWeaponsOff, CommandCenter, ThrustOn", "NitroLauncher:6, ProgWeaponsOn, CommandCenter, ThrustOn"],
             "item_count": 1
           },
           {
             "name": "Nitro Launcher: V7",
             "access_rules": ["NitroLauncher, ProgWeaponsOff, NGPOn", "NitroLauncher:7, ProgWeaponsOn, NGPOn", "NitroLauncher, ProgWeaponsOff, Koros", "NitroLauncher:7, ProgWeaponsOn, Koros", "NitroLauncher, ProgWeaponsOff, CrashSite", "NitroLauncher:7 ,ProgWeaponsOn, CrashSite", "NitroLauncher, ProgWeaponsOff, Metropolis", "NitroLauncher:7, ProgWeaponsOn, Metropolis", "NitroLauncher, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "NitroLauncher:7, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "NitroLauncher, ProgWeaponsOff, CommandCenter, Heli", "NitroLauncher:7, ProgWeaponsOn, CommandCenter, Heli", "NitroLauncher, ProgWeaponsOff, CommandCenter, ThrustOn", "NitroLauncher:7, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           },
           {
             "name": "Nitro Launcher: V8",
             "access_rules": ["NitroLauncher, ProgWeaponsOff, NGPOn", "NitroLauncher:8, ProgWeaponsOn, NGPOn", "NitroLauncher, ProgWeaponsOff, Koros", "NitroLauncher:8, ProgWeaponsOn, Koros", "NitroLauncher, ProgWeaponsOff, CrashSite", "NitroLauncher:8 ,ProgWeaponsOn, CrashSite", "NitroLauncher, ProgWeaponsOff, Metropolis", "NitroLauncher:8, ProgWeaponsOn, Metropolis", "NitroLauncher, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "NitroLauncher:8, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "NitroLauncher, ProgWeaponsOff, CommandCenter, Heli", "NitroLauncher:8, ProgWeaponsOn, CommandCenter, Heli", "NitroLauncher, ProgWeaponsOff, CommandCenter, ThrustOn", "NitroLauncher:8, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           }
         ]
@@ -3660,19 +3144,19 @@
           {
             "name": "N60 Storm: V6",
             "access_rules": ["N60Storm, ProgWeaponsOff, NGPOn", "N60Storm:6, ProgWeaponsOn, NGPOn", "N60Storm, ProgWeaponsOff, Koros", "N60Storm:6, ProgWeaponsOn, Koros", "N60Storm, ProgWeaponsOff, CrashSite", "N60Storm:6 ,ProgWeaponsOn, CrashSite", "N60Storm, ProgWeaponsOff, Metropolis", "N60Storm:6, ProgWeaponsOn, Metropolis", "N60Storm, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "N60Storm:6, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "N60Storm, ProgWeaponsOff, CommandCenter, Heli", "N60Storm:6, ProgWeaponsOn, CommandCenter, Heli", "N60Storm, ProgWeaponsOff, CommandCenter, ThrustOn", "N60Storm:6, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           },
           {
             "name": "N60 Storm: V7",
             "access_rules": ["N60Storm, ProgWeaponsOff, NGPOn", "N60Storm:7, ProgWeaponsOn, NGPOn", "N60Storm, ProgWeaponsOff, Koros", "N60Storm:7, ProgWeaponsOn, Koros", "N60Storm, ProgWeaponsOff, CrashSite", "N60Storm:7 ,ProgWeaponsOn, CrashSite", "N60Storm, ProgWeaponsOff, Metropolis", "N60Storm:7, ProgWeaponsOn, Metropolis", "N60Storm, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "N60Storm:7, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "N60Storm, ProgWeaponsOff, CommandCenter, Heli", "N60Storm:7, ProgWeaponsOn, CommandCenter, Heli", "N60Storm, ProgWeaponsOff, CommandCenter, ThrustOn", "N60Storm:7, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           },
           {
             "name": "N60 Storm: V8",
             "access_rules": ["N60Storm, ProgWeaponsOff, NGPOn", "N60Storm:8, ProgWeaponsOn, NGPOn", "N60Storm, ProgWeaponsOff, Koros", "N60Storm:8, ProgWeaponsOn, Koros", "N60Storm, ProgWeaponsOff, CrashSite", "N60Storm:8 ,ProgWeaponsOn, CrashSite", "N60Storm, ProgWeaponsOff, Metropolis", "N60Storm:8, ProgWeaponsOn, Metropolis", "N60Storm, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "N60Storm:8, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "N60Storm, ProgWeaponsOff, CommandCenter, Heli", "N60Storm:8, ProgWeaponsOn, CommandCenter, Heli", "N60Storm, ProgWeaponsOff, CommandCenter, ThrustOn", "N60Storm:8, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           }
         ]
@@ -3714,19 +3198,19 @@
           {
             "name": "Plasma Whip: V6",
             "access_rules": ["PlasmaWhip, ProgWeaponsOff, NGPOn", "PlasmaWhip:6, ProgWeaponsOn, NGPOn", "PlasmaWhip, ProgWeaponsOff, Koros", "PlasmaWhip:6, ProgWeaponsOn, Koros", "PlasmaWhip, ProgWeaponsOff, CrashSite", "PlasmaWhip:6 ,ProgWeaponsOn, CrashSite", "PlasmaWhip, ProgWeaponsOff, Metropolis", "PlasmaWhip:6, ProgWeaponsOn, Metropolis", "PlasmaWhip, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "PlasmaWhip:6, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "PlasmaWhip, ProgWeaponsOff, CommandCenter, Heli", "PlasmaWhip:6, ProgWeaponsOn, CommandCenter, Heli", "PlasmaWhip, ProgWeaponsOff, CommandCenter, ThrustOn", "PlasmaWhip:6, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           },
           {
             "name": "Plasma Whip: V7",
             "access_rules": ["PlasmaWhip, ProgWeaponsOff, NGPOn", "PlasmaWhip:7, ProgWeaponsOn, NGPOn", "PlasmaWhip, ProgWeaponsOff, Koros", "PlasmaWhip:7, ProgWeaponsOn, Koros", "PlasmaWhip, ProgWeaponsOff, CrashSite", "PlasmaWhip:7 ,ProgWeaponsOn, CrashSite", "PlasmaWhip, ProgWeaponsOff, Metropolis", "PlasmaWhip:7, ProgWeaponsOn, Metropolis", "PlasmaWhip, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "PlasmaWhip:7, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "PlasmaWhip, ProgWeaponsOff, CommandCenter, Heli", "PlasmaWhip:7, ProgWeaponsOn, CommandCenter, Heli", "PlasmaWhip, ProgWeaponsOff, CommandCenter, ThrustOn", "PlasmaWhip:7, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           },
           {
             "name": "Plasma Whip: V8",
             "access_rules": ["PlasmaWhip, ProgWeaponsOff, NGPOn", "PlasmaWhip:8, ProgWeaponsOn, NGPOn", "PlasmaWhip, ProgWeaponsOff, Koros", "PlasmaWhip:8, ProgWeaponsOn, Koros", "PlasmaWhip, ProgWeaponsOff, CrashSite", "PlasmaWhip:8 ,ProgWeaponsOn, CrashSite", "PlasmaWhip, ProgWeaponsOff, Metropolis", "PlasmaWhip:8, ProgWeaponsOn, Metropolis", "PlasmaWhip, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "PlasmaWhip:8, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "PlasmaWhip, ProgWeaponsOff, CommandCenter, Heli", "PlasmaWhip:8, ProgWeaponsOn, CommandCenter, Heli", "PlasmaWhip, ProgWeaponsOff, CommandCenter, ThrustOn", "PlasmaWhip:8, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           }
         ]
@@ -3768,19 +3252,19 @@
           {
             "name": "Infector: V6",
             "access_rules": ["Infector, ProgWeaponsOff, NGPOn", "Infector:6, ProgWeaponsOn, NGPOn", "Infector, ProgWeaponsOff, Koros", "Infector:6, ProgWeaponsOn, Koros", "Infector, ProgWeaponsOff, CrashSite", "Infector:6 ,ProgWeaponsOn, CrashSite", "Infector, ProgWeaponsOff, Metropolis", "Infector:6, ProgWeaponsOn, Metropolis", "Infector, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "Infector:6, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "Infector, ProgWeaponsOff, CommandCenter, Heli", "Infector:6, ProgWeaponsOn, CommandCenter, Heli", "Infector, ProgWeaponsOff, CommandCenter, ThrustOn", "Infector:6, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           },
           {
             "name": "Infector: V7",
             "access_rules": ["Infector, ProgWeaponsOff, NGPOn", "Infector:7, ProgWeaponsOn, NGPOn", "Infector, ProgWeaponsOff, Koros", "Infector:7, ProgWeaponsOn, Koros", "Infector, ProgWeaponsOff, CrashSite", "Infector:7 ,ProgWeaponsOn, CrashSite", "Infector, ProgWeaponsOff, Metropolis", "Infector:7, ProgWeaponsOn, Metropolis", "Infector, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "Infector:7, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "Infector, ProgWeaponsOff, CommandCenter, Heli", "Infector:7, ProgWeaponsOn, CommandCenter, Heli", "Infector, ProgWeaponsOff, CommandCenter, ThrustOn", "Infector:7, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           },
           {
             "name": "Infector: V8",
             "access_rules": ["Infector, ProgWeaponsOff, NGPOn", "Infector:8, ProgWeaponsOn, NGPOn", "Infector, ProgWeaponsOff, Koros", "Infector:8, ProgWeaponsOn, Koros", "Infector, ProgWeaponsOff, CrashSite", "Infector:8 ,ProgWeaponsOn, CrashSite", "Infector, ProgWeaponsOff, Metropolis", "Infector:8, ProgWeaponsOn, Metropolis", "Infector, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "Infector:8, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "Infector, ProgWeaponsOff, CommandCenter, Heli", "Infector:8, ProgWeaponsOn, CommandCenter, Heli", "Infector, ProgWeaponsOff, CommandCenter, ThrustOn", "Infector:8, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           }
         ]
@@ -3822,19 +3306,19 @@
           {
             "name": "Suck Cannon: V6",
             "access_rules": ["SuckCannon, ProgWeaponsOff, NGPOn", "SuckCannon:6, ProgWeaponsOn, NGPOn", "SuckCannon, ProgWeaponsOff, Koros", "SuckCannon:6, ProgWeaponsOn, Koros", "SuckCannon, ProgWeaponsOff, CrashSite", "SuckCannon:6 ,ProgWeaponsOn, CrashSite", "SuckCannon, ProgWeaponsOff, Metropolis", "SuckCannon:6, ProgWeaponsOn, Metropolis", "SuckCannon, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "SuckCannon:6, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "SuckCannon, ProgWeaponsOff, CommandCenter, Heli", "SuckCannon:6, ProgWeaponsOn, CommandCenter, Heli", "SuckCannon, ProgWeaponsOff, CommandCenter, ThrustOn", "SuckCannon:6, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           },
           {
             "name": "Suck Cannon: V7",
             "access_rules": ["SuckCannon, ProgWeaponsOff, NGPOn", "SuckCannon:7, ProgWeaponsOn, NGPOn", "SuckCannon, ProgWeaponsOff, Koros", "SuckCannon:7, ProgWeaponsOn, Koros", "SuckCannon, ProgWeaponsOff, CrashSite", "SuckCannon:7 ,ProgWeaponsOn, CrashSite", "SuckCannon, ProgWeaponsOff, Metropolis", "SuckCannon:7, ProgWeaponsOn, Metropolis", "SuckCannon, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "SuckCannon:7, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "SuckCannon, ProgWeaponsOff, CommandCenter, Heli", "SuckCannon:7, ProgWeaponsOn, CommandCenter, Heli", "SuckCannon, ProgWeaponsOff, CommandCenter, ThrustOn", "SuckCannon:7, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           },
           {
             "name": "Suck Cannon: V8",
             "access_rules": ["SuckCannon, ProgWeaponsOff, NGPOn", "SuckCannon:8, ProgWeaponsOn, NGPOn", "SuckCannon, ProgWeaponsOff, Koros", "SuckCannon:8, ProgWeaponsOn, Koros", "SuckCannon, ProgWeaponsOff, CrashSite", "SuckCannon:8 ,ProgWeaponsOn, CrashSite", "SuckCannon, ProgWeaponsOff, Metropolis", "SuckCannon:8, ProgWeaponsOn, Metropolis", "SuckCannon, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "SuckCannon:8, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "SuckCannon, ProgWeaponsOff, CommandCenter, Heli", "SuckCannon:8, ProgWeaponsOn, CommandCenter, Heli", "SuckCannon, ProgWeaponsOff, CommandCenter, ThrustOn", "SuckCannon:8, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           }
         ]
@@ -3876,19 +3360,19 @@
           {
             "name": "Spitting Hydra: V6",
             "access_rules": ["SpittingHydra, ProgWeaponsOff, NGPOn", "SpittingHydra:6, ProgWeaponsOn, NGPOn", "SpittingHydra, ProgWeaponsOff, Koros", "SpittingHydra:6, ProgWeaponsOn, Koros", "SpittingHydra, ProgWeaponsOff, CrashSite", "SpittingHydra:6 ,ProgWeaponsOn, CrashSite", "SpittingHydra, ProgWeaponsOff, Metropolis", "SpittingHydra:6, ProgWeaponsOn, Metropolis", "SpittingHydra, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "SpittingHydra:6, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "SpittingHydra, ProgWeaponsOff, CommandCenter, Heli", "SpittingHydra:6, ProgWeaponsOn, CommandCenter, Heli", "SpittingHydra, ProgWeaponsOff, CommandCenter, ThrustOn", "SpittingHydra:6, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           },
           {
             "name": "Spitting Hydra: V7",
             "access_rules": ["SpittingHydra, ProgWeaponsOff, NGPOn", "SpittingHydra:7, ProgWeaponsOn, NGPOn", "SpittingHydra, ProgWeaponsOff, Koros", "SpittingHydra:7, ProgWeaponsOn, Koros", "SpittingHydra, ProgWeaponsOff, CrashSite", "SpittingHydra:7 ,ProgWeaponsOn, CrashSite", "SpittingHydra, ProgWeaponsOff, Metropolis", "SpittingHydra:7, ProgWeaponsOn, Metropolis", "SpittingHydra, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "SpittingHydra:7, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "SpittingHydra, ProgWeaponsOff, CommandCenter, Heli", "SpittingHydra:7, ProgWeaponsOn, CommandCenter, Heli", "SpittingHydra, ProgWeaponsOff, CommandCenter, ThrustOn", "SpittingHydra:7, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           },
           {
             "name": "Spitting Hydra: V8",
             "access_rules": ["SpittingHydra, ProgWeaponsOff, NGPOn", "SpittingHydra:8, ProgWeaponsOn, NGPOn", "SpittingHydra, ProgWeaponsOff, Koros", "SpittingHydra:8, ProgWeaponsOn, Koros", "SpittingHydra, ProgWeaponsOff, CrashSite", "SpittingHydra:8 ,ProgWeaponsOn, CrashSite", "SpittingHydra, ProgWeaponsOff, Metropolis", "SpittingHydra:8, ProgWeaponsOn, Metropolis", "SpittingHydra, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "SpittingHydra:8, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "SpittingHydra, ProgWeaponsOff, CommandCenter, Heli", "SpittingHydra:8, ProgWeaponsOn, CommandCenter, Heli", "SpittingHydra, ProgWeaponsOff, CommandCenter, ThrustOn", "SpittingHydra:8, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           }
         ]
@@ -3930,19 +3414,19 @@
           {
             "name": "Agents of Doom: V6",
             "access_rules": ["AgentsOfDoom, ProgWeaponsOff, NGPOn", "AgentsOfDoom:6, ProgWeaponsOn, NGPOn", "AgentsOfDoom, ProgWeaponsOff, Koros", "AgentsOfDoom:6, ProgWeaponsOn, Koros", "AgentsOfDoom, ProgWeaponsOff, CrashSite", "AgentsOfDoom:6 ,ProgWeaponsOn, CrashSite", "AgentsOfDoom, ProgWeaponsOff, Metropolis", "AgentsOfDoom:6, ProgWeaponsOn, Metropolis", "AgentsOfDoom, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "AgentsOfDoom:6, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "AgentsOfDoom, ProgWeaponsOff, CommandCenter, Heli", "AgentsOfDoom:6, ProgWeaponsOn, CommandCenter, Heli", "AgentsOfDoom, ProgWeaponsOff, CommandCenter, ThrustOn", "AgentsOfDoom:6, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           },
           {
             "name": "Agents of Doom: V7",
             "access_rules": ["AgentsOfDoom, ProgWeaponsOff, NGPOn", "AgentsOfDoom:7, ProgWeaponsOn, NGPOn", "AgentsOfDoom, ProgWeaponsOff, Koros", "AgentsOfDoom:7, ProgWeaponsOn, Koros", "AgentsOfDoom, ProgWeaponsOff, CrashSite", "AgentsOfDoom:7 ,ProgWeaponsOn, CrashSite", "AgentsOfDoom, ProgWeaponsOff, Metropolis", "AgentsOfDoom:7, ProgWeaponsOn, Metropolis", "AgentsOfDoom, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "AgentsOfDoom:7, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "AgentsOfDoom, ProgWeaponsOff, CommandCenter, Heli", "AgentsOfDoom:7, ProgWeaponsOn, CommandCenter, Heli", "AgentsOfDoom, ProgWeaponsOff, CommandCenter, ThrustOn", "AgentsOfDoom:7, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           },
           {
             "name": "Agents of Doom: V8",
             "access_rules": ["AgentsOfDoom, ProgWeaponsOff, NGPOn", "AgentsOfDoom:8, ProgWeaponsOn, NGPOn", "AgentsOfDoom, ProgWeaponsOff, Koros", "AgentsOfDoom:8, ProgWeaponsOn, Koros", "AgentsOfDoom, ProgWeaponsOff, CrashSite", "AgentsOfDoom:8 ,ProgWeaponsOn, CrashSite", "AgentsOfDoom, ProgWeaponsOff, Metropolis", "AgentsOfDoom:8, ProgWeaponsOn, Metropolis", "AgentsOfDoom, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "AgentsOfDoom:8, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "AgentsOfDoom, ProgWeaponsOff, CommandCenter, Heli", "AgentsOfDoom:8, ProgWeaponsOn, CommandCenter, Heli", "AgentsOfDoom, ProgWeaponsOff, CommandCenter, ThrustOn", "AgentsOfDoom:8, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           }
         ]
@@ -3984,19 +3468,19 @@
           {
             "name": "Flux Rifle: V6",
             "access_rules": ["FluxRifle, ProgWeaponsOff, NGPOn", "FluxRifle:6, ProgWeaponsOn, NGPOn", "FluxRifle, ProgWeaponsOff, Koros", "FluxRifle:6, ProgWeaponsOn, Koros", "FluxRifle, ProgWeaponsOff, CrashSite", "FluxRifle:6 ,ProgWeaponsOn, CrashSite", "FluxRifle, ProgWeaponsOff, Metropolis", "FluxRifle:6, ProgWeaponsOn, Metropolis", "FluxRifle, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "FluxRifle:6, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "FluxRifle, ProgWeaponsOff, CommandCenter, Heli", "FluxRifle:6, ProgWeaponsOn, CommandCenter, Heli", "FluxRifle, ProgWeaponsOff, CommandCenter, ThrustOn", "FluxRifle:6, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           },
           {
             "name": "Flux Rifle: V7",
             "access_rules": ["FluxRifle, ProgWeaponsOff, NGPOn", "FluxRifle:7, ProgWeaponsOn, NGPOn", "FluxRifle, ProgWeaponsOff, Koros", "FluxRifle:7, ProgWeaponsOn, Koros", "FluxRifle, ProgWeaponsOff, CrashSite", "FluxRifle:7 ,ProgWeaponsOn, CrashSite", "FluxRifle, ProgWeaponsOff, Metropolis", "FluxRifle:7, ProgWeaponsOn, Metropolis", "FluxRifle, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "FluxRifle:7, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "FluxRifle, ProgWeaponsOff, CommandCenter, Heli", "FluxRifle:7, ProgWeaponsOn, CommandCenter, Heli", "FluxRifle, ProgWeaponsOff, CommandCenter, ThrustOn", "FluxRifle:7, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           },
           {
             "name": "Flux Rifle: V8",
             "access_rules": ["FluxRifle, ProgWeaponsOff, NGPOn", "FluxRifle:8, ProgWeaponsOn, NGPOn", "FluxRifle, ProgWeaponsOff, Koros", "FluxRifle:8, ProgWeaponsOn, Koros", "FluxRifle, ProgWeaponsOff, CrashSite", "FluxRifle:8 ,ProgWeaponsOn, CrashSite", "FluxRifle, ProgWeaponsOff, Metropolis", "FluxRifle:8, ProgWeaponsOn, Metropolis", "FluxRifle, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "FluxRifle:8, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "FluxRifle, ProgWeaponsOff, CommandCenter, Heli", "FluxRifle:8, ProgWeaponsOn, CommandCenter, Heli", "FluxRifle, ProgWeaponsOff, CommandCenter, ThrustOn", "FluxRifle:8, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           }
         ]
@@ -4038,19 +3522,19 @@
           {
             "name": "Annihilator: V6",
             "access_rules": ["Annihilator, ProgWeaponsOff, NGPOn", "Annihilator:6, ProgWeaponsOn, NGPOn", "Annihilator, ProgWeaponsOff, Koros", "Annihilator:6, ProgWeaponsOn, Koros", "Annihilator, ProgWeaponsOff, CrashSite", "Annihilator:6 ,ProgWeaponsOn, CrashSite", "Annihilator, ProgWeaponsOff, Metropolis", "Annihilator:6, ProgWeaponsOn, Metropolis", "Annihilator, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "Annihilator:6, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "Annihilator, ProgWeaponsOff, CommandCenter, Heli", "Annihilator:6, ProgWeaponsOn, CommandCenter, Heli", "Annihilator, ProgWeaponsOff, CommandCenter, ThrustOn", "Annihilator:6, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           },
           {
             "name": "Annihilator: V7",
             "access_rules": ["Annihilator, ProgWeaponsOff, NGPOn", "Annihilator:7, ProgWeaponsOn, NGPOn", "Annihilator, ProgWeaponsOff, Koros", "Annihilator:7, ProgWeaponsOn, Koros", "Annihilator, ProgWeaponsOff, CrashSite", "Annihilator:7 ,ProgWeaponsOn, CrashSite", "Annihilator, ProgWeaponsOff, Metropolis", "Annihilator:7, ProgWeaponsOn, Metropolis", "Annihilator, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "Annihilator:7, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "Annihilator, ProgWeaponsOff, CommandCenter, Heli", "Annihilator:7, ProgWeaponsOn, CommandCenter, Heli", "Annihilator, ProgWeaponsOff, CommandCenter, ThrustOn", "Annihilator:7, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           },
           {
             "name": "Annihilator: V8",
             "access_rules": ["Annihilator, ProgWeaponsOff, NGPOn", "Annihilator:8, ProgWeaponsOn, NGPOn", "Annihilator, ProgWeaponsOff, Koros", "Annihilator:8, ProgWeaponsOn, Koros", "Annihilator, ProgWeaponsOff, CrashSite", "Annihilator:8 ,ProgWeaponsOn, CrashSite", "Annihilator, ProgWeaponsOff, Metropolis", "Annihilator:8, ProgWeaponsOn, Metropolis", "Annihilator, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "Annihilator:8, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "Annihilator, ProgWeaponsOff, CommandCenter, Heli", "Annihilator:8, ProgWeaponsOn, CommandCenter, Heli", "Annihilator, ProgWeaponsOff, CommandCenter, ThrustOn", "Annihilator:8, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           }
         ]
@@ -4092,19 +3576,19 @@
           {
             "name": "Holo Shield Glove: V6",
             "access_rules": ["HoloShieldGlove, ProgWeaponsOff, NGPOn", "HoloShieldGlove:6, ProgWeaponsOn, NGPOn", "HoloShieldGlove, ProgWeaponsOff, Koros", "HoloShieldGlove:6, ProgWeaponsOn, Koros", "HoloShieldGlove, ProgWeaponsOff, CrashSite", "HoloShieldGlove:6 ,ProgWeaponsOn, CrashSite", "HoloShieldGlove, ProgWeaponsOff, Metropolis", "HoloShieldGlove:6, ProgWeaponsOn, Metropolis", "HoloShieldGlove, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "HoloShieldGlove:6, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "HoloShieldGlove, ProgWeaponsOff, CommandCenter, Heli", "HoloShieldGlove:6, ProgWeaponsOn, CommandCenter, Heli", "HoloShieldGlove, ProgWeaponsOff, CommandCenter, ThrustOn", "HoloShieldGlove:6, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           },
           {
             "name": "Holo Shield Glove: V7",
             "access_rules": ["HoloShieldGlove, ProgWeaponsOff, NGPOn", "HoloShieldGlove:7, ProgWeaponsOn, NGPOn", "HoloShieldGlove, ProgWeaponsOff, Koros", "HoloShieldGlove:7, ProgWeaponsOn, Koros", "HoloShieldGlove, ProgWeaponsOff, CrashSite", "HoloShieldGlove:7 ,ProgWeaponsOn, CrashSite", "HoloShieldGlove, ProgWeaponsOff, Metropolis", "HoloShieldGlove:7, ProgWeaponsOn, Metropolis", "HoloShieldGlove, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "HoloShieldGlove:7, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "HoloShieldGlove, ProgWeaponsOff, CommandCenter, Heli", "HoloShieldGlove:7, ProgWeaponsOn, CommandCenter, Heli", "HoloShieldGlove, ProgWeaponsOff, CommandCenter, ThrustOn", "HoloShieldGlove:7, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           },
           {
             "name": "Holo Shield Glove: V8",
             "access_rules": ["HoloShieldGlove, ProgWeaponsOff, NGPOn", "HoloShieldGlove:8, ProgWeaponsOn, NGPOn", "HoloShieldGlove, ProgWeaponsOff, Koros", "HoloShieldGlove:8, ProgWeaponsOn, Koros", "HoloShieldGlove, ProgWeaponsOff, CrashSite", "HoloShieldGlove:8 ,ProgWeaponsOn, CrashSite", "HoloShieldGlove, ProgWeaponsOff, Metropolis", "HoloShieldGlove:8, ProgWeaponsOn, Metropolis", "HoloShieldGlove, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "HoloShieldGlove:8, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "HoloShieldGlove, ProgWeaponsOff, CommandCenter, Heli", "HoloShieldGlove:8, ProgWeaponsOn, CommandCenter, Heli", "HoloShieldGlove, ProgWeaponsOff, CommandCenter, ThrustOn", "HoloShieldGlove:8, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           }
         ]
@@ -4146,19 +3630,19 @@
           {
             "name": "Disk Blade Gun: V6",
             "access_rules": ["DiskBladeGun, ProgWeaponsOff, NGPOn", "DiskBladeGun:6, ProgWeaponsOn, NGPOn", "DiskBladeGun, ProgWeaponsOff, Koros", "DiskBladeGun:6, ProgWeaponsOn, Koros", "DiskBladeGun, ProgWeaponsOff, CrashSite", "DiskBladeGun:6 ,ProgWeaponsOn, CrashSite", "DiskBladeGun, ProgWeaponsOff, Metropolis", "DiskBladeGun:6, ProgWeaponsOn, Metropolis", "DiskBladeGun, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "DiskBladeGun:6, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "DiskBladeGun, ProgWeaponsOff, CommandCenter, Heli", "DiskBladeGun:6, ProgWeaponsOn, CommandCenter, Heli", "DiskBladeGun, ProgWeaponsOff, CommandCenter, ThrustOn", "DiskBladeGun:6, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           },
           {
             "name": "Disk Blade Gun: V7",
             "access_rules": ["DiskBladeGun, ProgWeaponsOff, NGPOn", "DiskBladeGun:7, ProgWeaponsOn, NGPOn", "DiskBladeGun, ProgWeaponsOff, Koros", "DiskBladeGun:7, ProgWeaponsOn, Koros", "DiskBladeGun, ProgWeaponsOff, CrashSite", "DiskBladeGun:7 ,ProgWeaponsOn, CrashSite", "DiskBladeGun, ProgWeaponsOff, Metropolis", "DiskBladeGun:7, ProgWeaponsOn, Metropolis", "DiskBladeGun, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "DiskBladeGun:7, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "DiskBladeGun, ProgWeaponsOff, CommandCenter, Heli", "DiskBladeGun:7, ProgWeaponsOn, CommandCenter, Heli", "DiskBladeGun, ProgWeaponsOff, CommandCenter, ThrustOn", "DiskBladeGun:7, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           },
           {
             "name": "Disk Blade Gun: V8",
             "access_rules": ["DiskBladeGun, ProgWeaponsOff, NGPOn", "DiskBladeGun:8, ProgWeaponsOn, NGPOn", "DiskBladeGun, ProgWeaponsOff, Koros", "DiskBladeGun:8, ProgWeaponsOn, Koros", "DiskBladeGun, ProgWeaponsOff, CrashSite", "DiskBladeGun:8 ,ProgWeaponsOn, CrashSite", "DiskBladeGun, ProgWeaponsOff, Metropolis", "DiskBladeGun:8, ProgWeaponsOn, Metropolis", "DiskBladeGun, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "DiskBladeGun:8, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "DiskBladeGun, ProgWeaponsOff, CommandCenter, Heli", "DiskBladeGun:8, ProgWeaponsOn, CommandCenter, Heli", "DiskBladeGun, ProgWeaponsOff, CommandCenter, ThrustOn", "DiskBladeGun:8, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           }
         ]
@@ -4200,19 +3684,19 @@
           {
             "name": "Rift Inducer: V6",
             "access_rules": ["RiftInducer, ProgWeaponsOff, NGPOn", "RiftInducer:6, ProgWeaponsOn, NGPOn", "RiftInducer, ProgWeaponsOff, Koros", "RiftInducer:6, ProgWeaponsOn, Koros", "RiftInducer, ProgWeaponsOff, CrashSite", "RiftInducer:6 ,ProgWeaponsOn, CrashSite", "RiftInducer, ProgWeaponsOff, Metropolis", "RiftInducer:6, ProgWeaponsOn, Metropolis", "RiftInducer, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "RiftInducer:6, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "RiftInducer, ProgWeaponsOff, CommandCenter, Heli", "RiftInducer:6, ProgWeaponsOn, CommandCenter, Heli", "RiftInducer, ProgWeaponsOff, CommandCenter, ThrustOn", "RiftInducer:6, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           },
           {
             "name": "Rift Inducer: V7",
             "access_rules": ["RiftInducer, ProgWeaponsOff, NGPOn", "RiftInducer:7, ProgWeaponsOn, NGPOn", "RiftInducer, ProgWeaponsOff, Koros", "RiftInducer:7, ProgWeaponsOn, Koros", "RiftInducer, ProgWeaponsOff, CrashSite", "RiftInducer:7 ,ProgWeaponsOn, CrashSite", "RiftInducer, ProgWeaponsOff, Metropolis", "RiftInducer:7, ProgWeaponsOn, Metropolis", "RiftInducer, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "RiftInducer:7, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "RiftInducer, ProgWeaponsOff, CommandCenter, Heli", "RiftInducer:7, ProgWeaponsOn, CommandCenter, Heli", "RiftInducer, ProgWeaponsOff, CommandCenter, ThrustOn", "RiftInducer:7, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           },
           {
             "name": "Rift Inducer: V8",
             "access_rules": ["RiftInducer, ProgWeaponsOff, NGPOn", "RiftInducer:8, ProgWeaponsOn, NGPOn", "RiftInducer, ProgWeaponsOff, Koros", "RiftInducer:8, ProgWeaponsOn, Koros", "RiftInducer, ProgWeaponsOff, CrashSite", "RiftInducer:8 ,ProgWeaponsOn, CrashSite", "RiftInducer, ProgWeaponsOff, Metropolis", "RiftInducer:8, ProgWeaponsOn, Metropolis", "RiftInducer, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "RiftInducer:8, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "RiftInducer, ProgWeaponsOff, CommandCenter, Heli", "RiftInducer:8, ProgWeaponsOn, CommandCenter, Heli", "RiftInducer, ProgWeaponsOff, CommandCenter, ThrustOn", "RiftInducer:8, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           }
         ]
@@ -4254,19 +3738,19 @@
           {
             "name": "Qwack-O-Ray: V6",
             "access_rules": ["QwackORay, ProgWeaponsOff, NGPOn", "QwackORay:6, ProgWeaponsOn, NGPOn", "QwackORay, ProgWeaponsOff, Koros", "QwackORay:6, ProgWeaponsOn, Koros", "QwackORay, ProgWeaponsOff, CrashSite", "QwackORay:6 ,ProgWeaponsOn, CrashSite", "QwackORay, ProgWeaponsOff, Metropolis", "QwackORay:6, ProgWeaponsOn, Metropolis", "QwackORay, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "QwackORay:6, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "QwackORay, ProgWeaponsOff, CommandCenter, Heli", "QwackORay:6, ProgWeaponsOn, CommandCenter, Heli", "QwackORay, ProgWeaponsOff, CommandCenter, ThrustOn", "QwackORay:6, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           },
           {
             "name": "Qwack-O-Ray: V7",
             "access_rules": ["QwackORay, ProgWeaponsOff, NGPOn", "QwackORay:7, ProgWeaponsOn, NGPOn", "QwackORay, ProgWeaponsOff, Koros", "QwackORay:7, ProgWeaponsOn, Koros", "QwackORay, ProgWeaponsOff, CrashSite", "QwackORay:7 ,ProgWeaponsOn, CrashSite", "QwackORay, ProgWeaponsOff, Metropolis", "QwackORay:7, ProgWeaponsOn, Metropolis", "QwackORay, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "QwackORay:7, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "QwackORay, ProgWeaponsOff, CommandCenter, Heli", "QwackORay:7, ProgWeaponsOn, CommandCenter, Heli", "QwackORay, ProgWeaponsOff, CommandCenter, ThrustOn", "QwackORay:7, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           },
           {
             "name": "Qwack-O-Ray: V8",
             "access_rules": ["QwackORay, ProgWeaponsOff, NGPOn", "QwackORay:8, ProgWeaponsOn, NGPOn", "QwackORay, ProgWeaponsOff, Koros", "QwackORay:8, ProgWeaponsOn, Koros", "QwackORay, ProgWeaponsOff, CrashSite", "QwackORay:8 ,ProgWeaponsOn, CrashSite", "QwackORay, ProgWeaponsOff, Metropolis", "QwackORay:8, ProgWeaponsOn, Metropolis", "QwackORay, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "QwackORay:8, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "QwackORay, ProgWeaponsOff, CommandCenter, Heli", "QwackORay:8, ProgWeaponsOn, CommandCenter, Heli", "QwackORay, ProgWeaponsOff, CommandCenter, ThrustOn", "QwackORay:8, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           }
         ]
@@ -4284,25 +3768,25 @@
           {
             "name": "RY3N0: V2",
             "access_rules": ["RY3N0, ProgWeaponsOff, NGPOn", "RY3N0:2, ProgWeaponsOn, NGPOn", "RY3N0, ProgWeaponsOff, Koros", "RY3N0:2, ProgWeaponsOn, Koros", "RY3N0, ProgWeaponsOff, CrashSite", "RY3N0:2 ,ProgWeaponsOn, CrashSite", "RY3N0, ProgWeaponsOff, Metropolis", "RY3N0:2, ProgWeaponsOn, Metropolis", "RY3N0, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "RY3N0:2, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "RY3N0, ProgWeaponsOff, CommandCenter, Heli", "RY3N0:2, ProgWeaponsOn, CommandCenter, Heli", "RY3N0, ProgWeaponsOff, CommandCenter, ThrustOn", "RY3N0:2, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           },
           {
             "name": "RY3N0: V3",
             "access_rules": ["RY3N0, ProgWeaponsOff, NGPOn", "RY3N0:3, ProgWeaponsOn, NGPOn", "RY3N0, ProgWeaponsOff, Koros", "RY3N0:3, ProgWeaponsOn, Koros", "RY3N0, ProgWeaponsOff, CrashSite", "RY3N0:3 ,ProgWeaponsOn, CrashSite", "RY3N0, ProgWeaponsOff, Metropolis", "RY3N0:3, ProgWeaponsOn, Metropolis", "RY3N0, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "RY3N0:3, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "RY3N0, ProgWeaponsOff, CommandCenter, Heli", "RY3N0:3, ProgWeaponsOn, CommandCenter, Heli", "RY3N0, ProgWeaponsOff, CommandCenter, ThrustOn", "RY3N0:3, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           },
           {
             "name": "RY3N0: V4",
             "access_rules": ["RY3N0, ProgWeaponsOff, NGPOn", "RY3N0:4, ProgWeaponsOn, NGPOn", "RY3N0, ProgWeaponsOff, Koros", "RY3N0:4, ProgWeaponsOn, Koros", "RY3N0, ProgWeaponsOff, CrashSite", "RY3N0:4 ,ProgWeaponsOn, CrashSite", "RY3N0, ProgWeaponsOff, Metropolis", "RY3N0:4, ProgWeaponsOn, Metropolis", "RY3N0, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "RY3N0:4, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "RY3N0, ProgWeaponsOff, CommandCenter, Heli", "RY3N0:4, ProgWeaponsOn, CommandCenter, Heli", "RY3N0, ProgWeaponsOff, CommandCenter, ThrustOn", "RY3N0:4, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           },
           {
             "name": "RY3N0: V5",
             "access_rules": ["RY3N0, ProgWeaponsOff, NGPOn", "RY3N0:5, ProgWeaponsOn, NGPOn", "RY3N0, ProgWeaponsOff, Koros", "RY3N0:5, ProgWeaponsOn, Koros", "RY3N0, ProgWeaponsOff, CrashSite", "RY3N0:5 ,ProgWeaponsOn, CrashSite", "RY3N0, ProgWeaponsOff, Metropolis", "RY3N0:5, ProgWeaponsOn, Metropolis", "RY3N0, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "RY3N0:5, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "RY3N0, ProgWeaponsOff, CommandCenter, Heli", "RY3N0:5, ProgWeaponsOn, CommandCenter, Heli", "RY3N0, ProgWeaponsOff, CommandCenter, ThrustOn", "RY3N0:5, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsV5", "WeaponLvlsOn" ],
+            "visibility_rules": [ "WeaponLvlsV5", "WeaponLvlsOn, NGPItemsOn" ],
             "item_count": 1
           }
         ]
@@ -4344,19 +3828,19 @@
           {
             "name": "Miniturret Glove: V6",
             "access_rules": ["MiniTurretGlove, ProgWeaponsOff, NGPOn", "MiniTurretGlove:6, ProgWeaponsOn, NGPOn", "MiniTurretGlove, ProgWeaponsOff, Koros", "MiniTurretGlove:6, ProgWeaponsOn, Koros", "MiniTurretGlove, ProgWeaponsOff, CrashSite", "MiniTurretGlove:6 ,ProgWeaponsOn, CrashSite", "MiniTurretGlove, ProgWeaponsOff, Metropolis", "MiniTurretGlove:6, ProgWeaponsOn, Metropolis", "MiniTurretGlove, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "MiniTurretGlove:6, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "MiniTurretGlove, ProgWeaponsOff, CommandCenter, Heli", "MiniTurretGlove:6, ProgWeaponsOn, CommandCenter, Heli", "MiniTurretGlove, ProgWeaponsOff, CommandCenter, ThrustOn", "MiniTurretGlove:6, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           },
           {
             "name": "Miniturret Glove: V7",
             "access_rules": ["MiniTurretGlove, ProgWeaponsOff, NGPOn", "MiniTurretGlove:7, ProgWeaponsOn, NGPOn", "MiniTurretGlove, ProgWeaponsOff, Koros", "MiniTurretGlove:7, ProgWeaponsOn, Koros", "MiniTurretGlove, ProgWeaponsOff, CrashSite", "MiniTurretGlove:7 ,ProgWeaponsOn, CrashSite", "MiniTurretGlove, ProgWeaponsOff, Metropolis", "MiniTurretGlove:7, ProgWeaponsOn, Metropolis", "MiniTurretGlove, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "MiniTurretGlove:7, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "MiniTurretGlove, ProgWeaponsOff, CommandCenter, Heli", "MiniTurretGlove:7, ProgWeaponsOn, CommandCenter, Heli", "MiniTurretGlove, ProgWeaponsOff, CommandCenter, ThrustOn", "MiniTurretGlove:7, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           },
           {
             "name": "Miniturret Glove: V8",
             "access_rules": ["MiniTurretGlove, ProgWeaponsOff, NGPOn", "MiniTurretGlove:8, ProgWeaponsOn, NGPOn", "MiniTurretGlove, ProgWeaponsOff, Koros", "MiniTurretGlove:8, ProgWeaponsOn, Koros", "MiniTurretGlove, ProgWeaponsOff, CrashSite", "MiniTurretGlove:8 ,ProgWeaponsOn, CrashSite", "MiniTurretGlove, ProgWeaponsOff, Metropolis", "MiniTurretGlove:8, ProgWeaponsOn, Metropolis", "MiniTurretGlove, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "MiniTurretGlove:8, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "MiniTurretGlove, ProgWeaponsOff, CommandCenter, Heli", "MiniTurretGlove:8, ProgWeaponsOn, CommandCenter, Heli", "MiniTurretGlove, ProgWeaponsOff, CommandCenter, ThrustOn", "MiniTurretGlove:8, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           }
         ]
@@ -4398,19 +3882,19 @@
           {
             "name": "Lava Gun: V6",
             "access_rules": ["LavaGun, ProgWeaponsOff, NGPOn", "LavaGun:6, ProgWeaponsOn, NGPOn", "LavaGun, ProgWeaponsOff, Koros", "LavaGun:6, ProgWeaponsOn, Koros", "LavaGun, ProgWeaponsOff, CrashSite", "LavaGun:6 ,ProgWeaponsOn, CrashSite", "LavaGun, ProgWeaponsOff, Metropolis", "LavaGun:6, ProgWeaponsOn, Metropolis", "LavaGun, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "LavaGun:6, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "LavaGun, ProgWeaponsOff, CommandCenter, Heli", "LavaGun:6, ProgWeaponsOn, CommandCenter, Heli", "LavaGun, ProgWeaponsOff, CommandCenter, ThrustOn", "LavaGun:6, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           },
           {
             "name": "Lava Gun: V7",
             "access_rules": ["LavaGun, ProgWeaponsOff, NGPOn", "LavaGun:7, ProgWeaponsOn, NGPOn", "LavaGun, ProgWeaponsOff, Koros", "LavaGun:7, ProgWeaponsOn, Koros", "LavaGun, ProgWeaponsOff, CrashSite", "LavaGun:7 ,ProgWeaponsOn, CrashSite", "LavaGun, ProgWeaponsOff, Metropolis", "LavaGun:7, ProgWeaponsOn, Metropolis", "LavaGun, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "LavaGun:7, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "LavaGun, ProgWeaponsOff, CommandCenter, Heli", "LavaGun:7, ProgWeaponsOn, CommandCenter, Heli", "LavaGun, ProgWeaponsOff, CommandCenter, ThrustOn", "LavaGun:7, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           },
           {
             "name": "Lava Gun: V8",
             "access_rules": ["LavaGun, ProgWeaponsOff, NGPOn", "LavaGun:8, ProgWeaponsOn, NGPOn", "LavaGun, ProgWeaponsOff, Koros", "LavaGun:8, ProgWeaponsOn, Koros", "LavaGun, ProgWeaponsOff, CrashSite", "LavaGun:8 ,ProgWeaponsOn, CrashSite", "LavaGun, ProgWeaponsOff, Metropolis", "LavaGun:8, ProgWeaponsOn, Metropolis", "LavaGun, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "LavaGun:8, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "LavaGun, ProgWeaponsOff, CommandCenter, Heli", "LavaGun:8, ProgWeaponsOn, CommandCenter, Heli", "LavaGun, ProgWeaponsOff, CommandCenter, ThrustOn", "LavaGun:8, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           }
         ]
@@ -4453,19 +3937,19 @@
           {
             "name": "Shield Charger: V6",
             "access_rules": ["ShieldCharger, ProgWeaponsOff, NGPOn", "ShieldCharger:6, ProgWeaponsOn, NGPOn", "ShieldCharger, ProgWeaponsOff, Koros", "ShieldCharger:6, ProgWeaponsOn, Koros", "ShieldCharger, ProgWeaponsOff, CrashSite", "ShieldCharger:6 ,ProgWeaponsOn, CrashSite", "ShieldCharger, ProgWeaponsOff, Metropolis", "ShieldCharger:6, ProgWeaponsOn, Metropolis", "ShieldCharger, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "ShieldCharger:6, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "ShieldCharger, ProgWeaponsOff, CommandCenter, Heli", "ShieldCharger:6, ProgWeaponsOn, CommandCenter, Heli", "ShieldCharger, ProgWeaponsOff, CommandCenter, ThrustOn", "ShieldCharger:6, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           },
           {
             "name": "Shield Charger: V7",
             "access_rules": ["ShieldCharger, ProgWeaponsOff, NGPOn", "ShieldCharger:7, ProgWeaponsOn, NGPOn", "ShieldCharger, ProgWeaponsOff, Koros", "ShieldCharger:7, ProgWeaponsOn, Koros", "ShieldCharger, ProgWeaponsOff, CrashSite", "ShieldCharger:7 ,ProgWeaponsOn, CrashSite", "ShieldCharger, ProgWeaponsOff, Metropolis", "ShieldCharger:7, ProgWeaponsOn, Metropolis", "ShieldCharger, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "ShieldCharger:7, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "ShieldCharger, ProgWeaponsOff, CommandCenter, Heli", "ShieldCharger:7, ProgWeaponsOn, CommandCenter, Heli", "ShieldCharger, ProgWeaponsOff, CommandCenter, ThrustOn", "ShieldCharger:7, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           },
           {
             "name": "Shield Charger: V8",
             "access_rules": ["ShieldCharger, ProgWeaponsOff, NGPOn", "ShieldCharger:8, ProgWeaponsOn, NGPOn", "ShieldCharger, ProgWeaponsOff, Koros", "ShieldCharger:8, ProgWeaponsOn, Koros", "ShieldCharger, ProgWeaponsOff, CrashSite", "ShieldCharger:8 ,ProgWeaponsOn, CrashSite", "ShieldCharger, ProgWeaponsOff, Metropolis", "ShieldCharger:8, ProgWeaponsOn, Metropolis", "ShieldCharger, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "ShieldCharger:8, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "ShieldCharger, ProgWeaponsOff, CommandCenter, Heli", "ShieldCharger:8, ProgWeaponsOn, CommandCenter, Heli", "ShieldCharger, ProgWeaponsOff, CommandCenter, ThrustOn", "ShieldCharger:8, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           }
         ]
@@ -4507,19 +3991,19 @@
           {
             "name": "Bouncer: V6",
             "access_rules": ["Bouncer, ProgWeaponsOff, NGPOn", "Bouncer:6, ProgWeaponsOn, NGPOn", "Bouncer, ProgWeaponsOff, Koros", "Bouncer:6, ProgWeaponsOn, Koros", "Bouncer, ProgWeaponsOff, CrashSite", "Bouncer:6 ,ProgWeaponsOn, CrashSite", "Bouncer, ProgWeaponsOff, Metropolis", "Bouncer:6, ProgWeaponsOn, Metropolis", "Bouncer, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "Bouncer:6, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "Bouncer, ProgWeaponsOff, CommandCenter, Heli", "Bouncer:6, ProgWeaponsOn, CommandCenter, Heli", "Bouncer, ProgWeaponsOff, CommandCenter, ThrustOn", "Bouncer:6, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           },
           {
             "name": "Bouncer: V7",
             "access_rules": ["Bouncer, ProgWeaponsOff, NGPOn", "Bouncer:7, ProgWeaponsOn, NGPOn", "Bouncer, ProgWeaponsOff, Koros", "Bouncer:7, ProgWeaponsOn, Koros", "Bouncer, ProgWeaponsOff, CrashSite", "Bouncer:7 ,ProgWeaponsOn, CrashSite", "Bouncer, ProgWeaponsOff, Metropolis", "Bouncer:7, ProgWeaponsOn, Metropolis", "Bouncer, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "Bouncer:7, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "Bouncer, ProgWeaponsOff, CommandCenter, Heli", "Bouncer:7, ProgWeaponsOn, CommandCenter, Heli", "Bouncer, ProgWeaponsOff, CommandCenter, ThrustOn", "Bouncer:7, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           },
           {
             "name": "Bouncer: V8",
             "access_rules": ["Bouncer, ProgWeaponsOff, NGPOn", "Bouncer:8, ProgWeaponsOn, NGPOn", "Bouncer, ProgWeaponsOff, Koros", "Bouncer:8, ProgWeaponsOn, Koros", "Bouncer, ProgWeaponsOff, CrashSite", "Bouncer:8 ,ProgWeaponsOn, CrashSite", "Bouncer, ProgWeaponsOff, Metropolis", "Bouncer:8, ProgWeaponsOn, Metropolis", "Bouncer, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "Bouncer:8, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "Bouncer, ProgWeaponsOff, CommandCenter, Heli", "Bouncer:8, ProgWeaponsOn, CommandCenter, Heli", "Bouncer, ProgWeaponsOff, CommandCenter, ThrustOn", "Bouncer:8, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           }
         ]
@@ -4561,19 +4045,19 @@
           {
             "name": "Plasma Coil: V6",
             "access_rules": ["PlasmaCoil, ProgWeaponsOff, NGPOn", "PlasmaCoil:6, ProgWeaponsOn, NGPOn", "PlasmaCoil, ProgWeaponsOff, Koros", "PlasmaCoil:6, ProgWeaponsOn, Koros", "PlasmaCoil, ProgWeaponsOff, CrashSite", "PlasmaCoil:6 ,ProgWeaponsOn, CrashSite", "PlasmaCoil, ProgWeaponsOff, Metropolis", "PlasmaCoil:6, ProgWeaponsOn, Metropolis", "PlasmaCoil, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "PlasmaCoil:6, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "PlasmaCoil, ProgWeaponsOff, CommandCenter, Heli", "PlasmaCoil:6, ProgWeaponsOn, CommandCenter, Heli", "PlasmaCoil, ProgWeaponsOff, CommandCenter, ThrustOn", "PlasmaCoil:6, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           },
           {
             "name": "Plasma Coil: V7",
             "access_rules": ["PlasmaCoil, ProgWeaponsOff, NGPOn", "PlasmaCoil:7, ProgWeaponsOn, NGPOn", "PlasmaCoil, ProgWeaponsOff, Koros", "PlasmaCoil:7, ProgWeaponsOn, Koros", "PlasmaCoil, ProgWeaponsOff, CrashSite", "PlasmaCoil:7 ,ProgWeaponsOn, CrashSite", "PlasmaCoil, ProgWeaponsOff, Metropolis", "PlasmaCoil:7, ProgWeaponsOn, Metropolis", "PlasmaCoil, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "PlasmaCoil:7, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "PlasmaCoil, ProgWeaponsOff, CommandCenter, Heli", "PlasmaCoil:7, ProgWeaponsOn, CommandCenter, Heli", "PlasmaCoil, ProgWeaponsOff, CommandCenter, ThrustOn", "PlasmaCoil:7, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           },
           {
             "name": "Plasma Coil: V8",
             "access_rules": ["PlasmaCoil, ProgWeaponsOff, NGPOn", "PlasmaCoil:8, ProgWeaponsOn, NGPOn", "PlasmaCoil, ProgWeaponsOff, Koros", "PlasmaCoil:8, ProgWeaponsOn, Koros", "PlasmaCoil, ProgWeaponsOff, CrashSite", "PlasmaCoil:8 ,ProgWeaponsOn, CrashSite", "PlasmaCoil, ProgWeaponsOff, Metropolis", "PlasmaCoil:8, ProgWeaponsOn, Metropolis", "PlasmaCoil, ProgWeaponsOff, QwarksHideout, warpPad, hyperShot, Heli", "PlasmaCoil:8, ProgWeaponsOn, QwarksHideout, warpPad, hyperShot, Heli", "PlasmaCoil, ProgWeaponsOff, CommandCenter, Heli", "PlasmaCoil:8, ProgWeaponsOn, CommandCenter, Heli", "PlasmaCoil, ProgWeaponsOff, CommandCenter, ThrustOn", "PlasmaCoil:8, ProgWeaponsOn, CommandCenter, ThrustOn"],
-            "visibility_rules": [ "WeaponLvlsOn"],
+            "visibility_rules": [ "WeaponLvlsOn, NGPItemsOn"],
             "item_count": 1
           }
         ]
@@ -5384,7 +4868,7 @@
           },
           {
             "name": "Omega Arsenal",
-            "visibility_rules": [ "NGP, TrophiesAll" ],
+            "visibility_rules": [ "NGP, TrophiesAll, NGPItemsOn" ],
             "access_rules": [ "ProgWeaponsOff, ShockBlaster, NitroLauncher, N60Storm, PlasmaWhip, Infector, SuckCannon, SpittingHydra, AgentsOfDoom, FluxRifle, Annihilator, HoloShieldGlove, DiskBladeGun, RiftInducer, QwackORay, RY3N0, MiniTurretGlove, LavaGun, ShieldCharger, Bouncer, PlasmaCoil", 
           "ProgWeaponsOn, ShockBlaster:8, NitroLauncher:8, N60Storm:8, PlasmaWhip:8, Infector:8, SuckCannon:8, SpittingHydra:8, AgentsOfDoom:8, FluxRifle:8, Annihilator:8, HoloShieldGlove:8, DiskBladeGun:8, RiftInducer:8, QwackORay:8, RY3N0:5, MiniTurretGlove:8, LavaGun:8, ShieldCharger:8, Bouncer:8, PlasmaCoil:8" ],
             "item_count": 1
