@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "1.5.7",
+			"download_url": "https://github.com/SomeLazyGamer/RaC-3-UYA-AP-Poptracker/releases/download/1.5.7/RaC3_Tracker_SLG_1.5.7.zip",
+			"sha256": "337359957e2ae23eb803d54e22ab27b9d7edce026a3747bc8b5dd3f0755be0f5",
+			"changelog": ["Location streamline & weapon level loc fixes"]
+		},
+		{
 			"package_version": "1.5.6",
 			"download_url": "https://github.com/SomeLazyGamer/RaC-3-UYA-AP-Poptracker/releases/download/1.5.6/RaC3_Tracker_SLG_1.5.6.zip",
 			"sha256": "69168573783f9a542b123e640543eb897bdf1038909dfe6061befef7e46c9c2a",
