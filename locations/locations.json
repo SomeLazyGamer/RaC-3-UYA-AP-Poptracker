@@ -7412,7 +7412,7 @@
           {
             "name": "Qwark Trophy",
             "visibility_rules": [ "TrophiesCollect", "TrophiesAll" ],
-            "access_rules": [ "warpPad, hyperShot, Heli", "warpPad, chargeBoots" ],
+            "access_rules": [ "warpPad, hyperShot, Heli", "warpPad, hyperShot, chargeBoots" ],
             "item_count": 1
           }
         ]
@@ -7429,7 +7429,7 @@
         "sections": [
           {
             "name": "Find Qwark",
-            "access_rules": [ "warpPad, hyperShot, Heli", "warpPad, chargeBoots" ],
+            "access_rules": [ "warpPad, hyperShot, Heli", "warpPad, hyperShot, chargeBoots" ],
             "item_count": 1
           }
         ]
