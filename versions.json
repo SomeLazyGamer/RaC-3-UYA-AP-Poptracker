@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "1.5.8",
+			"download_url": "https://github.com/SomeLazyGamer/RaC-3-UYA-AP-Poptracker/releases/download/1.5.8/RaC3_Tracker_SLG_1.5.8.zip",
+			"sha256": "83073ac6be9e292300bc56ec5c78cde1305d248b352ec66f9970ff4f1401fbcc",
+			"changelog": ["Qwarks Hideout Logic Fix"]
+		},
+		{
 			"package_version": "1.5.7",
 			"download_url": "https://github.com/SomeLazyGamer/RaC-3-UYA-AP-Poptracker/releases/download/1.5.7/RaC3_Tracker_SLG_1.5.7.zip",
 			"sha256": "337359957e2ae23eb803d54e22ab27b9d7edce026a3747bc8b5dd3f0755be0f5",
