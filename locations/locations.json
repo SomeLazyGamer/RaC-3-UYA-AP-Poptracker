@@ -4590,22 +4590,22 @@
           },
           {
             "name": "The Shocker",
-            "access_rules": [ "ShockBlaster" ],
+            "access_rules": [ "ShockBlaster, ProgWeaponsOff", "ShockBlaster:5, ProgWeaponsOn,NGPOn,NGPItemsOff", "ShockBlaster:6, ProgWeaponsOn,NGPOn,NGPItemsOn" ],
             "item_count": 1
           },
           {
             "name": "Wrench Beatdown",
-            "access_rules": [ "ShockBlaster" ],
+            "access_rules": [ "ShockBlaster, ProgWeaponsOff", "ShockBlaster:5, ProgWeaponsOn,NGPOn,NGPItemsOff", "ShockBlaster:6, ProgWeaponsOn,NGPOn,NGPItemsOn" ],
             "item_count": 1
           },
           {
             "name": "Nerves of Titanium",
-            "access_rules": [ "ShockBlaster" ],
+            "access_rules": [ "ShockBlaster, ProgWeaponsOff", "ShockBlaster:5, ProgWeaponsOn,NGPOn,NGPItemsOff", "ShockBlaster:6, ProgWeaponsOn,NGPOn,NGPItemsOn" ],
             "item_count": 1
           },
           {
             "name": "T-Bolt: Nerves of Titanium",
-            "access_rules": [ "ShockBlaster" ],
+            "access_rules": [ "ShockBlaster, ProgWeaponsOff", "ShockBlaster:5, ProgWeaponsOn,NGPOn,NGPItemsOff", "ShockBlaster:6, ProgWeaponsOn,NGPOn,NGPItemsOn" ],
             "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
@@ -4856,8 +4856,7 @@
           {
             "name": "Skill Master",
             "visibility_rules": [ "SkillMaster, TrophiesAll, RangerOn, ArenaOn, VCChecksOn, CrystalsTotal:100, 1HPRatOff" ],
-            "access_rules": [ "refractor, warpPad, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots, Marcadia, Annihilation, Aquatos, Tyhrranosis, Daxx, Gemini, Blackwater, Holostar, ZeldrinStarport, Metropolis, CrashSite, Aridia, QwarksHideout, Koros, CommandCenter, PlasmaWhip, SpittingHydra, SuckCannon, DiskBladeGun, FluxRifle, QwackORay, Annihilator, Infector",
-            "refractor, warpPad, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots, Marcadia, Annihilation, Aquatos, Tyhrranosis, Daxx, Gemini, Blackwater, Holostar, ZeldrinStarport, Metropolis, CrashSite, Aridia, QwarksHideout, Koros, CommandCenter, PlasmaWhip, SpittingHydra, NPSuckCannon, DiskBladeGun, FluxRifle, QwackORay, Annihilator, Infector" ],
+            "access_rules": [ "refractor, warpPad, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots, Marcadia, Annihilation, Aquatos, Tyhrranosis, Daxx, Gemini, Blackwater, Holostar, ZeldrinStarport, Metropolis, CrashSite, Aridia, QwarksHideout, Koros, CommandCenter, PlasmaWhip, SpittingHydra, SuckCannon, DiskBladeGun, FluxRifle, QwackORay, Annihilator, Infector" ],
             "item_count": 1
           },
           {
@@ -5222,12 +5221,12 @@
           },
           {
             "name": "Whip it Good",
-            "access_rules": [ "PlasmaWhip, SpittingHydra" ],
+            "access_rules": [ "PlasmaWhip, ProgWeaponsOff", "PlasmaWhip:5, ProgWeaponsOn,NGPOn,NGPItemsOff", "PlasmaWhip:6, ProgWeaponsOn,NGPOn,NGPItemsOn" ],
             "item_count": 1
           },
           {
             "name": "Hydra'n Seek",
-            "access_rules": [ "SpittingHydra, PlasmaWhip" ],
+            "access_rules": [ "SpittingHydra, PlasmaWhip, ProgWeaponsOff", "SpittingHydra:5, PlasmaWhip:5, ProgWeaponsOn,NGPOn,NGPItemsOff", "SpittingHydra:6, PlasmaWhip:6, ProgWeaponsOn,NGPOn,NGPItemsOn" ],
             "item_count": 1
           },
           {
@@ -5274,8 +5273,7 @@
           },
           {
             "name": "Time to Suck",
-            "access_rules": [ "Daxx, hyperShot, SuckCannon",
-          "Daxx, hyperShot, NPSuckCannon" ],
+            "access_rules": [ "Daxx, hyperShot, SuckCannon, ProgWeaponsOff", "Daxx, hyperShot, SuckCannon:5, ProgWeaponsOn,NGPOn,NGPItemsOff", "Daxx, hyperShot, SuckCannon:6, ProgWeaponsOn,NGPOn,NGPItemsOn" ],
             "item_count": 1
           },
           {
@@ -5295,20 +5293,17 @@
           },
           {
             "name": "Chop Chop",
-            "access_rules": [ "Daxx, hyperShot, DiskBladeGun, SuckCannon",
-          "Daxx, hyperShot, DiskBladeGun, NPSuckCannon" ],
+            "access_rules": [ "Daxx, hyperShot, DiskBladeGun, SuckCannon, ProgWeaponsOff", "Daxx, hyperShot, DiskBladeGun:5, SuckCannon:5, ProgWeaponsOn,NGPOn,NGPItemsOff", "Daxx, hyperShot, DiskBladeGun:6, SuckCannon:6, ProgWeaponsOn,NGPOn,NGPItemsOn" ],
             "item_count": 1
           },
           {
             "name": "Sleep Inducer",
-            "access_rules": [ "Daxx, hyperShot, RiftInducer, DiskBladeGun, SuckCannon",
-            "Daxx, hyperShot, RiftInducer, DiskBladeGun, NPSuckCannon" ],
+            "access_rules": [ "Daxx, hyperShot, RiftInducer, DiskBladeGun, SuckCannon, ProgWeaponsOff", "Daxx, hyperShot, RiftInducer:5, DiskBladeGun:5, SuckCannon:5, ProgWeaponsOn,NGPOn,NGPItemsOff", "Daxx, hyperShot, RiftInducer:6, DiskBladeGun:6, SuckCannon:6, ProgWeaponsOn,NGPOn,NGPItemsOn" ],
             "item_count": 1
           },
           {
             "name": "The Other White Meat",
-            "access_rules": [ "Daxx, hyperShot, QwackORay, RiftInducer, DiskBladeGun, SuckCannon",
-          "Daxx, hyperShot, QwackORay, RiftInducer, DiskBladeGun, NPSuckCannon" ],
+            "access_rules": [ "Daxx, hyperShot, QwackORay, RiftInducer, DiskBladeGun, SuckCannon, ProgWeaponsOff", "Daxx, hyperShot, QwackORay:5, RiftInducer:5, DiskBladeGun:5, SuckCannon:5, ProgWeaponsOn,NGPOn,NGPItemsOff", "Daxx, hyperShot, QwackORay:6, RiftInducer:6, DiskBladeGun:6, SuckCannon:6, ProgWeaponsOn,NGPOn,NGPItemsOn" ],
             "item_count": 1
           },
           {
@@ -6652,18 +6647,17 @@
     "children": [
       {
         "name": "Skill Point: Feeling Lucky?",
+            "access_rules": [ "hacker" ],
         "visibility_rules": [ "SkillMaster" ],
         "map_locations": [
           {
             "map": "Holostar Studios Clank",
-            "access_rules": [ "hacker" ],
             "visibility_rules": [ "SkillMaster, HoloSkipOff"],
             "x": 22,
             "y": 242
           },
           {
             "map": "Holostar Studios",
-            "access_rules": [ "hacker" ],
             "x": 334,
             "y": 234
           }
@@ -6927,7 +6921,7 @@
         "sections": [
           {
             "name": "Destroy the Blimp",
-            "access_rules": [ "FluxRifle", "Annihilator", "RY3NO", "SuckCannon", "DiskBladeGun", "NPSuckCannon" ],
+            "access_rules": [ "FluxRifle", "Annihilator", "RY3NO", "SuckCannon", "DiskBladeGun", "SuckCannon" ],
             "item_count": 1
           }
         ]
