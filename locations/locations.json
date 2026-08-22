@@ -6849,7 +6849,6 @@
       },
       {
         "name": "Inside the Second Ship",
-            "access_rules": [ "Heli", "ThrustOn" ],
         "map_locations": [
           {
             "map": "Zeldrin Starport",
