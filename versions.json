@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "1.6.0",
+			"download_url": "https://github.com/SomeLazyGamer/RaC-3-UYA-AP-Poptracker/releases/download/1.6.0/RaC3_Tracker_SLG_1.6.0.zip",
+			"sha256": "c7eab4c35351ad7d0f467250a3f209f29b7767ac8be6622b5dd00629795b71d0",
+			"changelog": ["Zeldrin Logic Fix"]
+		},
+		{
 			"package_version": "1.5.9",
 			"download_url": "https://github.com/SomeLazyGamer/RaC-3-UYA-AP-Poptracker/releases/download/1.5.9/RaC3_Tracker_SLG_1.5.9.zip",
 			"sha256": "1e11997af58389e0bfb86d5ca9469f50cb6b79c32e50a77e4797cced5bba1ce2",
