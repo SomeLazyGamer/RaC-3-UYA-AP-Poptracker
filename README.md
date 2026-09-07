@@ -14,4 +14,4 @@ I'm aiming to keep this tracker as updated as possible alongside the development
 
 ## Reporting a Bug?
 
-If you come across any issues regarding the tracker or any feedback you wish to provide, best way to reach me is to ping me (@SomeLazyGamer) in the RaC 3 thread under the future-game-design forum in the official Archipelago Discord server. (opening an issue on github works too, but discord is your best bet if you want a fast response!)
+If you come across any issues regarding the tracker or any feedback you wish to provide, best way to reach me is to ping me (@SomeLazyGamer) in the RaC 3 channel in the official Archipelago Discord server. (opening an issue on github works too, but discord is your best bet if you want a fast response!)
