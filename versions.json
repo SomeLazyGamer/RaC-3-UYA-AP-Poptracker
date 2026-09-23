@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "1.6.1",
+			"download_url": "https://github.com/SomeLazyGamer/RaC-3-UYA-AP-Poptracker/releases/download/1.6.1/RaC3_Tracker_SLG_1.6.1.zip",
+			"sha256": "2e054c683b6e095a6c822f32983ad27fb8fdef1db8d16d106d278360217b6b6e",
+			"changelog": ["Phoenix Rescue Logic Fix"]
+		},
+		{
 			"package_version": "1.6.0",
 			"download_url": "https://github.com/SomeLazyGamer/RaC-3-UYA-AP-Poptracker/releases/download/1.6.0/RaC3_Tracker_SLG_1.6.0.zip",
 			"sha256": "c7eab4c35351ad7d0f467250a3f209f29b7767ac8be6622b5dd00629795b71d0",
