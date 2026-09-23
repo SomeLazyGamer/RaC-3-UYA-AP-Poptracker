@@ -4820,7 +4820,7 @@
         "sections": [
           {
             "name": "Post Hideout Assault",
-            "access_rules": [ "QwarksHideout, refractor, warpPad, hyperShot" ],
+            "access_rules": [ "QwarksHideout, refractor, warpPad, hyperShot, Heli", "QwarksHideout, refractor, warpPad, hyperShot, chargeBoots" ],
             "item_count": 1
           }
         ]
