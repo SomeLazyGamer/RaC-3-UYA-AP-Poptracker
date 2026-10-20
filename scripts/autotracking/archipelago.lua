@@ -403,52 +403,6 @@ function onClear(slot_data)
 
 end
 
-function handleWeaponOptions(item_code)
-
-	if item_code == "ProgPack" then
-    	local obj = Tracker:FindObjectForCode(item_code)
-    	local pack = PROGRESSIVE_PACKS[PROG_PACK_ORDER[obj.CurrentStage]]
-    	print(string.format("handleProgressiveOptions: got %s at stage %d, activating item %s", item_code, obj.CurrentStage, pack))
-    	Tracker:FindObjectForCode(pack).Active = true
-	end
-	if item_code == "ProgHelmet" then
-    	local obj = Tracker:FindObjectForCode(item_code)
-    	local hat = PROGRESSIVE_HELMETS[PROG_HELMET_ORDER[obj.CurrentStage]]
-    	print(string.format("handleProgressiveOptions: got %s at stage %d, activating item %s", item_code, obj.CurrentStage, hat))
-    	Tracker:FindObjectForCode(hat).Active = true
-	end
-	if item_code == "ProgBoots" then
-    	local obj = Tracker:FindObjectForCode(item_code)
-    	local boot = PROGRESSIVE_BOOTS[PROG_BOOTS_ORDER[obj.CurrentStage]]
-    	print(string.format("handleProgressiveOptions: got %s at stage %d, activating item %s", item_code, obj.CurrentStage, boot))
-    	Tracker:FindObjectForCode(boot).Active = true
-	end
-	if item_code == "ProgHover" then
-    	local obj = Tracker:FindObjectForCode(item_code)
-    	local hover = PROGRESSIVE_HOVERBOARD[PROG_HOVER_ORDER[obj.CurrentStage]]
-    	print(string.format("handleProgressiveOptions: got %s at stage %d, activating item %s", item_code, obj.CurrentStage, hover))
-    	Tracker:FindObjectForCode(hover).Active = true
-	end
-	if item_code == "ProgTrade" then
-    	local obj = Tracker:FindObjectForCode(item_code)
-    	local trade = PROGRESSIVE_TRADE[PROG_TRADE_ORDER[obj.CurrentStage]]
-    	print(string.format("handleProgressiveOptions: got %s at stage %d, activating item %s", item_code, obj.CurrentStage, trade))
-    	Tracker:FindObjectForCode(trade).Active = true
-	end
-	if item_code == "ProgNano" then
-    	local obj = Tracker:FindObjectForCode(item_code)
-    	local nano = PROGRESSIVE_NANO[PROG_NANO_ORDER[obj.CurrentStage]]
-    	print(string.format("handleProgressiveOptions: got %s at stage %d, activating item %s", item_code, obj.CurrentStage, nano))
-    	Tracker:FindObjectForCode(nano).Active = true
-	end
-	if item_code == "ProgBomb" then
-    	local obj = Tracker:FindObjectForCode(item_code)
-    	local bomb = PROGRESSIVE_BOMB[PROG_BOMB_ORDER[obj.CurrentStage]]
-    	print(string.format("handleProgressiveOptions: got %s at stage %d, activating item %s", item_code, obj.CurrentStage, bomb))
-    	Tracker:FindObjectForCode(bomb).Active = true
-	end
-end
-
 -- called when an item gets collected
 function onItem(index, item_id, item_name, player_number)
 	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
