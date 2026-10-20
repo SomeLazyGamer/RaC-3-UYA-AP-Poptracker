@@ -22,6 +22,7 @@ CUR_INDEX = -1
 SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
+
 TabMap = {
   ["Veldin"] = "Veldin/Florana",
   ["Florana"] = "Veldin/Florana",
@@ -344,13 +345,40 @@ function onClear(slot_data)
             obj.CurrentStage = stage
         end
     end
-    if slot_data["Weapon Level Locations"] then
-        local obj = Tracker:FindObjectForCode("WeaponLvls")
-        local stage = slot_data["Weapon Level Locations"]
+    if slot_data['VidComic Health Upgrade Locations'] then
+        local obj = Tracker:FindObjectForCode("VCHealth")
+        local stage = slot_data['VidComic Health Upgrade Locations']
         if obj then
             obj.CurrentStage = stage
         end
     end
+	if slot_data["Weapon Level Locations"] then
+		local weapon = slot_data["Weapon Level Locations"]
+		for position, value in pairs(weapon) do
+    		if value == "V2" then
+        local obj = Tracker:FindObjectForCode("WepV2")
+        		obj.CurrentStage = 1
+    		elseif value == "V3" then
+        local obj = Tracker:FindObjectForCode("WepV3")
+        		obj.CurrentStage = 1
+    		elseif value == "V4" then
+        local obj = Tracker:FindObjectForCode("WepV4")
+        		obj.CurrentStage = 1
+    		elseif value == "V5" then
+        local obj = Tracker:FindObjectForCode("WepV5")
+        		obj.CurrentStage = 1
+    		elseif value == "V6" then
+        local obj = Tracker:FindObjectForCode("WepV6")
+        		obj.CurrentStage = 1
+    		elseif value == "V7" then
+        local obj = Tracker:FindObjectForCode("WepV7")
+        		obj.CurrentStage = 1
+    		elseif value == "V8" then
+        local obj = Tracker:FindObjectForCode("WepV8")
+        		obj.CurrentStage = 1
+    		end
+		end
+	end
 
 	apply_slot_data(slot_data)
 	LOCAL_ITEMS = {}
@@ -373,6 +401,52 @@ function onClear(slot_data)
 	Archipelago:Get(data_strorage_keys)
   Tracker.BulkUpdate = false
 
+end
+
+function handleWeaponOptions(item_code)
+
+	if item_code == "ProgPack" then
+    	local obj = Tracker:FindObjectForCode(item_code)
+    	local pack = PROGRESSIVE_PACKS[PROG_PACK_ORDER[obj.CurrentStage]]
+    	print(string.format("handleProgressiveOptions: got %s at stage %d, activating item %s", item_code, obj.CurrentStage, pack))
+    	Tracker:FindObjectForCode(pack).Active = true
+	end
+	if item_code == "ProgHelmet" then
+    	local obj = Tracker:FindObjectForCode(item_code)
+    	local hat = PROGRESSIVE_HELMETS[PROG_HELMET_ORDER[obj.CurrentStage]]
+    	print(string.format("handleProgressiveOptions: got %s at stage %d, activating item %s", item_code, obj.CurrentStage, hat))
+    	Tracker:FindObjectForCode(hat).Active = true
+	end
+	if item_code == "ProgBoots" then
+    	local obj = Tracker:FindObjectForCode(item_code)
+    	local boot = PROGRESSIVE_BOOTS[PROG_BOOTS_ORDER[obj.CurrentStage]]
+    	print(string.format("handleProgressiveOptions: got %s at stage %d, activating item %s", item_code, obj.CurrentStage, boot))
+    	Tracker:FindObjectForCode(boot).Active = true
+	end
+	if item_code == "ProgHover" then
+    	local obj = Tracker:FindObjectForCode(item_code)
+    	local hover = PROGRESSIVE_HOVERBOARD[PROG_HOVER_ORDER[obj.CurrentStage]]
+    	print(string.format("handleProgressiveOptions: got %s at stage %d, activating item %s", item_code, obj.CurrentStage, hover))
+    	Tracker:FindObjectForCode(hover).Active = true
+	end
+	if item_code == "ProgTrade" then
+    	local obj = Tracker:FindObjectForCode(item_code)
+    	local trade = PROGRESSIVE_TRADE[PROG_TRADE_ORDER[obj.CurrentStage]]
+    	print(string.format("handleProgressiveOptions: got %s at stage %d, activating item %s", item_code, obj.CurrentStage, trade))
+    	Tracker:FindObjectForCode(trade).Active = true
+	end
+	if item_code == "ProgNano" then
+    	local obj = Tracker:FindObjectForCode(item_code)
+    	local nano = PROGRESSIVE_NANO[PROG_NANO_ORDER[obj.CurrentStage]]
+    	print(string.format("handleProgressiveOptions: got %s at stage %d, activating item %s", item_code, obj.CurrentStage, nano))
+    	Tracker:FindObjectForCode(nano).Active = true
+	end
+	if item_code == "ProgBomb" then
+    	local obj = Tracker:FindObjectForCode(item_code)
+    	local bomb = PROGRESSIVE_BOMB[PROG_BOMB_ORDER[obj.CurrentStage]]
+    	print(string.format("handleProgressiveOptions: got %s at stage %d, activating item %s", item_code, obj.CurrentStage, bomb))
+    	Tracker:FindObjectForCode(bomb).Active = true
+	end
 end
 
 -- called when an item gets collected

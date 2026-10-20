@@ -1153,6 +1153,26 @@
     ]
   },
   {
+    "name": "VidComic Health Upgrades",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": false,
+    "stages": [
+      {
+          "name": "VidComic Health Upgrades - Off",
+          "img": "images/items/settings/VCHealthOff.png",
+          "codes": "VCHealth,VCHealthOff",
+          "inherit_codes": false
+      },
+      {
+        "name": "VidComic Health Upgrades - On",
+          "img": "images/items/settings/VCHealthOn.png",
+        "codes": "VCHealth,VCHealthOn",
+          "inherit_codes": false
+      }
+    ]
+  },
+  {
     "name": "Sewer Crystals",
     "type": "progressive",
     "loop": false,
@@ -1275,28 +1295,114 @@
     ]
   },
   {
-    "name": "Weapon Level Locations",
+    "name": "Weapon Level Location V2",
+    "allow_disabled": false,
     "type": "progressive",
     "loop": false,
-    "allow_disabled": false,
     "stages": [
       {
-          "name": "Weapon Level Locations - Off",
-          "img": "images/items/settings/WeaponLvlsOff.png",
-          "inherit_codes": false,
-          "codes": "WeaponLvls,WeaponLvlsOff"
+        "img_mods": "@disabled",
+          "inherit_codes": false
       },
       {
-        "name": "Weapon Level Locations - V5 Only",
-        "img": "images/items/settings/WeaponLvlsV5.png",
         "inherit_codes": false,
-        "codes": "WeaponLvls,WeaponLvlsV5"
+        "codes": "WepV2"
+      }
+    ]
+  },
+  {
+    "name": "Weapon Level Location V3",
+    "allow_disabled": false,
+    "type": "progressive",
+    "loop": false,
+    "stages": [
+      {
+        "img_mods": "@disabled",
+          "inherit_codes": false
       },
       {
-        "name": "Weapon Level Locations - All On",
-        "img": "images/items/settings/WeaponLvlsOn.png",
-          "inherit_codes": false,
-        "codes": "WeaponLvls,WeaponLvlsOn"
+        "inherit_codes": false,
+        "codes": "WepV3"
+      }
+    ]
+  },
+  {
+    "name": "Weapon Level Location V4",
+    "allow_disabled": false,
+    "type": "progressive",
+    "loop": false,
+    "stages": [
+      {
+        "img_mods": "@disabled",
+          "inherit_codes": false
+      },
+      {
+        "inherit_codes": false,
+        "codes": "WepV4"
+      }
+    ]
+  },
+  {
+    "name": "Weapon Level Location V5",
+    "allow_disabled": false,
+    "type": "progressive",
+    "loop": false,
+    "stages": [
+      {
+        "img_mods": "@disabled",
+          "inherit_codes": false
+      },
+      {
+        "inherit_codes": false,
+        "codes": "WepV5"
+      }
+    ]
+  },
+  {
+    "name": "Weapon Level Location V6",
+    "allow_disabled": false,
+    "type": "progressive",
+    "loop": false,
+    "stages": [
+      {
+        "img_mods": "@disabled",
+          "inherit_codes": false
+      },
+      {
+        "inherit_codes": false,
+        "codes": "WepV6"
+      }
+    ]
+  },
+  {
+    "name": "Weapon Level Location V7",
+    "allow_disabled": false,
+    "type": "progressive",
+    "loop": false,
+    "stages": [
+      {
+        "img_mods": "@disabled",
+          "inherit_codes": false
+      },
+      {
+        "inherit_codes": false,
+        "codes": "WepV7"
+      }
+    ]
+  },
+  {
+    "name": "Weapon Level Location V8",
+    "allow_disabled": false,
+    "type": "progressive",
+    "loop": false,
+    "stages": [
+      {
+        "img_mods": "@disabled",
+          "inherit_codes": false
+      },
+      {
+        "inherit_codes": false,
+        "codes": "WepV8"
       }
     ]
   }

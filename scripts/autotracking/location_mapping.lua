@@ -715,4 +715,10 @@ LOCATION_MAPPING = {
 	[LOCATION_ID + 677] = { {"@Galaxy/RY3N0 Levels/RY3N0: V3"} },
 	[LOCATION_ID + 678] = { {"@Galaxy/RY3N0 Levels/RY3N0: V4"} },
 	[LOCATION_ID + 679] = { {"@Galaxy/RY3N0 Levels/RY3N0: V5"} },
+	--Vid Comic Health Upgrades
+	[LOCATION_ID + 680] = { {"@Phoenix/Qwark Vid Comics/Qwark Vidcomic 1 Health Upgrade"} },
+	[LOCATION_ID + 681] = { {"@Phoenix/Qwark Vid Comics/Qwark Vidcomic 2 Health Upgrade"} },
+	[LOCATION_ID + 682] = { {"@Phoenix/Qwark Vid Comics/Qwark Vidcomic 3 Health Upgrade"} },
+	[LOCATION_ID + 683] = { {"@Phoenix/Qwark Vid Comics/Qwark Vidcomic 4 Health Upgrade"} },
+	[LOCATION_ID + 684] = { {"@Phoenix/Qwark Vid Comics/Qwark Vidcomic 5 Health Upgrade"} },
 }

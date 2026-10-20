@@ -17,27 +17,27 @@
           ],
           [
             "WepVendor",
-            "VRChecks"
+            "VCHealth"
           ],
           [
             "ArmorVendor",
-            "ArenaChecks"
+            "VRChecks"
           ],
           [
             "ShipVendor",
-            "Crystals"
+            "ArenaChecks"
           ],
           [
             "NGPVendor",
-            "Nano"
+            "Crystals"
           ],
           [
             "SkillSanity",
-            "ProgWeapons"
+            "Nano"
           ],
           [
             "TrophySanity",
-            "WeaponLvls"
+            "ProgWeapons"
           ],
           [
             "BoltSanity",
