@@ -345,6 +345,20 @@ function onClear(slot_data)
             obj.CurrentStage = stage
         end
     end
+    if slot_data['Progressive Wrench'] then
+        local obj = Tracker:FindObjectForCode("WrenchSet")
+        local stage = slot_data['Progressive Wrench']
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
+    if slot_data['Command Center Lock'] then
+        local obj = Tracker:FindObjectForCode("CCLock")
+        local stage = slot_data['Command Center Lock']
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
     if slot_data['VidComic Health Upgrade Locations'] then
         local obj = Tracker:FindObjectForCode("VCHealth")
         local stage = slot_data['VidComic Health Upgrade Locations']
@@ -379,6 +393,210 @@ function onClear(slot_data)
     		end
 		end
 	end
+	if slot_data["Skill Points Pick and Mix"] then
+		local weapon = slot_data["Skill Points Pick and Mix"]
+		for position, value in pairs(weapon) do
+    		if value == "Stay Squeaky Clean" then
+        local obj = Tracker:FindObjectForCode("Clean")
+        		obj.CurrentStage = 1
+    		if value == "Get to the belt" then
+        local obj = Tracker:FindObjectForCode("Belt")
+        		obj.CurrentStage = 1
+    		if value == "Feeling Lucky?" then
+        local obj = Tracker:FindObjectForCode("Luck")
+        		obj.CurrentStage = 1
+    		if value == "You break it, you win it" then
+        local obj = Tracker:FindObjectForCode("Break")
+        		obj.CurrentStage = 1
+    		if value == "Reflect on how to score" then
+        local obj = Tracker:FindObjectForCode("Reflect")
+        		obj.CurrentStage = 1
+    		if value == "2002 good year" then
+        local obj = Tracker:FindObjectForCode("2002")
+        		obj.CurrentStage = 1
+    		if value == "Arriba Amoeba! - set a new record for Qwark" then
+        local obj = Tracker:FindObjectForCode("Qw2")
+        		obj.CurrentStage = 1
+    		if value == "Beat Helga's best time" then
+        local obj = Tracker:FindObjectForCode("Helga")
+        		obj.CurrentStage = 1
+    		if value == "Deja Q All over Again - set a new record for Qwark" then
+        local obj = Tracker:FindObjectForCode("Qw4")
+        		obj.CurrentStage = 1
+    		if value == "Monkeying Around" then
+        local obj = Tracker:FindObjectForCode("Monkey")
+        		obj.CurrentStage = 1
+    		if value == "Pirate booty - set a new record for Qwark" then
+        local obj = Tracker:FindObjectForCode("Qw1")
+        		obj.CurrentStage = 1
+    		if value == "Shadow of the robot - set a new record for Qwark" then
+        local obj = Tracker:FindObjectForCode("Qw3")
+        		obj.CurrentStage = 1
+    		if value == "Strive for arcade perfection" then
+        local obj = Tracker:FindObjectForCode("Arcade")
+        		obj.CurrentStage = 1
+    		if value == "The Shaming of the Q - set a new record for Qwark" then
+        local obj = Tracker:FindObjectForCode("Qw5")
+        		obj.CurrentStage = 1
+    		if value == "Turn Up The Heat" then
+        local obj = Tracker:FindObjectForCode("Heat")
+        		obj.CurrentStage = 1
+    		if value == "Break the Dan" then
+        local obj = Tracker:FindObjectForCode("Dan")
+        		obj.CurrentStage = 1
+    		if value == "Be a sharpshooter" then
+        local obj = Tracker:FindObjectForCode("Sharp")
+        		obj.CurrentStage = 1
+    		if value == "Bugs to Birds" then
+        local obj = Tracker:FindObjectForCode("Birds")
+        		obj.CurrentStage = 1
+    		if value == "Suck it up!" then
+        local obj = Tracker:FindObjectForCode("Suckit")
+        		obj.CurrentStage = 1
+    		if value == "Aim High" then
+        local obj = Tracker:FindObjectForCode("Aim")
+        		obj.CurrentStage = 1
+    		if value == "Spread your germs" then
+        local obj = Tracker:FindObjectForCode("Germ")
+        		obj.CurrentStage = 1
+    		if value == "Bash the party" then
+        local obj = Tracker:FindObjectForCode("Party")
+        		obj.CurrentStage = 1
+    		if value == "Zap back at ya'" then
+        local obj = Tracker:FindObjectForCode("Zap")
+        		obj.CurrentStage = 1
+    		if value == "Go for hang time" then
+        local obj = Tracker:FindObjectForCode("Hang")
+        		obj.CurrentStage = 1
+    		if value == "Search for sunken treasure" then
+        local obj = Tracker:FindObjectForCode("Sunken")
+        		obj.CurrentStage = 1
+    		if value == "Hit the motherload" then
+        local obj = Tracker:FindObjectForCode("Motherload")
+        		obj.CurrentStage = 1
+    		if value == "Lights, camera, action!" then
+        local obj = Tracker:FindObjectForCode("Camera")
+        		obj.CurrentStage = 1
+    		if value == "Flee Flawlessly" then
+        local obj = Tracker:FindObjectForCode("Flee")
+        		obj.CurrentStage = 1
+    		if value == "Be an eight time champ" then
+        local obj = Tracker:FindObjectForCode("Champ")
+        		obj.CurrentStage = 1
+    		if value == "Bash the bug" then
+        local obj = Tracker:FindObjectForCode("Bug")
+        		obj.CurrentStage = 1
+    		end
+		end
+	end
+    if slot_data['Require Biobliterator'] then
+        local obj = Tracker:FindObjectForCode("GoalBio")
+        local stage = slot_data['Require Biobliterator']
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
+    if slot_data['Require Nefarious'] then
+        local obj = Tracker:FindObjectForCode("GoalNeffy")
+        local stage = slot_data['Require Nefarious']
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
+    if slot_data['Required Nanotech'] then
+        local obj = Tracker:FindObjectForCode("GoalNano")
+        obj.AcquiredCount = (slot_data['Required Nanotech'])
+    end 
+    if slot_data['Required Sewer Crystals'] then
+        local obj = Tracker:FindObjectForCode("GoalSewer")
+        obj.AcquiredCount = (slot_data['Required Sewer Crystals'])
+    end 
+    if slot_data['Required Titanium Bolts'] then
+        local obj = Tracker:FindObjectForCode("GoalBolt")
+        obj.AcquiredCount = (slot_data['Required Titanium Bolts'])
+    end 
+    if slot_data['Required Skillpoints'] then
+        local obj = Tracker:FindObjectForCode("GoalSkill")
+        obj.AcquiredCount = (slot_data['Required Skillpoints'])
+    end 
+    if slot_data['Required Collection Percentage'] then
+        local obj = Tracker:FindObjectForCode("GoalPercent")
+        obj.AcquiredCount = (slot_data['Required Collection Percentage'])
+    end 
+    if slot_data['Required Planets Completed'] then
+        local obj = Tracker:FindObjectForCode("GoalPlanets")
+        obj.AcquiredCount = (slot_data['Required Planets Completed'])
+    end 
+    if slot_data['Require Qwarktastic Battle'] then
+        local obj = Tracker:FindObjectForCode("GoalArena")
+        local stage = slot_data['Require Qwarktastic Battle']
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
+    if slot_data['Require Insomniac Museum Teleport'] then
+        local obj = Tracker:FindObjectForCode("GoalMuseum")
+        local stage = slot_data['Require Insomniac Museum Teleport']
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
+    if slot_data['Require Defeating Qwark'] then
+        local obj = Tracker:FindObjectForCode("GoalQwark")
+        local stage = slot_data['Require Defeating Qwark']
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
+    if slot_data['Require Defeating The Terrible Two'] then
+        local obj = Tracker:FindObjectForCode("GoalTwo")
+        local stage = slot_data['Require Defeating The Terrible Two']
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
+    if slot_data['Require Defeating the Momma Tyhrranoid'] then
+        local obj = Tracker:FindObjectForCode("GoalMama")
+        local stage = slot_data['Require Defeating the Momma Tyhrranoid']
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
+    if slot_data['Require Defeating Daxx Warship'] then
+        local obj = Tracker:FindObjectForCode("GoalWarship")
+        local stage = slot_data['Require Defeating Daxx Warship']
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
+    if slot_data['Require Defeating Scorpio'] then
+        local obj = Tracker:FindObjectForCode("GoalScorpio")
+        local stage = slot_data['Require Defeating Scorpio']
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
+    if slot_data['Require Defeating the Terror of Talos'] then
+        local obj = Tracker:FindObjectForCode("GoalTalos")
+        local stage = slot_data['Require Defeating the Terror of Talos']
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
+    if slot_data['Require Defeating Courtney Gears'] then
+        local obj = Tracker:FindObjectForCode("GoalGears")
+        local stage = slot_data['Require Defeating Courtney Gears']
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
+    if slot_data['Require Defeating Klunk'] then
+        local obj = Tracker:FindObjectForCode("GoalKlunk")
+        local stage = slot_data['Require Defeating Klunk']
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
 
 	apply_slot_data(slot_data)
 	LOCAL_ITEMS = {}
@@ -453,7 +671,7 @@ function onItem(index, item_id, item_name, player_number)
 	end
 	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
 		print(string.format("local items: %s", dump_table(LOCAL_ITEMS)))
-		print(string.format("global items: %s", dump_table(GLOBAL_ITEMS)))
+		--print(string.format("global items: %s", dump_table(GLOBAL_ITEMS)))
 	end
 	-- track local items via snes interface
 	if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then

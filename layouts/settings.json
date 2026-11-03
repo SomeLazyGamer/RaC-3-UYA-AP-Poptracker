@@ -1,9 +1,14 @@
 {
   "settings_popup": {
+        "type": "tabbed",
+    "background": "#604020",
+        "margin": "0,0,0,0",
+        "content": [
+            {
     "type": "group",
     "margin": "0,0",
-    "header": "Archipelago Settings",
-    "background": "#1B2424",
+    "header": "Main Settings",
+    "background": "#604020",
     "content": [
       {
         "type": "itemgrid",
@@ -48,11 +53,57 @@
             "NGPItems"
           ],
           [
-            "Unstable",
+            "CCLock",
+            "WrenchSet"
+          ],
+          [
             "AutoTab"
           ]
         ]
       }
     ]
+    },
+            {
+    "type": "group",
+    "margin": "0,0",
+    "header": "Goal Requirements",
+    "background": "#604020",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "40, 0",
+        "item_size": "80, 80",
+        "rows": [
+          [
+            "GoalQwark",
+            "GoalTwo",
+            "GoalMama",
+            "GoalWarship",
+            "GoalScorpio"
+          ],
+          [
+            "GoalTalos",
+            "GoalGears",
+            "GoalKlunk",
+            "GoalNeffy"
+          ],
+          [
+            "GoalBio",
+            "GoalNano",
+            "GoalSewer",
+            "GoalBolt",
+            "GoalSkill"
+          ],
+          [
+            "GoalArena",
+            "GoalMuseum",
+            "GoalPlanets",
+            "GoalPercent"
+          ]
+        ]
+      }
+    ]
+    }
+  ]
   }
 }

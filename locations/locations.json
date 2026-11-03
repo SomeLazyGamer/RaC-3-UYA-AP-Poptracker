@@ -1274,14 +1274,6 @@
           {
             "name": "SP: Spread Your Germs",
             "ref": "Command Center/Skill Point: Spread Your Germs/Infect 30 enemies"
-          },
-          {
-            "name": "Dr. Nefarious Defeated!",
-            "ref": "Command Center/Defeat Dr. Nefarious/Dr. Nefarious Defeated!"
-          },
-          {
-            "name": "Biobliterator Defeated!",
-            "ref": "Command Center/Defeat the Biobliterator/Biobliterator Defeated!"
           }
         ]
       },
@@ -4225,7 +4217,7 @@
       {
         "name": "Skill Point: Stay Squeaky Clean",
         "access_rules": [ "Heli", "chargeBoots" ],
-        "visibility_rules": [ "SkillMaster, 1HPRatOff" ],
+        "visibility_rules": [ "SkillMaster, 1HPRatOff","SkillMix, 1HPRatOff, Clean" ],
         "map_locations": [
           {
             "map": "Florana",
@@ -4569,7 +4561,7 @@
           },
           {
             "name": "Skill Point: Beat Helga's Best Time (0:50)",
-        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
+        "visibility_rules": [ "SkillMaster", "SkillSimple", "SkillMix, Helga" ],
             "access_rules": [ "Tyhrranosis, hacker, hyperShot" ],
             "item_count": 1
           },
@@ -4615,17 +4607,20 @@
           },
           {
             "name": "Wrench Beatdown",
-            "access_rules": [ "ShockBlaster, ProgWeaponsOff", "ShockBlaster:5, ProgWeaponsOn,NGPOn,NGPItemsOff", "ShockBlaster:6, ProgWeaponsOn,NGPOn,NGPItemsOn" ],
+            "access_rules": [ "ShockBlaster, ProgWeaponsOff, WrenchSetOff", "ShockBlaster:5, ProgWeaponsOn,NGPOn,NGPItemsOff, WrenchSetOff", "ShockBlaster:6, ProgWeaponsOn,NGPOn,NGPItemsOn, WrenchSetOff",
+          "ShockBlaster, ProgWeaponsOff, WrenchSetOn, WrenchUp", "ShockBlaster:5, ProgWeaponsOn,NGPOn,NGPItemsOff, WrenchSetOn, WrenchUp:5", "ShockBlaster:6, ProgWeaponsOn,NGPOn,NGPItemsOn, WrenchSetOn, WrenchUp:6" ],
             "item_count": 1
           },
           {
             "name": "Nerves of Titanium",
-            "access_rules": [ "ShockBlaster, ProgWeaponsOff", "ShockBlaster:5, ProgWeaponsOn,NGPOn,NGPItemsOff", "ShockBlaster:6, ProgWeaponsOn,NGPOn,NGPItemsOn" ],
+            "access_rules": [ "ShockBlaster, ProgWeaponsOff, WrenchSetOff", "ShockBlaster:5, ProgWeaponsOn,NGPOn,NGPItemsOff, WrenchSetOff", "ShockBlaster:6, ProgWeaponsOn,NGPOn,NGPItemsOn, WrenchSetOff",
+          "ShockBlaster, ProgWeaponsOff, WrenchSetOn, WrenchUp", "ShockBlaster:5, ProgWeaponsOn,NGPOn,NGPItemsOff, WrenchSetOn, WrenchUp:5", "ShockBlaster:6, ProgWeaponsOn,NGPOn,NGPItemsOn, WrenchSetOn, WrenchUp:6" ],
             "item_count": 1
           },
           {
             "name": "T-Bolt: Nerves of Titanium",
-            "access_rules": [ "ShockBlaster, ProgWeaponsOff", "ShockBlaster:5, ProgWeaponsOn,NGPOn,NGPItemsOff", "ShockBlaster:6, ProgWeaponsOn,NGPOn,NGPItemsOn" ],
+            "access_rules": [ "ShockBlaster, ProgWeaponsOff, WrenchSetOff", "ShockBlaster:5, ProgWeaponsOn,NGPOn,NGPItemsOff, WrenchSetOff", "ShockBlaster:6, ProgWeaponsOn,NGPOn,NGPItemsOn, WrenchSetOff",
+          "ShockBlaster, ProgWeaponsOff, WrenchSetOn, WrenchUp", "ShockBlaster:5, ProgWeaponsOn,NGPOn,NGPItemsOff, WrenchSetOn, WrenchUp:5", "ShockBlaster:6, ProgWeaponsOn,NGPOn,NGPItemsOn, WrenchSetOn, WrenchUp:6" ],
             "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
@@ -4663,7 +4658,7 @@
           },
           {
             "name": "Skill Point: Turn Up The Heat!",
-        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
+        "visibility_rules": [ "SkillMaster", "SkillSimple", "SkillMix, Heat" ],
             "access_rules": [ "Koros" ],
             "item_count": 1
           }
@@ -4727,7 +4722,7 @@
           },
           {
             "name": "SP: Pirate Booty - Set a new record for Qwark (2:40)",
-            "visibility_rules": [ "VCChecksOn, SkillMaster" ],
+            "visibility_rules": [ "VCChecksOn, SkillMaster", "SkillMix, Qw1, VCChecksOn" ],
             "access_rules": [ "vidComic" ],
             "item_count": 1
           },
@@ -4739,7 +4734,7 @@
           },
           {
             "name": "Qwark Vidcomic 2 Health Upgrade",
-            "access_rules": [ "vidComic" ],
+            "access_rules": [ "vidComic2" ],
             "visibility_rules": [ "VCChecksOn, VCHealthOn" ],
             "item_count": 1
           },
@@ -4751,7 +4746,7 @@
           },
           {
             "name": "SP: Arriba Amoeba! - Set a new record for Qwark (2:10)",
-            "visibility_rules": [ "VCChecksOn, SkillMaster" ],
+            "visibility_rules": [ "VCChecksOn, SkillMaster", "SkillMix, Qw2, VCChecksOn" ],
             "access_rules": [ "vidComic2" ],
             "item_count": 1
           },
@@ -4763,7 +4758,7 @@
           },
           {
             "name": "Qwark Vidcomic 3 Health Upgrade",
-            "access_rules": [ "vidComic" ],
+            "access_rules": [ "vidComic3" ],
             "visibility_rules": [ "VCChecksOn, VCHealthOn" ],
             "item_count": 1
           },
@@ -4775,7 +4770,7 @@
           },
           {
             "name": "SP: Shadow of the Robot - Set a new record for Qwark (1:50)",
-            "visibility_rules": [ "VCChecksOn, SkillMaster" ],
+            "visibility_rules": [ "VCChecksOn, SkillMaster", "SkillMix, Qw3, VCChecksOn" ],
             "access_rules": [ "vidComic3" ],
             "item_count": 1
           },
@@ -4787,7 +4782,7 @@
           },
           {
             "name": "Qwark Vidcomic 4 Health Upgrade",
-            "access_rules": [ "vidComic" ],
+            "access_rules": [ "vidComic4" ],
             "visibility_rules": [ "VCChecksOn, VCHealthOn" ],
             "item_count": 1
           },
@@ -4799,7 +4794,7 @@
           },
           {
             "name": "SP: Deja Q All Over Again - Set a new record for Qwark (4:45)",
-            "visibility_rules": [ "VCChecksOn, SkillMaster" ],
+            "visibility_rules": [ "VCChecksOn, SkillMaster", "SkillMix, Qw4, VCChecksOn" ],
             "access_rules": [ "vidComic4" ],
             "item_count": 1
           },
@@ -4811,7 +4806,7 @@
           },
           {
             "name": "Qwark Vidcomic 5 Health Upgrade",
-            "access_rules": [ "vidComic" ],
+            "access_rules": [ "vidComic5" ],
             "visibility_rules": [ "VCChecksOn, VCHealthOn" ],
             "item_count": 1
           },
@@ -4823,13 +4818,13 @@
           },
           {
             "name": "SP: The Shaming of the Q - Set a new record for Qwark (2:00)",
-            "visibility_rules": [ "VCChecksOn, SkillMaster" ],
+            "visibility_rules": [ "VCChecksOn, SkillMaster", "SkillMix, Qw5, VCChecksOn" ],
             "access_rules": [ "vidComic5" ],
             "item_count": 1
           },
           {
             "name": "Skill Point: Strive for Arcade Perfection",
-            "visibility_rules": [ "VCChecksOn, SkillMaster" ],
+            "visibility_rules": [ "VCChecksOn, SkillMaster", "VCChecksOn, SkillMix, Arcade" ],
             "access_rules": [ "vidComic5" ],
             "item_count": 1
           }
@@ -4847,13 +4842,12 @@
         "sections": [
           {
             "name": "Meet Sasha on the Bridge",
-            "visibility_rules": ["Unstable" ],
             "item_count": 1
           },
           {
             "name": "Skill Point: Monkeying Around",
-        "visibility_rules": [ "SkillMaster, Unstable", "SkillSimple, Unstable" ],
-            "access_rules": [ "tyhrraGuise" ],
+        "visibility_rules": [ "SkillMaster", "SkillSimple", "SkillMix, Monkey" ],
+            "access_rules": [ "tyhrraGuise, WrenchSetOff", "tyhrraGuise, WrenchSetOn, WrenchUp" ],
             "item_count": 1
           }
         ]
@@ -4905,7 +4899,7 @@
           },
           {
             "name": "Skill Master",
-            "visibility_rules": [ "SkillMaster, TrophiesAll, RangerOn, ArenaOn, VCChecksOn, CrystalsTotal:100, 1HPRatOff" ],
+            "visibility_rules": [ "SkillMaster, TrophiesAll, RangerOn, ArenaOn, VCChecksOn, CrystalsTotal:100, 1HPRatOff", "SkillMix, TrophiesAll, RangerOn, ArenaOn, VCChecksOn, CrystalsTotal:100, 1HPRatOff" ],
             "access_rules": [ "refractor, warpPad, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots, Marcadia, Annihilation, Aquatos, Tyhrranosis, Daxx, Gemini, Blackwater, Holostar, ZeldrinStarport, Metropolis, CrashSite, Aridia, QwarksHideout, Koros, CommandCenter, PlasmaWhip, SpittingHydra, SuckCannon, DiskBladeGun, FluxRifle, QwackORay, Annihilator, Infector" ],
             "item_count": 1
           },
@@ -4986,7 +4980,7 @@
       },
       {
         "name": "Skill Point: Reflect on how to score",
-        "visibility_rules": [ "RangerOn, SkillMaster", "RangerStory, SkillMaster", "RangerOn, SkillSimple", "RangerStory, SkillSimple" ],
+        "visibility_rules": [ "RangerOn, SkillMaster", "RangerStory, SkillMaster", "RangerOn, SkillSimple", "RangerStory, SkillSimple", "RangerOn, SkillMix, Reflect", "RangerStory, SkillMix, Reflect" ],
         "map_locations": [
           {
             "map": "Marcadia",
@@ -5088,6 +5082,7 @@
           {
             "name": "Hit n' Run",
             "visibility_rules": [ "RangerOn", "RangerStory" ],
+            "access_rules": [ "WrenchSetOff", "WrenchSetOn, WrenchUp" ],
             "item_count": 1
           }
         ]
@@ -5375,15 +5370,16 @@
         "sections": [
           {
             "name": "It's Qwarktastic!",
-            "visibility_rules": ["ArenaOn, Unstable"],
-            "access_rules": [ "Daxx, hyperShot, vidComic5, hacker, tyhrraGuise, gravBoots, refractor, CommandCenter" ],
+            "visibility_rules": ["ArenaOn"],
+            "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           }
         ]
       },
       {
         "name": "Skill Point: Bash the Bug",
-        "visibility_rules": [ "ArenaOn, SkillMaster", "ArenaSecond, SkillMaster" ],
+        "visibility_rules": [ "ArenaOn, SkillMaster", "ArenaSecond, SkillMaster","ArenaOn, SkillMix, Bug", "ArenaSecond, SkillMix, Bug" ],
+            "access_rules": [ "WrenchSetOff", "WrenchSetOn, WrenchUp", "NGPOn,NGPItemsOff, WrenchSetOn, WrenchUp:5", "NGPOn,NGPItemsOn, WrenchSetOn, WrenchUp:6" ],
         "map_locations": [
           {
             "map": "Annihilation Nation",
@@ -5394,14 +5390,14 @@
         "sections": [
           {
             "name": "Beat Scorpio using only the wrench",
-            "access_rules": [ "Daxx, hyperShot" ],
+            "access_rules": [ "WrenchSetOff, Daxx, hyperShot", "WrenchSetOn, WrenchUp, Daxx, hyperShot" ],
             "item_count": 1
           }
         ]
       },
       {
         "name": "Skill Point: Be an eight time champ",
-        "visibility_rules": [ "ArenaOn, SkillMaster" ],
+        "visibility_rules": [ "ArenaOn, SkillMaster", "ArenaOn, SkillMix, Champ" ],
         "access_rules": [ "Daxx, hyperShot" ],
         "map_locations": [
           {
@@ -5419,7 +5415,8 @@
       },
       {
         "name": "Skill Point: Flee Flawlessly",
-        "visibility_rules": [ "ArenaOn, SkillMaster, 1HPRatOff", "ArenaFirst, SkillMaster, 1HPRatOff", "ArenaSecond, SkillMaster, 1HPRatOff" ],
+        "visibility_rules": [ "ArenaOn, SkillMaster, 1HPRatOff", "ArenaFirst, SkillMaster, 1HPRatOff", "ArenaSecond, SkillMaster, 1HPRatOff",
+      "ArenaOn, SkillMix, Flee, 1HPRatOff", "ArenaFirst, SkillMix, Flee, 1HPRatOff", "ArenaSecond, SkillMix, Flee, 1HPRatOff" ],
         "map_locations": [
           {
             "map": "Annihilation Nation",
@@ -5436,7 +5433,8 @@
       },
       {
         "name": "Skill Point: Lights, camera action!",
-        "visibility_rules": [ "ArenaOn, SkillMaster", "ArenaFirst, SkillMaster", "ArenaSecond, SkillMaster", "ArenaOn, SkillSimple", "ArenaFirst, SkillSimple", "ArenaSecond, SkillSimple" ],
+        "visibility_rules": [ "ArenaOn, SkillMaster", "ArenaFirst, SkillMaster", "ArenaSecond, SkillMaster", "ArenaOn, SkillSimple", "ArenaFirst, SkillSimple", "ArenaSecond, SkillSimple",
+      "ArenaOn, SkillMix, Camera", "ArenaFirst, SkillMix, Camera", "ArenaSecond, SkillMix, Camera" ],
         "map_locations": [
           {
             "map": "Annihilation Nation",
@@ -5512,7 +5510,7 @@
       },
       {
         "name": "Skill Point: Search for Sunken Treasure",
-        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
+        "visibility_rules": [ "SkillMaster", "SkillSimple", "SkillMix, Sunken" ],
         "map_locations": [
           {
             "map": "Aquatos",
@@ -6173,7 +6171,7 @@
         "sections": [
           {
             "name": "Skill Point: Hit the Motherload",
-            "visibility_rules": [ "SkillMaster, CrystalsTotal:100" ],
+            "visibility_rules": [ "SkillMaster, CrystalsTotal:100","SkillMix, Motherload, CrystalsTotal:100" ],
             "item_count": 1,
             "access_rules": [ "gravBoots, mapOMatic" ]
           }
@@ -6267,7 +6265,7 @@
       },
       {
         "name": "Skill Point: Be a Sharpshooter",
-        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
+        "visibility_rules": [ "SkillMaster", "SkillSimple", "SkillMix, Sharp" ],
         "map_locations": [
           {
             "map": "Tyhrranosis",
@@ -6355,6 +6353,7 @@
       {
         "name": "Operation: ISLAND STRIKE",
         "visibility_rules": [ "RangerOn", "RangerOptional" ],
+        "access_rules": [ "WrenchSetOff", "WrenchSetOn, WrenchUp" ],
         "map_locations": [
           {
             "map": "Tyhrranosis: Mission",
@@ -6494,7 +6493,7 @@
       },
       {
         "name": "Skill Point: Bugs to Birds",
-        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
+        "visibility_rules": [ "SkillMaster", "SkillSimple", "SkillMix, Birds" ],
         "map_locations": [
           {
             "map": "Daxx",
@@ -6555,7 +6554,7 @@
       },
       {
         "name": "Skill Point: Get to the Belt",
-        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
+        "visibility_rules": [ "SkillMaster", "SkillSimple", "SkillMix, Belt" ],
         "map_locations": [
           {
             "map": "Obani Gemini",
@@ -6614,7 +6613,8 @@
     "children": [
       {
         "name": "Skill Point: Bash the Party",
-        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
+        "visibility_rules": [ "SkillMaster", "SkillSimple", "SkillMix, Party" ],
+        "access_rules": [ "WrenchSetOff", "WrenchSetOn, WrenchUp" ],
         "map_locations": [
           {
             "map": "Blackwater City",
@@ -6698,11 +6698,11 @@
       {
         "name": "Skill Point: Feeling Lucky?",
             "access_rules": [ "hacker" ],
-        "visibility_rules": [ "SkillMaster" ],
+        "visibility_rules": [ "SkillMaster", "SkillMix, Luck" ],
         "map_locations": [
           {
             "map": "Holostar Studios Clank",
-            "visibility_rules": [ "SkillMaster, HoloSkipOff"],
+            "visibility_rules": [ "SkillMaster, HoloSkipOff", "SkillMix, Luck, HoloSkipOff"],
             "x": 22,
             "y": 242
           },
@@ -6959,7 +6959,7 @@
     "children": [
       {
         "name": "Skill Point: 2002 was a good year in the city",
-        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
+        "visibility_rules": [ "SkillMaster", "SkillSimple", "SkillMix, 2002" ],
         "map_locations": [
           {
             "map": "Metropolis",
@@ -7073,7 +7073,7 @@
         "sections": [
           {
             "name": "Save Clank!",
-            "access_rules": [ "refractor, gravBoots" ],
+            "access_rules": [ "refractor, gravBoots, WrenchSetOff", "refractor, gravBoots, WrenchSetOn, WrenchUp" ],
             "item_count": 1
           }
         ]
@@ -7081,7 +7081,7 @@
       {
         "name": "Operation: URBAN STORM",
         "visibility_rules": [ "RangerOn", "RangerOptional" ],
-        "access_rules": [ "refractor, gravBoots" ],
+        "access_rules": [ "refractor, gravBoots, WrenchSetOff", "refractor, gravBoots, WrenchSetOn, WrenchUp" ],
         "map_locations": [
           {
             "map": "Metropolis: Mission",
@@ -7210,7 +7210,7 @@
       },
       {
         "name": "Skill Point: Aim High",
-        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
+        "visibility_rules": [ "SkillMaster", "SkillSimple", "SkillMix, Aim" ],
         "map_locations": [
           {
             "map": "Crash Site",
@@ -7228,7 +7228,7 @@
       },
       {
         "name": "Skill Point: Suck it up!",
-        "visibility_rules": [ "SkillMaster" ],
+        "visibility_rules": [ "SkillMaster", "SkillMix, Suckit" ],
         "map_locations": [
           {
             "map": "Crash Site",
@@ -7278,17 +7278,20 @@
           },
           {
             "name": "Reclaim the Valley",
-            "access_rules": [ "gravBoots", "FluxRifle", "Annihilator", "RY3N0", "SuckCannon", "DiskBladeGun", "PlasmaCoil", "ProgWeaponsOff, RiftInducer", "ProgWeaponsOn, RiftInducer:2" ],
+            "access_rules": [ "gravBoots, WrenchSetOff", "FluxRifle, WrenchSetOff", "Annihilator, WrenchSetOff", "RY3N0, WrenchSetOff", "SuckCannon, WrenchSetOff", "DiskBladeGun, WrenchSetOff", "PlasmaCoil, WrenchSetOff", "ProgWeaponsOff, RiftInducer, WrenchSetOff", "ProgWeaponsOn, RiftInducer:2, WrenchSetOff",
+          "gravBoots, WrenchSetOn, WrenchUp", "FluxRifle, WrenchSetOn, WrenchUp", "Annihilator, WrenchSetOn, WrenchUp", "RY3N0, WrenchSetOn, WrenchUp", "SuckCannon, WrenchSetOn, WrenchUp", "DiskBladeGun, WrenchSetOn, WrenchUp", "PlasmaCoil, WrenchSetOn, WrenchUp", "ProgWeaponsOff, RiftInducer, WrenchSetOn, WrenchUp", "ProgWeaponsOn, RiftInducer:2, WrenchSetOn, WrenchUp" ],
             "item_count": 1
           },
           {
             "name": "X12 Endgame",
-            "access_rules": [ "gravBoots", "FluxRifle", "Annihilator", "RY3N0", "SuckCannon", "DiskBladeGun", "PlasmaCoil", "ProgWeaponsOff, RiftInducer", "ProgWeaponsOn, RiftInducer:2" ],
+            "access_rules": [ "gravBoots, WrenchSetOff", "FluxRifle, WrenchSetOff", "Annihilator, WrenchSetOff", "RY3N0, WrenchSetOff", "SuckCannon, WrenchSetOff", "DiskBladeGun, WrenchSetOff", "PlasmaCoil, WrenchSetOff", "ProgWeaponsOff, RiftInducer, WrenchSetOff", "ProgWeaponsOn, RiftInducer:2, WrenchSetOff",
+          "gravBoots, WrenchSetOn, WrenchUp", "FluxRifle, WrenchSetOn, WrenchUp", "Annihilator, WrenchSetOn, WrenchUp", "RY3N0, WrenchSetOn, WrenchUp", "SuckCannon, WrenchSetOn, WrenchUp", "DiskBladeGun, WrenchSetOn, WrenchUp", "PlasmaCoil, WrenchSetOn, WrenchUp", "ProgWeaponsOff, RiftInducer, WrenchSetOn, WrenchUp", "ProgWeaponsOn, RiftInducer:2, WrenchSetOn, WrenchUp" ],
             "item_count": 1
           },
           {
             "name": "Ranger Missions Complete",
-            "access_rules": [ "gravBoots", "FluxRifle", "Annihilator", "RY3N0", "SuckCannon", "DiskBladeGun", "PlasmaCoil", "ProgWeaponsOff, RiftInducer", "ProgWeaponsOn, RiftInducer:2" ],
+            "access_rules": [ "gravBoots, WrenchSetOff", "FluxRifle, WrenchSetOff", "Annihilator, WrenchSetOff", "RY3N0, WrenchSetOff", "SuckCannon, WrenchSetOff", "DiskBladeGun, WrenchSetOff", "PlasmaCoil, WrenchSetOff", "ProgWeaponsOff, RiftInducer, WrenchSetOff", "ProgWeaponsOn, RiftInducer:2, WrenchSetOff",
+          "gravBoots, WrenchSetOn, WrenchUp", "FluxRifle, WrenchSetOn, WrenchUp", "Annihilator, WrenchSetOn, WrenchUp", "RY3N0, WrenchSetOn, WrenchUp", "SuckCannon, WrenchSetOn, WrenchUp", "DiskBladeGun, WrenchSetOn, WrenchUp", "PlasmaCoil, WrenchSetOn, WrenchUp", "ProgWeaponsOff, RiftInducer, WrenchSetOn, WrenchUp", "ProgWeaponsOn, RiftInducer:2, WrenchSetOn, WrenchUp" ],
             "item_count": 1
           }
         ]
@@ -7331,7 +7334,7 @@
       },
       {
         "name": "Skill Point: Go for hang time",
-        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
+        "visibility_rules": [ "SkillMaster", "SkillSimple", "SkillMix, Hang" ],
         "map_locations": [
           {
             "map": "Aridia",
@@ -7348,7 +7351,7 @@
       },
       {
         "name": "Skill Point: Zap back at ya'",
-        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
+        "visibility_rules": [ "SkillMaster", "SkillSimple", "SkillMix, Zap" ],
         "map_locations": [
           {
             "map": "Aridia",
@@ -7426,7 +7429,7 @@
       },
       {
         "name": "Skill Point: Break the Dan",
-        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
+        "visibility_rules": [ "SkillMaster", "SkillSimple", "SkillMix, Dan" ],
         "map_locations": [
           {
             "map": "Qwarks Hideout",
@@ -7538,7 +7541,7 @@
       },
       {
         "name": "Skill Point: You break it, you win it",
-        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
+        "visibility_rules": [ "SkillMaster", "SkillSimple", "SkillMix, Break" ],
         "map_locations": [
           {
             "map": "Koros",
@@ -7549,7 +7552,7 @@
         "sections": [
           {
             "name": "Smash up the Robot Base",
-            "access_rules": [ "BoxBreaker" ],
+            "access_rules": [ "BoxBreaker, WrenchSetOff", "BoxBreaker, WrenchSetOn, WrenchUp" ],
             "item_count": 1
           }
         ]
@@ -7615,7 +7618,7 @@
       },
       {
         "name": "Skill Point: Spread Your Germs",
-        "visibility_rules": [ "SkillMaster", "SkillSimple" ],
+        "visibility_rules": [ "SkillMaster", "SkillSimple", "SkillMix, Germ" ],
         "access_rules": [ "Infector" ],
         "map_locations": [
           {
@@ -7627,40 +7630,6 @@
         "sections": [
           {
             "name": "Infect 30 enemies",
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Defeat Dr. Nefarious",
-        "access_rules": [ "hacker, refractor, Heli", "hacker, refractor, ThrustOn" ],
-        "map_locations": [
-          {
-            "map": "Command Center 2",
-            "x": 337,
-            "y": 192
-          }
-        ],
-        "sections": [
-          {
-            "name": "Dr. Nefarious Defeated!",
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Defeat the Biobliterator",
-        "access_rules": [ "hacker, refractor, Heli", "hacker, refractor, ThrustOn" ],
-        "map_locations": [
-          {
-            "map": "Command Center 2",
-            "x": 299,
-            "y": 307
-          }
-        ],
-        "sections": [
-          {
-            "name": "Biobliterator Defeated!",
             "item_count": 1
           }
         ]

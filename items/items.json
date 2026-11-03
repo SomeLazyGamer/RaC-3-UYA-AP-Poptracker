@@ -200,6 +200,16 @@
     "codes": "PlasmaCoil"
   },
   {
+    "name": "Progressive Wrench Upgrades",
+    "type": "consumable",
+    "max_quantity": 8,
+    "increment": 1,
+     "decrement": 1,
+    "initial_quantity": 0,
+    "img": "images/items/gadget/Wrench.png",
+    "codes": "WrenchUp"
+  },
+  {
     "name": "Progressive Weapons",
     "type": "progressive",
     "loop": false,
@@ -798,19 +808,28 @@
     "allow_disabled": false,
     "stages": [
       {
-          "img": "images/items/settings/SkillDisabled.png",
-          "name": "Skill Points - Off",
-          "codes": "SkillSanity,SkillDisabled"
+        "img": "images/items/settings/SkillDisabled.png",
+        "name": "Skill Points - Off",
+        "inherit_codes": false,
+        "codes": "SkillSanity,SkillDisabled"
       },
       {
         "img": "images/items/settings/SkillSimple.png",
         "name": "Skill Points - Simple Only",
+        "inherit_codes": false,
         "codes": "SkillSanity,SkillSimple"
       },
       {
         "img": "images/items/settings/SkillMaster.png",
         "name": "Skill Points - All",
+        "inherit_codes": false,
         "codes": "SkillSanity,SkillMaster"
+      },
+      {
+        "img": "images/items/settings/SkillMix.png",
+        "name": "Skill Points - Pick & Mix",
+        "inherit_codes": false,
+        "codes": "SkillSanity,SkillMix"
       }
     ]
   },
@@ -1405,5 +1424,489 @@
         "codes": "WepV8"
       }
     ]
+  },
+  {
+    "name": "Command Center Lock",
+    "allow_disabled": false,
+    "type": "progressive",
+    "loop": false,
+    "stages": [
+      {
+          "img": "images/items/settings/CCLockOff.png",
+          "name": "Command Center Lock - Off",
+          "codes": "CCLock,CCLockOff",
+          "inherit_codes": false
+      },
+      {
+          "img": "images/items/settings/CCLockOn.png",
+        "name": "Command Center Lock - On",
+        "codes": "CCLock,CCLockOn",
+          "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Progressive Wrench",
+    "allow_disabled": false,
+    "type": "progressive",
+    "loop": false,
+    "stages": [
+      {
+          "img": "images/items/settings/WrenchSetOff.png",
+          "name": "Progressive Wrench - Off",
+          "codes": "WrenchSet,WrenchSetOff",
+          "inherit_codes": false
+      },
+      {
+          "img": "images/items/settings/WrenchSetOn.png",
+        "name": "Progressive Wrench - On",
+        "codes": "WrenchSet,WrenchSetOn",
+          "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Biobliterator Goal",
+    "type": "progressive",
+    "loop": false,
+    "stages": [
+      {
+          "img": "images/items/goals/GoalBio.png",
+          "name": "Biobliterator Goal - Off",
+          "codes": "GoalBio,GoalBioOff"
+      },
+      {
+          "img": "images/items/goals/GoalBio.png",
+        "name": "Biobliterator Goal - On",
+        "codes": "GoalBio,GoalBioOn"
+      }
+    ]
+  },
+  {
+    "name": "Nefarious Goal",
+    "type": "progressive",
+    "loop": false,
+    "stages": [
+      {
+          "img": "images/items/goals/GoalNeffy.png",
+          "name": "Nefarious Goal - Off",
+          "codes": "GoalNeffy,GoalNeffyOff"
+      },
+      {
+        "img": "images/items/goals/GoalNeffy.png",
+        "name": "Nefarious Goal - On",
+        "codes": "GoalNeffy,GoalNeffyOn"
+      }
+    ]
+  },
+  {
+    "name": "Courtney Gears Goal",
+    "type": "progressive",
+    "loop": false,
+    "stages": [
+      {
+          "img": "images/items/goals/GoalGears.png",
+          "name": "Courtney Gears Goal - Off",
+          "codes": "GoalGears,GoalGearsOff"
+      },
+      {
+        "img": "images/items/goals/GoalGears.png",
+        "name": "Courtney Gears Goal - On",
+        "codes": "GoalGears,GoalGearsOn"
+      }
+    ]
+  },
+  {
+    "name": "Klunk Goal",
+    "type": "progressive",
+    "loop": false,
+    "stages": [
+      {
+          "img": "images/items/goals/GoalKlunk.png",
+          "name": "Klunk Goal - Off",
+          "codes": "GoalKlunk,GoalKlunkOff"
+      },
+      {
+        "img": "images/items/goals/GoalKlunk.png",
+        "name": "Klunk Goal - On",
+        "codes": "GoalKlunk,GoalKlunkOn"
+      }
+    ]
+  },
+  {
+    "name": "Terror of Talos Goal",
+    "type": "progressive",
+    "loop": false,
+    "stages": [
+      {
+          "img": "images/items/goals/GoalTalos.png",
+          "name": "Terror of Talos Goal - Off",
+          "codes": "GoalTalos,GoalTalosOff"
+      },
+      {
+        "img": "images/items/goals/GoalTalos.png",
+        "name": "Terror of Talos Goal - On",
+        "codes": "GoalTalos,GoalTalosOn"
+      }
+    ]
+  },
+  {
+    "name": "Scorpio Goal",
+    "type": "progressive",
+    "loop": false,
+    "stages": [
+      {
+          "img": "images/items/goals/GoalScorpio.png",
+          "name": "Scorpio Goal - Off",
+          "codes": "GoalScorpio,GoalScorpioOff"
+      },
+      {
+        "img": "images/items/goals/GoalScorpio.png",
+        "name": "Scorpio Goal - On",
+        "codes": "GoalScorpio,GoalScorpioOn"
+      }
+    ]
+  },
+  {
+    "name": "Warship Goal",
+    "type": "progressive",
+    "loop": false,
+    "stages": [
+      {
+          "img": "images/items/goals/GoalWarship.png",
+          "name": "Warship Goal - Off",
+          "codes": "GoalWarship,GoalWarshipOff"
+      },
+      {
+        "img": "images/items/goals/GoalWarship.png",
+        "name": "Warship Goal - On",
+        "codes": "GoalWarship,GoalWarshipOn"
+      }
+    ]
+  },
+  {
+    "name": "Momma Tyhrranoid Goal",
+    "type": "progressive",
+    "loop": false,
+    "stages": [
+      {
+          "img": "images/items/goals/GoalMama.png",
+          "name": "Momma Tyhrranoid Goal - Off",
+          "codes": "GoalMama,GoalMamaOff"
+      },
+      {
+        "img": "images/items/goals/GoalMama.png",
+        "name": "Momma Tyhrranoid Goal - On",
+        "codes": "GoalMama,GoalMamaOn"
+      }
+    ]
+  },
+  {
+    "name": "The Terrible Two Goal",
+    "type": "progressive",
+    "loop": false,
+    "stages": [
+      {
+          "img": "images/items/goals/GoalTwo.png",
+          "name": "The Terrible Two Goal - Off",
+          "codes": "GoalTwo,GoalTwoOff"
+      },
+      {
+        "img": "images/items/goals/GoalTwo.png",
+        "name": "The Terrible Two Goal - On",
+        "codes": "GoalTwo,GoalTwoOn"
+      }
+    ]
+  },
+  {
+    "name": "Captain Qwark Goal",
+    "type": "progressive",
+    "loop": false,
+    "stages": [
+      {
+          "img": "images/items/goals/GoalQwark.png",
+          "name": "Captain Qwark Goal - Off",
+          "codes": "GoalQwark,GoalQwarkOff"
+      },
+      {
+        "img": "images/items/goals/GoalQwark.png",
+        "name": "Captain Qwark Goal - On",
+        "codes": "GoalQwark,GoalQwarkOn"
+      }
+    ]
+  },
+  {
+    "name": "Completion % Goal",
+    "type": "consumable",
+    "max_quantity": 100,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "img": "images/items/goals/GoalPercent.png",
+    "codes": "GoalPercent"
+  },
+  {
+    "name": "Planets Goal",
+    "type": "consumable",
+    "max_quantity": 16,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "img": "images/items/goals/GoalPlanets.png",
+    "codes": "GoalPlanets"
+  },
+  {
+    "name": "Insomniac Museum Goal",
+    "type": "progressive",
+    "loop": false,
+    "stages": [
+      {
+          "img": "images/items/goals/GoalMuseum.png",
+          "name": "Insomniac Museum Goal - Off",
+          "codes": "GoalMuseum,GoalMuseumOff"
+      },
+      {
+        "img": "images/items/goals/GoalMuseum.png",
+        "name": "Insomniac Museum Goal - On",
+        "codes": "GoalMuseum,GoalMuseumOn"
+      }
+    ]
+  },
+  {
+    "name": "Qwarktastic Goal",
+    "type": "progressive",
+    "loop": false,
+    "stages": [
+      {
+          "img": "images/items/goals/GoalArena.png",
+          "name": "Qwarktastic Goal - Off",
+          "codes": "GoalArena,GoalArenaOff"
+      },
+      {
+        "img": "images/items/goals/GoalArena.png",
+        "name": "Qwarktastic Goal - On",
+        "codes": "GoalArena,GoalArenaOn"
+      }
+    ]
+  },
+  {
+    "name": "Skill Points Goal",
+    "type": "consumable",
+    "max_quantity": 30,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "img": "images/items/goals/GoalSkill.png",
+    "codes": "GoalSkill"
+  },
+  {
+    "name": "Titanium Bolt Goal",
+    "type": "consumable",
+    "max_quantity": 40,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "img": "images/items/goals/GoalBolt.png",
+    "codes": "GoalBolt"
+  },
+  {
+    "name": "Sewer Crystals Goal",
+    "type": "consumable",
+    "max_quantity": 101,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "img": "images/items/goals/GoalSewer.png",
+    "codes": "GoalSewer"
+  },
+  {
+    "name": "Nanotech Goal",
+    "type": "consumable",
+    "max_quantity": 200,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "img": "images/items/goals/GoalNano.png",
+    "codes": "GoalNano"
+  },
+  {
+    "name": "Bash the bug",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Bug"
+  },
+  {
+    "name": "Eight time champ",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Champ"
+  },
+  {
+    "name": "Flee Flawlessly",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Flee"
+  },
+  {
+    "name": "Lights Camera Action",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Camera"
+  },
+  {
+    "name": "Hit the motherload",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Motherload"
+  },
+  {
+    "name": "Sunken Treasure",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Sunken"
+  },
+  {
+    "name": "Hang time",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Hang"
+  },
+  {
+    "name": "Zap Back",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Zap"
+  },
+  {
+    "name": "Bash the party",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Party"
+  },
+  {
+    "name": "Spread your germs",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Germ"
+  },
+  {
+    "name": "Aim High",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Aim"
+  },
+  {
+    "name": "Suck it up",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Suckit"
+  },
+  {
+    "name": "Bugs to birds",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Birds"
+  },
+  {
+    "name": "Stay Squeaky Clean",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Clean"
+  },
+  {
+    "name": "Get to the belt",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Belt"
+  },
+  {
+    "name": "Feeling Lucky",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Luck"
+  },
+  {
+    "name": "Break it win it",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Break"
+  },
+  {
+    "name": "Reflect how to score",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Reflect"
+  },
+  {
+    "name": "2002 good year",
+    "type": "progressive",
+    "loop": false,
+    "codes": "2002"
+  },
+  {
+    "name": "VC2 SP",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Qw2"
+  },
+  {
+    "name": "Helgas best time",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Helga"
+  },
+  {
+    "name": "VC4 SP",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Qw4"
+  },
+  {
+    "name": "Monkeying Around",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Monkey"
+  },
+  {
+    "name": "VC1 SP",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Qw1"
+  },
+  {
+    "name": "VC3 SP",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Qw3"
+  },
+  {
+    "name": "Arcade Perfection",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Arcade"
+  },
+  {
+    "name": "VC5 SP",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Qw5"
+  },
+  {
+    "name": "Turn up the Heat",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Heat"
+  },
+  {
+    "name": "Break the Dan",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Dan"
+  },
+  {
+    "name": "Sharpshoort",
+    "type": "progressive",
+    "loop": false,
+    "codes": "Sharp"
   }
 ]
