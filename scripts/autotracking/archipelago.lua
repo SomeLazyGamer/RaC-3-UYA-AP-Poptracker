@@ -399,91 +399,91 @@ function onClear(slot_data)
     		if value == "Stay Squeaky Clean" then
         local obj = Tracker:FindObjectForCode("Clean")
         		obj.CurrentStage = 1
-    		if value == "Get to the belt" then
+    		elseif value == "Get to the belt" then
         local obj = Tracker:FindObjectForCode("Belt")
         		obj.CurrentStage = 1
-    		if value == "Feeling Lucky?" then
+    		elseif value == "Feeling Lucky?" then
         local obj = Tracker:FindObjectForCode("Luck")
         		obj.CurrentStage = 1
-    		if value == "You break it, you win it" then
+    		elseif value == "You break it, you win it" then
         local obj = Tracker:FindObjectForCode("Break")
         		obj.CurrentStage = 1
-    		if value == "Reflect on how to score" then
+    		elseif value == "Reflect on how to score" then
         local obj = Tracker:FindObjectForCode("Reflect")
         		obj.CurrentStage = 1
-    		if value == "2002 good year" then
+    		elseif value == "2002 good year" then
         local obj = Tracker:FindObjectForCode("2002")
         		obj.CurrentStage = 1
-    		if value == "Arriba Amoeba! - set a new record for Qwark" then
+    		elseif value == "Arriba Amoeba! - set a new record for Qwark" then
         local obj = Tracker:FindObjectForCode("Qw2")
         		obj.CurrentStage = 1
-    		if value == "Beat Helga's best time" then
+    		elseif value == "Beat Helga's best time" then
         local obj = Tracker:FindObjectForCode("Helga")
         		obj.CurrentStage = 1
-    		if value == "Deja Q All over Again - set a new record for Qwark" then
+    		elseif value == "Deja Q All over Again - set a new record for Qwark" then
         local obj = Tracker:FindObjectForCode("Qw4")
         		obj.CurrentStage = 1
-    		if value == "Monkeying Around" then
+    		elseif value == "Monkeying Around" then
         local obj = Tracker:FindObjectForCode("Monkey")
         		obj.CurrentStage = 1
-    		if value == "Pirate booty - set a new record for Qwark" then
+    		elseif value == "Pirate booty - set a new record for Qwark" then
         local obj = Tracker:FindObjectForCode("Qw1")
         		obj.CurrentStage = 1
-    		if value == "Shadow of the robot - set a new record for Qwark" then
+    		elseif value == "Shadow of the robot - set a new record for Qwark" then
         local obj = Tracker:FindObjectForCode("Qw3")
         		obj.CurrentStage = 1
-    		if value == "Strive for arcade perfection" then
+    		elseif value == "Strive for arcade perfection" then
         local obj = Tracker:FindObjectForCode("Arcade")
         		obj.CurrentStage = 1
-    		if value == "The Shaming of the Q - set a new record for Qwark" then
+    		elseif value == "The Shaming of the Q - set a new record for Qwark" then
         local obj = Tracker:FindObjectForCode("Qw5")
         		obj.CurrentStage = 1
-    		if value == "Turn Up The Heat" then
+    		elseif value == "Turn Up The Heat" then
         local obj = Tracker:FindObjectForCode("Heat")
         		obj.CurrentStage = 1
-    		if value == "Break the Dan" then
+    		elseif value == "Break the Dan" then
         local obj = Tracker:FindObjectForCode("Dan")
         		obj.CurrentStage = 1
-    		if value == "Be a sharpshooter" then
+    		elseif value == "Be a sharpshooter" then
         local obj = Tracker:FindObjectForCode("Sharp")
         		obj.CurrentStage = 1
-    		if value == "Bugs to Birds" then
+    		elseif value == "Bugs to Birds" then
         local obj = Tracker:FindObjectForCode("Birds")
         		obj.CurrentStage = 1
-    		if value == "Suck it up!" then
+    		elseif value == "Suck it up!" then
         local obj = Tracker:FindObjectForCode("Suckit")
         		obj.CurrentStage = 1
-    		if value == "Aim High" then
+    		elseif value == "Aim High" then
         local obj = Tracker:FindObjectForCode("Aim")
         		obj.CurrentStage = 1
-    		if value == "Spread your germs" then
+    		elseif value == "Spread your germs" then
         local obj = Tracker:FindObjectForCode("Germ")
         		obj.CurrentStage = 1
-    		if value == "Bash the party" then
+    		elseif value == "Bash the party" then
         local obj = Tracker:FindObjectForCode("Party")
         		obj.CurrentStage = 1
-    		if value == "Zap back at ya'" then
+    		elseif value == "Zap back at ya'" then
         local obj = Tracker:FindObjectForCode("Zap")
         		obj.CurrentStage = 1
-    		if value == "Go for hang time" then
+    		elseif value == "Go for hang time" then
         local obj = Tracker:FindObjectForCode("Hang")
         		obj.CurrentStage = 1
-    		if value == "Search for sunken treasure" then
+    		elseif value == "Search for sunken treasure" then
         local obj = Tracker:FindObjectForCode("Sunken")
         		obj.CurrentStage = 1
-    		if value == "Hit the motherload" then
+    		elseif value == "Hit the motherload" then
         local obj = Tracker:FindObjectForCode("Motherload")
         		obj.CurrentStage = 1
-    		if value == "Lights, camera, action!" then
+    		elseif value == "Lights, camera, action!" then
         local obj = Tracker:FindObjectForCode("Camera")
         		obj.CurrentStage = 1
-    		if value == "Flee Flawlessly" then
+    		elseif value == "Flee Flawlessly" then
         local obj = Tracker:FindObjectForCode("Flee")
         		obj.CurrentStage = 1
-    		if value == "Be an eight time champ" then
+    		elseif value == "Be an eight time champ" then
         local obj = Tracker:FindObjectForCode("Champ")
         		obj.CurrentStage = 1
-    		if value == "Bash the bug" then
+    		elseif value == "Bash the bug" then
         local obj = Tracker:FindObjectForCode("Bug")
         		obj.CurrentStage = 1
     		end
