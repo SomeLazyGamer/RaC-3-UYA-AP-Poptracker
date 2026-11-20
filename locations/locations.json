@@ -457,7 +457,7 @@
       },
       {
         "name": "Marcadia",
-        "access_rules": [ "Marcadia, IntSkipOn", "Marcadia, IntSkipOff, Heli", "Marcadia, IntSkipOff, chargeBoots" ],
+        "access_rules": [ "Marcadia, IntSkipOn", "Marcadia, IntSkipOff, Phoenix" ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -518,7 +518,7 @@
       },
       {
         "name": "Annihilation Nation",
-        "access_rules": [ "Annihilation, IntSkipOn", "Annihilation, IntSkipOff, Heli", "Annihilation, IntSkipOff, chargeBoots" ],
+        "access_rules": [ "Annihilation, IntSkipOn", "Annihilation, IntSkipOff, Phoenix" ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -691,7 +691,7 @@
       },
       {
         "name": "Aquatos",
-        "access_rules": [ "Aquatos, IntSkipOn", "Aquatos, IntSkipOff, Heli", "Aquatos, IntSkipOff, chargeBoots" ],
+        "access_rules": [ "Aquatos, IntSkipOn", "Aquatos, IntSkipOff, Phoenix" ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -760,7 +760,7 @@
       },
       {
         "name": "Tyhrranosis",
-        "access_rules": [ "Tyhrranosis, IntSkipOn", "Tyhrranosis, IntSkipOff, Heli", "Tyhrranosis, IntSkipOff, chargeBoots" ],
+        "access_rules": [ "Tyhrranosis, IntSkipOn", "Tyhrranosis, IntSkipOff, Phoenix" ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -817,7 +817,7 @@
       },
       {
         "name": "Daxx",
-        "access_rules": [ "Daxx, IntSkipOn", "Daxx, IntSkipOff, Heli", "Daxx, IntSkipOff, chargeBoots" ],
+        "access_rules": [ "Daxx, IntSkipOn", "Daxx, IntSkipOff, Phoenix" ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -858,7 +858,7 @@
       },
       {
         "name": "Obani Gemini",
-        "access_rules": [ "refractor, Gemini, IntSkipOn", "refractor, Gemini, IntSkipOff, Heli", "refractor, Gemini, IntSkipOff, chargeBoots" ],
+        "access_rules": [ "refractor, Gemini, IntSkipOn", "refractor, Gemini, IntSkipOff, Phoenix" ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -891,7 +891,7 @@
       },
       {
         "name": "Blackwater",
-        "access_rules": [ "Blackwater, IntSkipOn", "Blackwater, IntSkipOff, Heli", "Blackwater, IntSkipOff, chargeBoots" ],
+        "access_rules": [ "Blackwater, IntSkipOn", "Blackwater, IntSkipOff, Phoenix" ],
         "visibility_rules": [ "RangerOn", "RangerStory" ],
         "map_locations": [
           {
@@ -929,7 +929,7 @@
       },
       {
         "name": "Holostar",
-        "access_rules": [ "Holostar, IntSkipOn", "Holostar, IntSkipOff, Heli", "Holostar, IntSkipOff, chargeBoots" ],
+        "access_rules": [ "Holostar, IntSkipOn", "Holostar, IntSkipOff, Phoenix" ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -974,7 +974,7 @@
       },
       {
         "name": "Obani Draco",
-        "access_rules": [ "Draco, gravBoots, IntSkipOn", "Draco, gravBoots, IntSkipOff, Heli", "Draco, gravBoots, IntSkipOff, chargeBoots" ],
+        "access_rules": [ "Draco, gravBoots, IntSkipOn", "Draco, gravBoots, IntSkipOff, Phoenix" ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -991,7 +991,7 @@
       },
       {
         "name": "Zeldrin Starport",
-        "access_rules": [ "ZeldrinStarport, IntSkipOn", "ZeldrinStarport, IntSkipOff, Heli", "ZeldrinStarport, IntSkipOff, chargeBoots" ],
+        "access_rules": [ "ZeldrinStarport, IntSkipOn", "ZeldrinStarport, IntSkipOff, Phoenix" ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -1024,7 +1024,7 @@
       },
       {
         "name": "Metropolis",
-        "access_rules": [ "Metropolis, IntSkipOn", "Metropolis, IntSkipOff, Heli", "Metropolis, IntSkipOff, chargeBoots" ],
+        "access_rules": [ "Metropolis, IntSkipOn", "Metropolis, IntSkipOff, Phoenix" ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -1089,7 +1089,7 @@
       },
       {
         "name": "Crash Site",
-        "access_rules": [ "CrashSite, IntSkipOn", "CrashSite, IntSkipOff, Heli", "CrashSite, IntSkipOff, chargeBoots" ],
+        "access_rules": [ "CrashSite, IntSkipOn", "CrashSite, IntSkipOff, Phoenix" ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -1130,7 +1130,7 @@
       },
       {
         "name": "Aridia",
-        "access_rules": [ "Aridia, IntSkipOn", "Aridia, IntSkipOff, Heli", "Aridia, IntSkipOff, chargeBoots" ],
+        "access_rules": [ "Aridia, IntSkipOn", "Aridia, IntSkipOff, Phoenix" ],
         "visibility_rules": [ "RangerOn", "RangerStory" ],
         "map_locations": [
           {
@@ -1188,7 +1188,7 @@
       },
       {
         "name": "Hideout",
-        "access_rules": [ "QwarksHideout, IntSkipOn", "QwarksHideout, IntSkipOff, Heli", "QwarksHideout, IntSkipOff, chargeBoots" ],
+        "access_rules": [ "QwarksHideout, IntSkipOn", "QwarksHideout, IntSkipOff, Phoenix" ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -1221,7 +1221,7 @@
       },
       {
         "name": "Koros",
-        "access_rules": [ "Koros, IntSkipOn", "Koros, IntSkipOff, Heli", "Koros, IntSkipOff, chargeBoots" ],
+        "access_rules": [ "Koros, IntSkipOn", "Koros, IntSkipOff, Phoenix" ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -1254,7 +1254,7 @@
       },
       {
         "name": "Command Center",
-    "access_rules": [ "CommandCenter, hyperShot, tyhrraGuise, gravBoots, IntSkipOn", "CommandCenter, hyperShot, tyhrraGuise, gravBoots, IntSkipOff, Heli", "CommandCenter, hyperShot, tyhrraGuise, gravBoots, IntSkipOff, chargeBoots" ],
+    "access_rules": [ "CommandCenter, hyperShot, tyhrraGuise, gravBoots, IntSkipOn", "CommandCenter, hyperShot, tyhrraGuise, gravBoots, IntSkipOff, Phoenix" ],
         "map_locations": [
           {
             "map": "Galaxy",
@@ -1274,6 +1274,14 @@
           {
             "name": "SP: Spread Your Germs",
             "ref": "Command Center/Skill Point: Spread Your Germs/Infect 30 enemies"
+          },
+          {
+            "name": "Dr. Nefarious Defeated!",
+            "ref": "Command Center/Defeat Dr. Nefarious/Dr. Nefarious Defeated!"
+          },
+          {
+            "name": "Biobliterator Defeated!",
+            "ref": "Command Center/Defeat the Biobliterator/Biobliterator Defeated!"
           }
         ]
       },
@@ -4268,19 +4276,19 @@
         "sections": [
           {
             "name": "Gadgetron Vendor 1 - 8,000",
-            "access_rules": [ "Phoenix, IntSkipOn", "Phoenix, IntSkipOff, Heli", "Phoenix, IntSkipOff, chargeBoots" ],
+            "access_rules": [ "Phoenix" ],
             "visibility_rules": [ "WepVendorOn"],
             "item_count": 1
           },
           {
             "name": "Gadgetron Vendor 2 - 18,000",
-            "access_rules": [ "Phoenix, IntSkipOn", "Phoenix, IntSkipOff, Heli", "Phoenix, IntSkipOff, chargeBoots" ],
+            "access_rules": [ "Phoenix" ],
             "visibility_rules": [ "WepVendorOn"],
             "item_count": 1
           },
           {
             "name": "Gadgetron Vendor - 3,000,000",
-            "access_rules": [ "NanoCount:10" ],
+            "access_rules": [ "Phoenix, NanoCount:10" ],
             "visibility_rules": [ "WepVendorOn, NGPVendorOn"],
             "item_count": 1
           }
@@ -4292,7 +4300,7 @@
     "name": "Ship Vendor",
     "chest_unopened_img": "images/Question.png",
     "chest_opened_img": "images/Q_Force.png",
-    "access_rules": [ "Phoenix, IntSkipOn", "Phoenix, IntSkipOff, Heli", "Phoenix, IntSkipOff, chargeBoots" ],
+    "access_rules": [ "Phoenix" ],
     "children": [
       {
         "name": "Vendor",
@@ -4538,7 +4546,7 @@
   },
   {
     "name": "Phoenix",
-    "access_rules": [ "Phoenix, IntSkipOn", "Phoenix, IntSkipOff, Heli", "Phoenix, IntSkipOff, chargeBoots" ],
+    "access_rules": [ "Phoenix" ],
     "chest_unopened_img": "images/Question.png",
     "chest_opened_img": "images/Q_Force.png",
     "children": [
@@ -4608,19 +4616,19 @@
           {
             "name": "Wrench Beatdown",
             "access_rules": [ "ShockBlaster, ProgWeaponsOff, WrenchSetOff", "ShockBlaster:5, ProgWeaponsOn,NGPOn,NGPItemsOff, WrenchSetOff", "ShockBlaster:6, ProgWeaponsOn,NGPOn,NGPItemsOn, WrenchSetOff",
-          "ShockBlaster, ProgWeaponsOff, WrenchSetOn, WrenchUp", "ShockBlaster:5, ProgWeaponsOn,NGPOn,NGPItemsOff, WrenchSetOn, WrenchUp:5", "ShockBlaster:6, ProgWeaponsOn,NGPOn,NGPItemsOn, WrenchSetOn, WrenchUp:6" ],
+          "ShockBlaster, ProgWeaponsOff, NGPOff, WrenchSetOn, WrenchUp", "ShockBlaster:5, ProgWeaponsOn,NGPOn,NGPItemsOff, WrenchSetOn, WrenchUp:5", "ShockBlaster:6, ProgWeaponsOn,NGPOn,NGPItemsOn, WrenchSetOn, WrenchUp:6" ],
             "item_count": 1
           },
           {
             "name": "Nerves of Titanium",
             "access_rules": [ "ShockBlaster, ProgWeaponsOff, WrenchSetOff", "ShockBlaster:5, ProgWeaponsOn,NGPOn,NGPItemsOff, WrenchSetOff", "ShockBlaster:6, ProgWeaponsOn,NGPOn,NGPItemsOn, WrenchSetOff",
-          "ShockBlaster, ProgWeaponsOff, WrenchSetOn, WrenchUp", "ShockBlaster:5, ProgWeaponsOn,NGPOn,NGPItemsOff, WrenchSetOn, WrenchUp:5", "ShockBlaster:6, ProgWeaponsOn,NGPOn,NGPItemsOn, WrenchSetOn, WrenchUp:6" ],
+          "ShockBlaster, ProgWeaponsOff, NGPOff, WrenchSetOn, WrenchUp", "ShockBlaster:5, ProgWeaponsOn,NGPOn,NGPItemsOff, WrenchSetOn, WrenchUp:5", "ShockBlaster:6, ProgWeaponsOn,NGPOn,NGPItemsOn, WrenchSetOn, WrenchUp:6" ],
             "item_count": 1
           },
           {
             "name": "T-Bolt: Nerves of Titanium",
             "access_rules": [ "ShockBlaster, ProgWeaponsOff, WrenchSetOff", "ShockBlaster:5, ProgWeaponsOn,NGPOn,NGPItemsOff, WrenchSetOff", "ShockBlaster:6, ProgWeaponsOn,NGPOn,NGPItemsOn, WrenchSetOff",
-          "ShockBlaster, ProgWeaponsOff, WrenchSetOn, WrenchUp", "ShockBlaster:5, ProgWeaponsOn,NGPOn,NGPItemsOff, WrenchSetOn, WrenchUp:5", "ShockBlaster:6, ProgWeaponsOn,NGPOn,NGPItemsOn, WrenchSetOn, WrenchUp:6" ],
+          "ShockBlaster, ProgWeaponsOff, NGPOff, WrenchSetOn, WrenchUp", "ShockBlaster:5, ProgWeaponsOn,NGPOn,NGPItemsOff, WrenchSetOn, WrenchUp:5", "ShockBlaster:6, ProgWeaponsOn,NGPOn,NGPItemsOn, WrenchSetOn, WrenchUp:6" ],
             "visibility_rules": [ "Bolt" ],
             "item_count": 1
           }
@@ -4924,7 +4932,7 @@
     "name": "Marcadia",
     "chest_unopened_img": "images/Question.png",
     "chest_opened_img": "images/Q_Force.png",
-        "access_rules": [ "Marcadia, IntSkipOn", "Marcadia, IntSkipOff, Heli", "Marcadia, IntSkipOff, chargeBoots" ],
+        "access_rules": [ "Marcadia, IntSkipOn", "Marcadia, IntSkipOff, Phoenix" ],
     "children": [
       {
         "name": "Vendor",
@@ -5093,7 +5101,7 @@
     "name": "Annihilation Nation",
     "chest_unopened_img": "images/Question.png",
     "chest_opened_img": "images/Q_Force.png",
-    "access_rules": [ "Annihilation, IntSkipOn", "Annihilation, IntSkipOff, Heli", "Annihilation, IntSkipOff, chargeBoots" ],
+    "access_rules": [ "Annihilation, IntSkipOn", "Annihilation, IntSkipOff, Phoenix" ],
     "children": [
       {
         "name": "Vendor",
@@ -5370,7 +5378,7 @@
         "sections": [
           {
             "name": "It's Qwarktastic!",
-            "visibility_rules": ["ArenaOn"],
+            "visibility_rules": ["ArenaOn, GoalArenaOn"],
             "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           }
@@ -5379,7 +5387,7 @@
       {
         "name": "Skill Point: Bash the Bug",
         "visibility_rules": [ "ArenaOn, SkillMaster", "ArenaSecond, SkillMaster","ArenaOn, SkillMix, Bug", "ArenaSecond, SkillMix, Bug" ],
-            "access_rules": [ "WrenchSetOff", "WrenchSetOn, WrenchUp", "NGPOn,NGPItemsOff, WrenchSetOn, WrenchUp:5", "NGPOn,NGPItemsOn, WrenchSetOn, WrenchUp:6" ],
+            "access_rules": [ "WrenchSetOff", "NGPOff, WrenchSetOn, WrenchUp", "NGPOn,NGPItemsOff, WrenchSetOn, WrenchUp:5", "NGPOn,NGPItemsOn, WrenchSetOn, WrenchUp:6" ],
         "map_locations": [
           {
             "map": "Annihilation Nation",
@@ -5390,7 +5398,7 @@
         "sections": [
           {
             "name": "Beat Scorpio using only the wrench",
-            "access_rules": [ "WrenchSetOff, Daxx, hyperShot", "WrenchSetOn, WrenchUp, Daxx, hyperShot" ],
+            "access_rules": [ "Daxx, hyperShot" ],
             "item_count": 1
           }
         ]
@@ -5455,7 +5463,7 @@
     "name": "Aquatos",
     "chest_unopened_img": "images/Question.png",
     "chest_opened_img": "images/Q_Force.png",
-        "access_rules": [ "Aquatos, IntSkipOn", "Aquatos, IntSkipOff, Heli", "Aquatos, IntSkipOff, chargeBoots" ],
+        "access_rules": [ "Aquatos, IntSkipOn", "Aquatos, IntSkipOff, Phoenix" ],
     "children": [
       {
         "name": "Vendor",
@@ -6239,7 +6247,7 @@
     "name": "Tyhrranosis",
     "chest_unopened_img": "images/Question.png",
     "chest_opened_img": "images/Q_Force.png",
-        "access_rules": [ "Tyhrranosis, IntSkipOn", "Tyhrranosis, IntSkipOff, Heli", "Tyhrranosis, IntSkipOff, chargeBoots" ],
+        "access_rules": [ "Tyhrranosis, IntSkipOn", "Tyhrranosis, IntSkipOff, Phoenix" ],
     "children": [
       {
         "name": "Vendor",
@@ -6386,7 +6394,7 @@
     "name": "Daxx",
     "chest_unopened_img": "images/Question.png",
     "chest_opened_img": "images/Q_Force.png",
-        "access_rules": [ "Daxx, IntSkipOn", "Daxx, IntSkipOff, Heli", "Daxx, IntSkipOff, chargeBoots" ],
+        "access_rules": [ "Daxx, IntSkipOn", "Daxx, IntSkipOff, Phoenix" ],
     "children": [
       {
         "name": "Building Above Ship",
@@ -6515,7 +6523,7 @@
     "name": "Obani Moons",
     "chest_unopened_img": "images/Question.png",
     "chest_opened_img": "images/Q_Force.png",
-        "access_rules": [ "refractor, Gemini, IntSkipOn", "refractor, Gemini, IntSkipOff, Heli", "refractor, Gemini, IntSkipOff, chargeBoots" ],
+        "access_rules": [ "refractor, Gemini, IntSkipOn", "refractor, Gemini, IntSkipOff, Phoenix" ],
     "children": [
       {
         "name": "Vendor",
@@ -6608,13 +6616,13 @@
     "name": "Blackwater City",
     "chest_unopened_img": "images/Question.png",
     "chest_opened_img": "images/Q_Force.png",
-    "access_rules": [ "Blackwater, IntSkipOn", "Blackwater, IntSkipOff, Heli", "Blackwater, IntSkipOff, chargeBoots" ],
+    "access_rules": [ "Blackwater, IntSkipOn", "Blackwater, IntSkipOff, Phoenix" ],
     "visibility_rules": [ "RangerOn", "RangerStory" ],
     "children": [
       {
         "name": "Skill Point: Bash the Party",
         "visibility_rules": [ "SkillMaster", "SkillSimple", "SkillMix, Party" ],
-        "access_rules": [ "WrenchSetOff", "WrenchSetOn, WrenchUp" ],
+        "access_rules": [ "WrenchSetOff", "NGPOff, WrenchSetOn, WrenchUp", "NGPOn,NGPItemsOff, WrenchSetOn, WrenchUp:5", "NGPOn,NGPItemsOn, WrenchSetOn, WrenchUp:6" ],
         "map_locations": [
           {
             "map": "Blackwater City",
@@ -6693,19 +6701,13 @@
     "name": "Holostar Studios",
     "chest_unopened_img": "images/Question.png",
     "chest_opened_img": "images/Q_Force.png",
-    "access_rules": [ "Holostar, IntSkipOn", "Holostar, IntSkipOff, Heli", "Holostar, IntSkipOff, chargeBoots" ],
+    "access_rules": [ "Holostar, IntSkipOn", "Holostar, IntSkipOff, Phoenix" ],
     "children": [
       {
         "name": "Skill Point: Feeling Lucky?",
-            "access_rules": [ "hacker" ],
-        "visibility_rules": [ "SkillMaster", "SkillMix, Luck" ],
+            "visibility_rules": [ "SkillMaster", "SkillMix, Luck"],
+        "access_rules": [ "hacker", "HoloskipOff, [hacker]" ],
         "map_locations": [
-          {
-            "map": "Holostar Studios Clank",
-            "visibility_rules": [ "SkillMaster, HoloSkipOff", "SkillMix, Luck, HoloSkipOff"],
-            "x": 22,
-            "y": 242
-          },
           {
             "map": "Holostar Studios",
             "x": 334,
@@ -6716,6 +6718,23 @@
           {
             "name": "Win the jackpot",
             "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Skill Point: Feeling Lucky? (Clank)",
+        "visibility_rules": [ "SkillMaster, HoloSkipOn", "SkillMix, Luck, HoloSkipOff"],
+        "map_locations": [
+          {
+            "map": "Holostar Studios Clank",
+            "x": 22,
+            "y": 242
+          }
+        ],
+        "sections": [
+          {
+            "name": "Clank needs a new pair of shoes!",
+            "ref": "Holostar Studios/Skill Point: Feeling Lucky?/Win the jackpot"
           }
         ]
       },
@@ -6849,7 +6868,7 @@
     "name": "Obani Draco",
     "chest_unopened_img": "images/Question.png",
     "chest_opened_img": "images/Q_Force.png",
-        "access_rules": [ "Draco, gravBoots, IntSkipOn", "Draco, gravBoots, IntSkipOff, Heli", "Draco, gravBoots, IntSkipOff, chargeBoots" ],
+        "access_rules": [ "Draco, gravBoots, IntSkipOn", "Draco, gravBoots, IntSkipOff, Phoenix" ],
     "children": [
       {
         "name": "Defeat Courtney Gears",
@@ -6873,7 +6892,7 @@
     "name": "Zeldrin Starport",
     "chest_unopened_img": "images/Question.png",
     "chest_opened_img": "images/Q_Force.png",
-        "access_rules": [ "ZeldrinStarport, IntSkipOn", "ZeldrinStarport, IntSkipOff, Heli", "ZeldrinStarport, IntSkipOff, chargeBoots" ],
+        "access_rules": [ "ZeldrinStarport, IntSkipOn", "ZeldrinStarport, IntSkipOff, Phoenix" ],
     "children": [
       {
         "name": "Go to the Zeldrin Starport",
@@ -6955,7 +6974,7 @@
     "name": "Metropolis",
     "chest_unopened_img": "images/Question.png",
     "chest_opened_img": "images/Q_Force.png",
-        "access_rules": [ "Metropolis, IntSkipOn", "Metropolis, IntSkipOff, Heli", "Metropolis, IntSkipOff, chargeBoots" ],
+        "access_rules": [ "Metropolis, IntSkipOn", "Metropolis, IntSkipOff, Phoenix" ],
     "children": [
       {
         "name": "Skill Point: 2002 was a good year in the city",
@@ -7122,7 +7141,7 @@
     "name": "Crash Site",
     "chest_unopened_img": "images/Question.png",
     "chest_opened_img": "images/Q_Force.png",
-        "access_rules": [ "CrashSite, IntSkipOn", "CrashSite, IntSkipOff, Heli", "CrashSite, IntSkipOff, chargeBoots" ],
+        "access_rules": [ "CrashSite, IntSkipOn", "CrashSite, IntSkipOff, Phoenix" ],
     "children": [
       {
         "name": "Side Route",
@@ -7250,7 +7269,7 @@
     "name": "Aridia",
     "chest_unopened_img": "images/Question.png",
     "chest_opened_img": "images/Q_Force.png",
-        "access_rules": [ "Aridia, IntSkipOn", "Aridia, IntSkipOff, Heli", "Aridia, IntSkipOff, chargeBoots" ],
+        "access_rules": [ "Aridia, IntSkipOn", "Aridia, IntSkipOff, Phoenix" ],
     "visibility_rules": [ "RangerOn", "RangerStory" ],
     "children": [
       {
@@ -7390,7 +7409,7 @@
     "name": "Qwark's Hideout",
     "chest_unopened_img": "images/Question.png",
     "chest_opened_img": "images/Q_Force.png",
-    "access_rules": [ "QwarksHideout, IntSkipOn", "QwarksHideout, IntSkipOff, Heli", "QwarksHideout, IntSkipOff, chargeBoots" ],
+    "access_rules": [ "QwarksHideout, IntSkipOn", "QwarksHideout, IntSkipOff, Phoenix" ],
     "children": [
       {
         "name": "Grav-Ramp Path",
@@ -7486,7 +7505,7 @@
     "name": "Koros",
     "chest_unopened_img": "images/Question.png",
     "chest_opened_img": "images/Q_Force.png",
-        "access_rules": [ "Koros, IntSkipOn", "Koros, IntSkipOff, Heli", "Koros, IntSkipOff, chargeBoots" ],
+        "access_rules": [ "Koros, IntSkipOn", "Koros, IntSkipOff, Phoenix" ],
     "children": [
       {
         "name": "Behind the Metal Fence",
@@ -7579,7 +7598,7 @@
     "name": "Command Center",
     "chest_unopened_img": "images/Question.png",
     "chest_opened_img": "images/Q_Force.png",
-    "access_rules": [ "CommandCenter, hyperShot, tyhrraGuise, gravBoots, IntSkipOn", "CommandCenter, hyperShot, tyhrraGuise, gravBoots, IntSkipOff, Heli", "CommandCenter, hyperShot, tyhrraGuise, gravBoots, IntSkipOff, chargeBoots" ],
+    "access_rules": [ "CommandCenter, hyperShot, tyhrraGuise, gravBoots, IntSkipOn", "CommandCenter, hyperShot, tyhrraGuise, gravBoots, IntSkipOff, Phoenix" ],
     "children": [
       {
         "name": "Behind the Forcefield",
@@ -7630,6 +7649,40 @@
         "sections": [
           {
             "name": "Infect 30 enemies",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Defeat Dr. Nefarious",
+        "access_rules": [ "hacker, refractor, Heli", "hacker, refractor, ThrustOn" ],
+        "map_locations": [
+          {
+            "map": "Command Center 2",
+            "x": 337,
+            "y": 192
+          }
+        ],
+        "sections": [
+          {
+            "name": "Dr. Nefarious Defeated!",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Defeat the Biobliterator",
+        "access_rules": [ "hacker, refractor, Heli", "hacker, refractor, ThrustOn" ],
+        "map_locations": [
+          {
+            "map": "Command Center 2",
+            "x": 299,
+            "y": 307
+          }
+        ],
+        "sections": [
+          {
+            "name": "Biobliterator Defeated!",
             "item_count": 1
           }
         ]

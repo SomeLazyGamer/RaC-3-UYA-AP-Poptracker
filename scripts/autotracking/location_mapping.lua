@@ -132,8 +132,8 @@ LOCATION_MAPPING = {
 	--Koros
 	[LOCATION_ID + 101] = { {"@Koros/Access big gun control panel/Fire the Cannon"} },
 	--Command Center
-	--[LOCATION_ID + 102] = { {"@Command Center/Defeat Dr. Nefarious/Dr. Nefarious Defeated!"} },
-	--[LOCATION_ID + 103] = { {"@Command Center/Defeat the Biobliterator/Biobliterator Defeated!"} },
+	[LOCATION_ID + 102] = { {"@Command Center/Defeat Dr. Nefarious/Dr. Nefarious Defeated!"} },
+	[LOCATION_ID + 103] = { {"@Command Center/Defeat the Biobliterator/Biobliterator Defeated!"} },
 	--Vendor Items
 	[LOCATION_ID + 104] = { {"@Florana/Vendor/Gadgetron Vendor 1 - 7,500"} },
 	[LOCATION_ID + 105] = { {"@Florana/Vendor/Gadgetron Vendor 2 - 15,000" } },
